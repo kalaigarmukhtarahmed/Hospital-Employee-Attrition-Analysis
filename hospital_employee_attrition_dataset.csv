@@ -1,0 +1,1001 @@
+Employee_ID,Hospital,Department,Job_Level,Job_Role,Location,Gender,Age,Education,Employment_Type,Work_Mode,Shift,Years_at_Hospital,Years_in_Current_Role,Total_Work_Experience,Monthly_Salary_INR,Annual_Salary_INR,Annual_Bonus_INR,Job_Satisfaction,Work_Life_Balance,Performance_Rating,Overtime_Hours_Month,Overtime,Night_Shifts_Month,Training_Hours_Year,Patients_Handled_Month,Projects_Count,Promotions_Last_5_Years,Manager_Rating,Distance_From_Home_KM,Salary_Growth_Potential,Attrition_Probability,Attrition
+HOSP10001,Mangalore Medical Centre,Radiology,L3,Lab Technician,Udupi,Male,32,Diploma,Full-Time,On-Site,Day,15,7,8,164539,1974468,132672,1,1,3,34,Yes,13,18,346,9,3,5,17.4,Medium,0.8965,Yes
+HOSP10002,Apollo Hospital,Administration,L5,Medical Officer,Chennai,Female,28,Master's,Full-Time,On-Site,Day,4,10,16,93955,1127460,56614,5,1,5,33,Yes,3,101,355,8,1,3,43.4,Medium,0.8367,No
+HOSP10003,Fortis Hospital,General Medicine,L1,Resident Doctor,Bengaluru,Male,44,Bachelor's,Part-Time,On-Site,Night,11,8,5,165748,1988976,203474,4,1,5,62,Yes,6,41,173,4,1,2,12.3,Medium,0.9269,Yes
+HOSP10004,Mangalore Medical Centre,Emergency,L4,Staff Nurse,Mangaluru,Female,36,Bachelor's,Full-Time,On-Site,Day,16,8,7,112791,1353492,3692,1,5,4,67,Yes,4,19,100,7,2,1,14.5,High,0.9277,Yes
+HOSP10005,Manipal Hospital,Pediatrics,L5,Consultant Doctor,Mangaluru,Male,24,PhD,Full-Time,On-Site,Rotational,15,7,25,126718,1520616,126745,5,3,1,17,No,13,98,106,5,1,3,41.5,Medium,0.8303,Yes
+HOSP10006,Fortis Hospital,Physiotherapy,L1,Medical Officer,Hubballi,Female,58,Diploma,Full-Time,On-Site,Rotational,19,9,12,40650,487800,189099,2,5,1,25,Yes,8,85,283,3,1,5,43.6,High,0.8722,Yes
+HOSP10007,Fortis Hospital,Surgery,L4,Consultant Doctor,Mysuru,Female,47,MBBS,Full-Time,On-Site,Rotational,15,10,17,106290,1275480,248843,5,5,2,60,Yes,9,78,277,2,3,5,13.2,Low,0.8977,Yes
+HOSP10008,Mangalore Medical Centre,Administration,L3,Senior Nurse,Hubballi,Male,29,Bachelor's,Full-Time,On-Site,Rotational,18,2,4,95701,1148412,20373,4,5,5,77,Yes,14,10,204,10,2,2,6.6,Medium,0.9636,Yes
+HOSP10009,CityCare Hospital,Laboratory,L4,Ward Assistant,Hubballi,Female,36,MBBS,Full-Time,On-Site,Rotational,14,1,5,28683,344196,229708,5,3,5,73,Yes,6,53,199,5,1,2,34.3,Medium,0.9714,Yes
+HOSP10010,Manipal Hospital,Emergency,L3,Receptionist,Mangaluru,Female,32,MBBS,Full-Time,On-Site,Rotational,11,4,20,98978,1187736,243085,1,5,5,47,Yes,11,97,205,0,2,4,41.9,High,0.9438,Yes
+HOSP10011,Mangalore Medical Centre,Administration,L3,Receptionist,Udupi,Female,51,MD/MS,Full-Time,On-Site,Day,20,0,18,22860,274320,193877,1,4,5,71,Yes,13,120,142,1,1,4,27.2,Medium,0.977,Yes
+HOSP10012,Manipal Hospital,Emergency,L3,Lab Technician,Kochi,Male,44,Diploma,Full-Time,On-Site,Day,9,2,3,152801,1833612,112413,3,1,1,30,Yes,8,23,396,6,3,4,28.7,Low,0.8525,Yes
+HOSP10013,Manipal Hospital,IT,L4,Resident Doctor,Chennai,Female,34,MBBS,Full-Time,On-Site,Night,1,0,6,49351,592212,211455,5,1,3,33,Yes,13,69,115,3,2,1,34.5,Medium,0.9155,Yes
+HOSP10014,Fortis Hospital,Surgery,L3,IT Support Engineer,Kochi,Male,45,Diploma,Full-Time,On-Site,Rotational,6,2,3,80744,968928,14507,2,2,4,6,No,8,16,112,4,2,5,7.3,Medium,0.4939,No
+HOSP10015,Apollo Hospital,Laboratory,L3,Data Analyst,Kochi,Female,54,MD/MS,Full-Time,On-Site,Rotational,12,3,24,173418,2081016,62931,4,4,3,6,No,11,27,22,10,3,4,43.8,High,0.7336,Yes
+HOSP10016,Manipal Hospital,Pediatrics,L4,IT Support Engineer,Bengaluru,Female,23,Diploma,Full-Time,On-Site,Rotational,2,6,10,138198,1658376,75499,3,3,3,46,Yes,1,49,21,9,0,5,16.7,Medium,0.7585,No
+HOSP10017,District General Hospital,ICU,L2,Medical Officer,Mangaluru,Male,44,Bachelor's,Contract,Hybrid,Day,14,4,11,92155,1105860,202714,5,1,1,7,No,14,94,390,0,1,2,28.5,High,0.8134,Yes
+HOSP10018,Fortis Hospital,Cardiology,L1,Consultant Doctor,Chennai,Female,29,MBBS,Full-Time,On-Site,Rotational,0,4,13,139449,1673388,203941,2,5,4,77,Yes,0,99,324,1,1,1,21.4,High,0.946,Yes
+HOSP10019,CityCare Hospital,Pediatrics,L1,Pharmacist,Udupi,Female,46,Diploma,Full-Time,On-Site,Night,2,0,12,94700,1136400,114362,3,2,5,0,No,10,54,376,3,0,2,21.3,Low,0.6469,Yes
+HOSP10020,Apollo Hospital,ICU,L2,Senior Nurse,Bengaluru,Male,40,Master's,Full-Time,On-Site,Day,9,7,28,24955,299460,97449,1,2,1,76,Yes,3,72,167,7,2,5,31.8,Medium,0.9693,Yes
+HOSP10021,District General Hospital,Physiotherapy,L2,Pharmacist,Mysuru,Female,60,Diploma,Full-Time,Hybrid,Night,14,3,9,39662,475944,96819,4,1,1,2,No,3,9,304,9,2,4,44.8,Medium,0.6054,Yes
+HOSP10022,District General Hospital,Outpatient,L5,Resident Doctor,Udupi,Male,30,MBBS,Full-Time,On-Site,Day,5,9,17,24408,292896,39423,5,4,4,52,Yes,12,20,164,3,3,2,29.8,High,0.9418,Yes
+HOSP10023,CityCare Hospital,Nursing,L1,Data Analyst,Hubballi,Male,39,MD/MS,Full-Time,On-Site,Night,19,4,15,19225,230700,103612,2,2,2,37,Yes,1,57,349,2,3,3,35.8,Low,0.8847,Yes
+HOSP10024,Apollo Hospital,Nursing,L3,Data Analyst,Udupi,Male,23,MD/MS,Full-Time,On-Site,Night,14,1,4,161268,1935216,226423,1,1,1,50,Yes,2,33,380,2,3,1,1.7,Low,0.8506,Yes
+HOSP10025,Fortis Hospital,Nursing,L1,Medical Officer,Udupi,Female,44,MBBS,Full-Time,On-Site,Night,20,0,7,164444,1973328,86120,3,4,3,14,No,2,94,281,4,0,5,36.6,Low,0.6156,Yes
+HOSP10026,AIIMS Mangaluru,General Medicine,L4,Hospital Administrator,Kochi,Male,25,Bachelor's,Full-Time,On-Site,Rotational,6,8,13,35279,423348,117409,4,1,3,66,Yes,4,92,81,2,0,4,13.8,Medium,0.9083,Yes
+HOSP10027,Apollo Hospital,Pharmacy,L5,Senior Nurse,Udupi,Male,23,Bachelor's,Full-Time,On-Site,Rotational,20,1,4,128401,1540812,90918,3,1,5,63,Yes,0,106,245,7,2,2,6.1,Low,0.836,Yes
+HOSP10028,CityCare Hospital,Radiology,L2,Billing Executive,Hubballi,Female,47,MD/MS,Full-Time,Hybrid,Rotational,4,5,25,110404,1324848,66600,3,4,1,67,Yes,8,42,50,4,3,1,5.5,Medium,0.9143,Yes
+HOSP10029,District General Hospital,Radiology,L4,Data Analyst,Hubballi,Male,36,MD/MS,Full-Time,Hybrid,Night,3,0,27,66481,797772,41848,2,4,5,4,No,7,10,209,6,2,4,30.8,High,0.5837,No
+HOSP10030,Fortis Hospital,Nursing,L1,Data Analyst,Mangaluru,Female,35,MBBS,Contract,Hybrid,Rotational,17,0,23,177547,2130564,240491,1,4,1,9,No,7,32,394,10,0,2,44.9,Medium,0.8553,Yes
+HOSP10031,Apollo Hospital,Cardiology,L4,Medical Officer,Udupi,Female,55,Bachelor's,Full-Time,On-Site,Rotational,2,8,7,62552,750624,6820,5,1,4,7,No,2,57,287,7,1,5,30.1,Medium,0.5271,No
+HOSP10032,AIIMS Mangaluru,Laboratory,L2,Lab Technician,Kochi,Female,32,MD/MS,Full-Time,On-Site,Day,16,3,24,155930,1871160,8512,2,2,1,11,No,1,45,31,4,2,3,12.2,High,0.4656,Yes
+HOSP10033,AIIMS Mangaluru,Surgery,L4,Physiotherapist,Udupi,Female,46,Bachelor's,Contract,On-Site,Night,17,8,25,92474,1109688,167797,4,3,2,63,Yes,0,60,210,7,0,3,9.5,Medium,0.8274,Yes
+HOSP10034,Manipal Hospital,Laboratory,L1,Senior Nurse,Mysuru,Male,54,MD/MS,Full-Time,On-Site,Day,17,10,5,43168,518016,51534,3,3,3,58,Yes,11,61,44,2,3,5,23.9,Low,0.9332,Yes
+HOSP10035,Manipal Hospital,Surgery,L3,Pharmacist,Mysuru,Male,43,Diploma,Full-Time,On-Site,Day,1,4,15,50099,601188,216223,4,1,4,66,Yes,5,0,110,6,1,1,3.4,Medium,0.9104,Yes
+HOSP10036,Mangalore Medical Centre,Laboratory,L4,Resident Doctor,Kochi,Male,51,Master's,Part-Time,On-Site,Rotational,12,6,27,79455,953460,125191,2,1,3,49,Yes,12,20,107,7,1,5,18.3,Medium,0.9505,Yes
+HOSP10037,CityCare Hospital,Pharmacy,L2,Data Analyst,Mangaluru,Male,40,PhD,Contract,On-Site,Rotational,14,0,3,72240,866880,170848,2,2,5,22,Yes,9,61,351,6,1,2,30.1,Low,0.8969,Yes
+HOSP10038,Apollo Hospital,General Medicine,L1,Data Analyst,Mangaluru,Male,32,Diploma,Full-Time,On-Site,Day,4,5,11,92796,1113552,60945,5,4,4,39,Yes,0,63,293,1,3,1,43.6,Medium,0.8023,No
+HOSP10039,Apollo Hospital,General Medicine,L1,Receptionist,Hubballi,Female,43,PhD,Full-Time,On-Site,Rotational,2,7,10,72592,871104,245420,3,1,2,77,Yes,13,86,320,7,1,3,19.4,High,0.978,Yes
+HOSP10040,Mangalore Medical Centre,Nursing,L2,Ward Assistant,Hubballi,Male,24,MD/MS,Full-Time,On-Site,Rotational,4,0,2,140181,1682172,83420,2,5,3,76,Yes,10,120,130,5,0,2,9.4,Medium,0.9683,Yes
+HOSP10041,District General Hospital,Physiotherapy,L3,Lab Technician,Bengaluru,Male,43,Master's,Contract,On-Site,Rotational,4,8,30,119611,1435332,178527,4,4,1,75,Yes,4,72,99,9,2,4,36.9,Medium,0.9625,Yes
+HOSP10042,District General Hospital,ICU,L1,Data Analyst,Kochi,Male,21,Master's,Full-Time,On-Site,Day,4,2,11,76046,912552,83488,5,1,1,17,No,8,55,343,2,1,4,33.6,Medium,0.7927,Yes
+HOSP10043,Mangalore Medical Centre,Physiotherapy,L2,Physiotherapist,Udupi,Female,45,MD/MS,Full-Time,On-Site,Rotational,2,0,29,34488,413856,183505,4,5,1,20,Yes,10,0,159,3,1,4,38.8,High,0.8261,No
+HOSP10044,District General Hospital,Administration,L1,Ward Assistant,Chennai,Female,22,MD/MS,Contract,On-Site,Night,2,0,4,136521,1638252,9711,3,2,4,0,No,8,20,233,6,0,3,10.1,High,0.4585,Yes
+HOSP10045,Manipal Hospital,General Medicine,L4,Receptionist,Kochi,Male,50,Bachelor's,Full-Time,On-Site,Rotational,19,10,5,149467,1793604,190334,5,5,2,37,Yes,12,21,37,2,3,5,18.5,Medium,0.8338,Yes
+HOSP10046,Apollo Hospital,General Medicine,L1,Staff Nurse,Bengaluru,Female,23,MD/MS,Full-Time,On-Site,Day,17,5,18,159917,1919004,86009,5,1,2,40,Yes,11,53,73,0,1,1,44.2,Medium,0.9622,Yes
+HOSP10047,Mangalore Medical Centre,Pediatrics,L2,Lab Technician,Hubballi,Male,41,MBBS,Full-Time,On-Site,Day,19,10,17,36394,436728,214857,5,3,2,41,Yes,14,3,387,5,0,3,7.5,Medium,0.8541,No
+HOSP10048,Apollo Hospital,Pediatrics,L1,Resident Doctor,Kochi,Male,45,MD/MS,Full-Time,On-Site,Rotational,3,5,15,111993,1343916,9597,1,1,3,8,No,3,64,116,2,0,2,30.4,Medium,0.6779,Yes
+HOSP10049,AIIMS Mangaluru,ICU,L2,Consultant Doctor,Kochi,Female,40,MBBS,Contract,On-Site,Night,0,0,22,77332,927984,60067,5,3,4,22,Yes,6,50,302,10,3,2,11.1,Low,0.6499,Yes
+HOSP10050,Manipal Hospital,IT,L4,Senior Nurse,Hubballi,Female,42,MD/MS,Full-Time,On-Site,Day,15,2,10,60628,727536,218592,4,2,1,77,Yes,13,73,253,9,3,4,22.8,Medium,0.9766,Yes
+HOSP10051,Fortis Hospital,Administration,L2,Medical Officer,Bengaluru,Male,41,Bachelor's,Part-Time,Hybrid,Day,7,6,4,39352,472224,48022,4,2,3,10,No,10,62,259,5,2,1,36.1,Medium,0.7565,Yes
+HOSP10052,Manipal Hospital,Physiotherapy,L1,Resident Doctor,Hubballi,Male,53,MBBS,Full-Time,On-Site,Rotational,16,9,8,100971,1211652,212996,3,4,2,70,Yes,6,14,353,9,1,4,22.2,Low,0.9547,Yes
+HOSP10053,Mangalore Medical Centre,Cardiology,L4,Billing Executive,Mangaluru,Female,58,Diploma,Full-Time,Hybrid,Day,7,2,30,69993,839916,112673,2,4,1,30,Yes,3,115,363,2,2,2,36.3,Low,0.8403,No
+HOSP10054,Fortis Hospital,Pediatrics,L4,Senior Nurse,Udupi,Male,35,MBBS,Contract,On-Site,Rotational,6,2,2,121027,1452324,237335,2,3,4,25,Yes,4,35,73,5,0,2,19.5,Low,0.8018,Yes
+HOSP10055,AIIMS Mangaluru,Cardiology,L1,Ward Assistant,Hubballi,Female,35,Bachelor's,Full-Time,On-Site,Day,7,2,29,138212,1658544,246928,1,3,5,29,Yes,10,28,106,10,1,5,45.0,Medium,0.9176,Yes
+HOSP10056,Mangalore Medical Centre,Emergency,L4,Hospital Administrator,Bengaluru,Male,45,PhD,Full-Time,Hybrid,Day,20,6,30,26539,318468,149854,5,2,2,33,Yes,8,51,280,3,0,5,19.9,Medium,0.8294,Yes
+HOSP10057,CityCare Hospital,Pediatrics,L5,Medical Officer,Mysuru,Female,41,MBBS,Full-Time,On-Site,Night,11,3,7,150335,1804020,51782,1,5,2,45,Yes,6,45,255,3,0,5,7.1,Low,0.8511,Yes
+HOSP10058,Apollo Hospital,Pharmacy,L1,Radiology Technician,Mangaluru,Male,44,MD/MS,Contract,On-Site,Night,15,3,5,162377,1948524,203216,3,3,2,68,Yes,15,68,142,9,0,4,18.4,High,0.9694,No
+HOSP10059,AIIMS Mangaluru,IT,L4,Pharmacist,Mysuru,Male,25,MD/MS,Full-Time,On-Site,Night,11,2,3,71817,861804,229723,3,3,2,4,No,6,28,73,9,3,1,33.5,Medium,0.5824,No
+HOSP10060,Apollo Hospital,Administration,L3,Staff Nurse,Chennai,Female,26,PhD,Full-Time,On-Site,Night,18,9,11,173470,2081640,186085,2,5,1,60,Yes,9,110,235,10,3,5,38.2,Low,0.9676,Yes
+HOSP10061,District General Hospital,Outpatient,L2,Lab Technician,Hubballi,Male,43,Bachelor's,Full-Time,Hybrid,Rotational,9,10,11,67107,805284,110716,3,4,4,37,Yes,6,46,216,1,1,3,21.0,Low,0.8022,No
+HOSP10062,CityCare Hospital,ICU,L1,Data Analyst,Mangaluru,Male,24,Master's,Full-Time,On-Site,Rotational,6,8,30,179696,2156352,239381,5,4,3,27,Yes,14,90,58,3,0,5,27.0,Medium,0.8348,Yes
+HOSP10063,CityCare Hospital,Emergency,L1,Hospital Administrator,Udupi,Female,47,MD/MS,Part-Time,On-Site,Day,11,1,24,147240,1766880,118030,4,3,1,25,Yes,8,24,384,10,0,4,38.1,Low,0.853,Yes
+HOSP10064,AIIMS Mangaluru,Outpatient,L4,Receptionist,Hubballi,Male,38,Diploma,Full-Time,On-Site,Night,19,3,20,117655,1411860,72036,3,4,4,60,Yes,4,79,247,3,1,1,36.7,Low,0.944,Yes
+HOSP10065,CityCare Hospital,Administration,L5,Billing Executive,Udupi,Male,41,Bachelor's,Full-Time,On-Site,Rotational,4,7,15,74132,889584,35342,1,4,3,22,Yes,5,15,256,10,2,5,29.8,Medium,0.7414,Yes
+HOSP10066,Fortis Hospital,Physiotherapy,L3,Hospital Administrator,Kochi,Male,48,MBBS,Full-Time,On-Site,Night,15,5,30,143701,1724412,85745,5,4,2,45,Yes,2,99,151,6,0,1,36.8,Medium,0.8714,No
+HOSP10067,CityCare Hospital,Nursing,L2,Resident Doctor,Mysuru,Female,55,MBBS,Full-Time,On-Site,Day,8,6,9,123494,1481928,152049,3,2,4,29,Yes,0,88,349,4,3,3,26.1,High,0.5983,Yes
+HOSP10068,Apollo Hospital,Pharmacy,L3,Staff Nurse,Mangaluru,Female,42,Diploma,Contract,On-Site,Rotational,6,6,21,70979,851748,234648,3,1,2,66,Yes,10,40,340,7,2,2,0.7,High,0.9435,Yes
+HOSP10069,Apollo Hospital,Administration,L3,Consultant Doctor,Udupi,Female,60,MD/MS,Full-Time,On-Site,Rotational,19,1,13,76013,912156,57396,5,3,4,32,Yes,15,64,187,6,2,1,2.3,High,0.7292,Yes
+HOSP10070,Mangalore Medical Centre,Pharmacy,L2,IT Support Engineer,Bengaluru,Male,43,Bachelor's,Contract,On-Site,Rotational,13,3,30,81797,981564,114836,3,3,5,2,No,11,68,56,9,2,5,44.1,Low,0.7117,Yes
+HOSP10071,Apollo Hospital,Pharmacy,L1,Senior Nurse,Udupi,Male,23,Diploma,Full-Time,On-Site,Day,10,9,30,69798,837576,106998,4,2,2,68,Yes,1,104,86,8,2,4,7.0,Low,0.867,Yes
+HOSP10072,Mangalore Medical Centre,Cardiology,L4,Senior Nurse,Bengaluru,Male,60,MD/MS,Full-Time,On-Site,Day,6,9,12,165722,1988664,50021,2,1,2,41,Yes,7,19,130,7,2,4,18.5,High,0.8779,Yes
+HOSP10073,Apollo Hospital,Laboratory,L2,Resident Doctor,Hubballi,Male,30,Bachelor's,Contract,On-Site,Rotational,9,5,8,175086,2101032,200129,5,1,2,61,Yes,12,68,238,8,2,4,42.1,Medium,0.9781,Yes
+HOSP10074,Fortis Hospital,Outpatient,L4,Physiotherapist,Mangaluru,Female,45,MBBS,Full-Time,On-Site,Day,8,2,6,94421,1133052,130672,1,2,1,57,Yes,0,35,228,0,1,4,9.2,Medium,0.8718,Yes
+HOSP10075,Mangalore Medical Centre,Nursing,L2,Physiotherapist,Udupi,Male,28,Bachelor's,Full-Time,On-Site,Night,3,8,11,25434,305208,118559,3,5,3,56,Yes,9,92,400,9,1,1,38.0,Low,0.963,Yes
+HOSP10076,Manipal Hospital,Physiotherapy,L1,Data Analyst,Chennai,Male,31,PhD,Contract,Hybrid,Night,15,3,4,48028,576336,66836,2,5,2,0,No,6,111,106,2,2,4,36.9,Low,0.6414,Yes
+HOSP10077,District General Hospital,Emergency,L1,Billing Executive,Udupi,Male,25,Master's,Full-Time,On-Site,Day,9,9,17,84558,1014696,158147,1,1,2,72,Yes,4,97,322,4,3,2,44.4,Low,0.9853,Yes
+HOSP10078,AIIMS Mangaluru,Administration,L2,Radiology Technician,Chennai,Female,57,Bachelor's,Full-Time,Hybrid,Rotational,18,1,3,42331,507972,220587,1,5,1,59,Yes,15,57,198,8,1,3,13.0,Medium,0.9612,Yes
+HOSP10079,Apollo Hospital,Surgery,L5,Pharmacist,Mangaluru,Male,58,Master's,Full-Time,On-Site,Rotational,16,5,1,85573,1026876,161874,4,5,1,68,Yes,12,47,32,7,1,1,14.5,Low,0.9692,Yes
+HOSP10080,CityCare Hospital,Emergency,L1,Medical Officer,Udupi,Male,49,Bachelor's,Full-Time,On-Site,Rotational,8,0,2,147473,1769676,208833,2,5,5,58,Yes,5,81,319,9,2,1,40.7,Medium,0.9505,Yes
+HOSP10081,Apollo Hospital,Laboratory,L4,Consultant Doctor,Bengaluru,Male,25,Master's,Full-Time,On-Site,Day,12,5,25,100979,1211748,77017,5,1,4,45,Yes,15,1,144,6,3,4,10.9,Medium,0.8944,Yes
+HOSP10082,CityCare Hospital,Emergency,L3,Data Analyst,Udupi,Male,29,PhD,Full-Time,Hybrid,Day,0,9,11,22123,265476,217825,2,5,2,33,Yes,7,79,394,1,2,4,24.9,Low,0.823,Yes
+HOSP10083,District General Hospital,General Medicine,L4,Staff Nurse,Mysuru,Male,22,MBBS,Full-Time,On-Site,Night,1,0,2,34603,415236,241421,2,3,4,24,Yes,3,28,252,10,3,1,32.0,Low,0.7892,Yes
+HOSP10084,District General Hospital,Physiotherapy,L2,Physiotherapist,Hubballi,Female,21,MD/MS,Part-Time,Hybrid,Day,12,7,3,83941,1007292,186894,1,1,1,41,Yes,5,96,270,5,3,4,12.6,Medium,0.8,Yes
+HOSP10085,District General Hospital,Surgery,L4,Radiology Technician,Kochi,Male,60,Master's,Full-Time,Hybrid,Rotational,8,4,5,60597,727164,182675,4,2,1,28,Yes,13,15,145,3,0,4,42.3,Low,0.9411,Yes
+HOSP10086,CityCare Hospital,Laboratory,L4,Radiology Technician,Bengaluru,Male,50,PhD,Full-Time,On-Site,Day,6,5,11,102238,1226856,102689,4,5,5,24,Yes,10,34,254,4,1,4,30.1,Low,0.8166,Yes
+HOSP10087,Apollo Hospital,Cardiology,L2,Billing Executive,Mysuru,Male,31,Master's,Full-Time,On-Site,Night,15,1,18,59751,717012,80291,2,4,3,53,Yes,2,110,157,4,2,4,2.6,Low,0.7696,Yes
+HOSP10088,District General Hospital,Outpatient,L1,Resident Doctor,Chennai,Male,48,MBBS,Full-Time,On-Site,Night,18,1,9,144462,1733544,90450,2,1,1,72,Yes,6,61,68,3,1,4,6.5,Medium,0.9447,Yes
+HOSP10089,Fortis Hospital,Administration,L4,Consultant Doctor,Hubballi,Male,32,Master's,Full-Time,On-Site,Rotational,6,8,29,104978,1259736,166664,3,2,2,66,Yes,1,106,399,3,1,5,9.0,Medium,0.8647,Yes
+HOSP10090,Mangalore Medical Centre,IT,L5,Ward Assistant,Mangaluru,Male,59,PhD,Part-Time,On-Site,Day,5,2,0,35693,428316,56006,1,3,5,14,No,11,105,205,3,3,5,11.4,Low,0.6104,Yes
+HOSP10091,CityCare Hospital,Radiology,L1,Medical Officer,Bengaluru,Male,46,PhD,Full-Time,On-Site,Night,17,5,16,112524,1350288,157341,5,2,3,3,No,7,80,224,10,1,5,33.0,Medium,0.5987,No
+HOSP10092,CityCare Hospital,Outpatient,L3,Billing Executive,Kochi,Male,33,Diploma,Part-Time,On-Site,Day,18,9,15,115869,1390428,104268,5,5,5,37,Yes,12,3,97,1,0,1,4.5,High,0.8026,No
+HOSP10093,Apollo Hospital,Laboratory,L4,Pharmacist,Hubballi,Male,28,MBBS,Contract,On-Site,Rotational,10,4,8,179064,2148768,50138,4,4,1,19,No,6,112,213,0,2,3,16.1,Medium,0.5445,Yes
+HOSP10094,CityCare Hospital,ICU,L4,Billing Executive,Chennai,Male,48,Diploma,Full-Time,On-Site,Day,11,3,24,81825,981900,62398,1,5,3,22,Yes,11,67,122,1,1,1,41.1,Low,0.9144,Yes
+HOSP10095,CityCare Hospital,Physiotherapy,L5,Billing Executive,Kochi,Female,50,MBBS,Full-Time,On-Site,Rotational,9,9,20,158594,1903128,221163,4,2,4,36,Yes,11,50,124,6,2,5,25.3,Medium,0.8671,Yes
+HOSP10096,District General Hospital,Administration,L4,Lab Technician,Mangaluru,Female,29,Master's,Full-Time,On-Site,Rotational,12,1,8,148475,1781700,150946,5,1,3,61,Yes,7,88,395,0,1,1,12.3,Medium,0.9245,Yes
+HOSP10097,Apollo Hospital,Outpatient,L2,Resident Doctor,Mangaluru,Female,59,PhD,Full-Time,On-Site,Day,11,7,26,63406,760872,57228,2,4,2,7,No,15,32,306,5,2,3,43.1,High,0.8511,Yes
+HOSP10098,District General Hospital,Nursing,L2,Medical Officer,Chennai,Female,51,Diploma,Contract,On-Site,Rotational,20,9,22,161193,1934316,62670,1,4,4,36,Yes,1,77,343,3,2,4,11.4,High,0.6362,No
+HOSP10099,Mangalore Medical Centre,Laboratory,L2,Lab Technician,Bengaluru,Male,41,Master's,Contract,On-Site,Day,9,6,8,141371,1696452,125613,1,2,4,44,Yes,2,23,230,1,2,2,40.8,Medium,0.9392,Yes
+HOSP10100,Mangalore Medical Centre,General Medicine,L3,Lab Technician,Chennai,Female,54,PhD,Full-Time,On-Site,Rotational,19,10,11,163291,1959492,102071,3,5,2,32,Yes,15,74,269,2,1,5,32.8,Medium,0.8945,Yes
+HOSP10101,District General Hospital,Radiology,L3,Receptionist,Udupi,Female,51,MBBS,Full-Time,On-Site,Night,17,1,22,19617,235404,242952,2,2,4,6,No,11,24,312,6,0,5,33.5,High,0.7929,Yes
+HOSP10102,Mangalore Medical Centre,General Medicine,L2,Consultant Doctor,Mangaluru,Male,45,PhD,Contract,On-Site,Night,3,5,8,61016,732192,110572,2,4,1,21,Yes,3,27,220,5,2,3,34.5,High,0.7672,Yes
+HOSP10103,Apollo Hospital,Radiology,L4,Receptionist,Hubballi,Female,32,Master's,Contract,On-Site,Night,4,7,14,42276,507312,247766,4,2,3,4,No,11,6,43,5,3,4,23.0,Medium,0.6626,Yes
+HOSP10104,AIIMS Mangaluru,Outpatient,L3,Consultant Doctor,Udupi,Female,21,Diploma,Full-Time,On-Site,Day,4,6,1,90240,1082880,138997,1,4,3,14,No,8,112,319,7,3,4,36.7,Low,0.7658,No
+HOSP10105,District General Hospital,Nursing,L3,Data Analyst,Mysuru,Male,42,Diploma,Full-Time,Hybrid,Rotational,11,0,10,124292,1491504,3107,4,5,2,20,Yes,11,35,102,7,3,2,37.7,Low,0.8617,Yes
+HOSP10106,Fortis Hospital,IT,L2,Staff Nurse,Kochi,Male,60,PhD,Full-Time,On-Site,Day,2,4,10,35959,431508,86388,2,1,1,16,No,11,9,316,5,0,4,16.5,Medium,0.7888,Yes
+HOSP10107,Fortis Hospital,Physiotherapy,L3,Radiology Technician,Udupi,Male,57,Master's,Contract,On-Site,Rotational,7,1,7,46522,558264,95719,3,1,4,55,Yes,15,112,198,0,2,3,18.3,Medium,0.9451,Yes
+HOSP10108,CityCare Hospital,ICU,L1,Medical Officer,Kochi,Female,21,Bachelor's,Full-Time,On-Site,Night,1,5,22,159025,1908300,118018,1,2,3,49,Yes,4,35,317,9,0,4,40.0,High,0.9523,Yes
+HOSP10109,Mangalore Medical Centre,Administration,L2,Resident Doctor,Chennai,Female,21,MBBS,Full-Time,On-Site,Rotational,17,6,5,44567,534804,27617,2,4,3,6,No,5,94,383,6,2,3,23.9,High,0.4816,No
+HOSP10110,Fortis Hospital,Cardiology,L1,Data Analyst,Udupi,Male,41,MBBS,Full-Time,On-Site,Day,8,6,20,80708,968496,74258,3,1,3,49,Yes,0,82,225,7,0,5,39.1,Low,0.9032,Yes
+HOSP10111,CityCare Hospital,General Medicine,L1,IT Support Engineer,Chennai,Male,35,Master's,Full-Time,On-Site,Night,12,2,19,144206,1730472,50075,5,4,3,59,Yes,3,17,59,4,2,5,28.4,Medium,0.8946,Yes
+HOSP10112,AIIMS Mangaluru,General Medicine,L2,Billing Executive,Mysuru,Female,37,Bachelor's,Full-Time,On-Site,Night,6,6,6,40560,486720,126998,2,5,5,6,No,13,112,323,10,3,5,26.9,Low,0.6924,Yes
+HOSP10113,Apollo Hospital,Pharmacy,L3,Senior Nurse,Mangaluru,Male,42,Diploma,Contract,On-Site,Rotational,9,4,2,76390,916680,22631,5,2,2,39,Yes,3,5,132,3,2,1,1.9,Medium,0.7333,Yes
+HOSP10114,Apollo Hospital,Radiology,L1,Resident Doctor,Mysuru,Female,58,MD/MS,Full-Time,On-Site,Day,8,7,7,143772,1725264,123120,4,4,4,44,Yes,9,91,359,6,0,5,12.9,Medium,0.7894,Yes
+HOSP10115,Apollo Hospital,Pediatrics,L4,Staff Nurse,Mangaluru,Male,55,MD/MS,Full-Time,On-Site,Day,14,7,17,63104,757248,193516,5,2,4,58,Yes,7,6,23,10,2,3,22.8,Low,0.9307,Yes
+HOSP10116,Fortis Hospital,IT,L2,Pharmacist,Chennai,Male,36,Master's,Full-Time,Hybrid,Day,4,6,16,75805,909660,97158,2,4,2,74,Yes,7,101,127,5,1,2,26.6,Low,0.979,Yes
+HOSP10117,AIIMS Mangaluru,Administration,L4,Hospital Administrator,Mangaluru,Female,28,Bachelor's,Full-Time,On-Site,Rotational,11,5,10,42496,509952,247656,5,4,1,54,Yes,9,120,335,5,2,4,28.6,Low,0.9199,Yes
+HOSP10118,Fortis Hospital,Radiology,L5,Hospital Administrator,Kochi,Male,37,Bachelor's,Full-Time,On-Site,Day,0,1,1,109257,1311084,138955,1,5,2,63,Yes,5,11,133,2,3,5,32.4,Low,0.9597,Yes
+HOSP10119,Mangalore Medical Centre,Pharmacy,L1,Radiology Technician,Hubballi,Male,37,MBBS,Full-Time,On-Site,Rotational,11,5,24,21515,258180,150780,2,2,3,64,Yes,7,40,186,10,2,1,29.7,High,0.9739,No
+HOSP10120,Fortis Hospital,Emergency,L2,Hospital Administrator,Mysuru,Male,46,Diploma,Full-Time,On-Site,Day,5,10,20,22454,269448,46221,3,3,3,53,Yes,8,113,280,9,1,1,38.3,Low,0.9546,Yes
+HOSP10121,AIIMS Mangaluru,Radiology,L1,Hospital Administrator,Udupi,Female,33,PhD,Full-Time,On-Site,Rotational,18,8,26,40873,490476,148269,5,4,2,39,Yes,4,62,125,3,1,3,13.6,Low,0.7253,Yes
+HOSP10122,AIIMS Mangaluru,Cardiology,L3,Senior Nurse,Mysuru,Male,37,Bachelor's,Full-Time,On-Site,Rotational,18,1,23,91920,1103040,152206,1,4,2,52,Yes,0,97,243,4,1,2,29.0,Low,0.9093,Yes
+HOSP10123,Mangalore Medical Centre,Administration,L3,Physiotherapist,Kochi,Male,58,PhD,Full-Time,On-Site,Night,15,0,18,31727,380724,105922,4,1,4,43,Yes,0,24,281,8,0,5,2.8,High,0.6441,Yes
+HOSP10124,AIIMS Mangaluru,Outpatient,L2,Receptionist,Mangaluru,Male,37,MD/MS,Contract,On-Site,Night,18,10,6,146376,1756512,33550,4,2,4,62,Yes,1,80,270,7,1,5,21.9,Medium,0.9008,Yes
+HOSP10125,AIIMS Mangaluru,IT,L3,Pharmacist,Kochi,Male,34,PhD,Contract,On-Site,Day,2,4,30,87070,1044840,14642,5,3,5,1,No,1,52,33,2,0,1,12.4,Low,0.3656,Yes
+HOSP10126,Apollo Hospital,Pharmacy,L2,Receptionist,Bengaluru,Male,26,Diploma,Full-Time,On-Site,Day,9,10,17,117059,1404708,151511,4,5,5,78,Yes,4,32,217,5,1,3,17.4,Medium,0.9404,Yes
+HOSP10127,Mangalore Medical Centre,Emergency,L1,Consultant Doctor,Bengaluru,Male,55,Diploma,Full-Time,On-Site,Day,17,5,7,142564,1710768,228851,3,3,3,20,Yes,6,86,145,9,0,1,16.3,Medium,0.606,Yes
+HOSP10128,Manipal Hospital,Physiotherapy,L3,Lab Technician,Udupi,Female,34,PhD,Contract,On-Site,Rotational,12,2,13,135213,1622556,106093,2,5,5,49,Yes,6,72,225,0,1,1,3.2,Medium,0.8464,Yes
+HOSP10129,Manipal Hospital,Surgery,L2,Physiotherapist,Kochi,Female,28,Master's,Full-Time,On-Site,Night,17,7,6,43465,521580,155655,1,3,5,80,Yes,14,5,159,2,1,2,21.3,Medium,0.9885,Yes
+HOSP10130,AIIMS Mangaluru,Pharmacy,L3,Receptionist,Chennai,Male,35,Bachelor's,Part-Time,On-Site,Rotational,2,6,27,77799,933588,93885,5,3,1,51,Yes,3,61,81,9,2,3,44.8,Low,0.9116,Yes
+HOSP10131,Manipal Hospital,Surgery,L2,Resident Doctor,Udupi,Female,47,Master's,Contract,On-Site,Night,2,1,20,114129,1369548,79538,4,2,2,8,No,12,65,302,6,1,2,13.8,High,0.6949,No
+HOSP10132,Manipal Hospital,Administration,L5,Resident Doctor,Chennai,Female,33,PhD,Full-Time,On-Site,Rotational,11,6,27,170402,2044824,62014,2,1,4,19,No,3,101,73,6,2,3,33.3,Medium,0.6943,Yes
+HOSP10133,AIIMS Mangaluru,General Medicine,L1,Receptionist,Udupi,Male,51,Bachelor's,Full-Time,On-Site,Night,19,0,26,157374,1888488,19523,3,3,5,17,No,13,8,365,1,1,5,24.9,Medium,0.7477,No
+HOSP10134,Manipal Hospital,Pharmacy,L2,Billing Executive,Bengaluru,Female,55,MBBS,Contract,On-Site,Night,6,8,3,125288,1503456,110285,4,4,4,29,Yes,13,66,31,2,1,4,15.0,Low,0.8115,Yes
+HOSP10135,Fortis Hospital,Physiotherapy,L3,Receptionist,Udupi,Female,26,Master's,Full-Time,On-Site,Day,7,6,16,30875,370500,201615,4,4,5,64,Yes,10,15,155,6,2,4,4.5,High,0.8847,Yes
+HOSP10136,CityCare Hospital,ICU,L2,Hospital Administrator,Bengaluru,Female,25,Master's,Full-Time,On-Site,Night,8,5,4,45219,542628,217043,1,4,5,23,Yes,14,88,349,5,2,3,10.1,Medium,0.7106,No
+HOSP10137,Mangalore Medical Centre,Surgery,L5,Consultant Doctor,Mangaluru,Female,42,PhD,Full-Time,Hybrid,Night,13,1,11,54182,650184,105879,3,1,3,46,Yes,9,87,163,6,0,4,35.3,Low,0.9413,Yes
+HOSP10138,CityCare Hospital,Cardiology,L3,Staff Nurse,Chennai,Female,43,MD/MS,Full-Time,On-Site,Rotational,4,2,8,97781,1173372,90629,3,3,1,43,Yes,2,110,301,9,3,1,12.9,Low,0.7284,Yes
+HOSP10139,AIIMS Mangaluru,ICU,L3,Medical Officer,Kochi,Female,45,PhD,Full-Time,On-Site,Rotational,20,0,25,24457,293484,248950,5,5,2,28,Yes,10,92,155,8,2,5,6.9,Medium,0.6038,No
+HOSP10140,Apollo Hospital,Laboratory,L4,Physiotherapist,Udupi,Female,54,Master's,Full-Time,On-Site,Night,18,9,19,155821,1869852,245560,1,5,2,76,Yes,1,107,320,7,0,5,15.2,High,0.9303,Yes
+HOSP10141,Mangalore Medical Centre,Laboratory,L5,Physiotherapist,Bengaluru,Female,46,Bachelor's,Contract,On-Site,Day,20,4,12,51064,612768,76830,5,2,3,67,Yes,15,54,240,5,1,4,26.5,High,0.9848,Yes
+HOSP10142,AIIMS Mangaluru,Emergency,L4,Receptionist,Mysuru,Male,25,MD/MS,Full-Time,On-Site,Night,15,8,24,158893,1906716,235013,1,1,3,16,No,2,39,359,3,2,3,31.8,Medium,0.7033,No
+HOSP10143,Apollo Hospital,IT,L3,Ward Assistant,Chennai,Male,46,PhD,Full-Time,On-Site,Night,11,5,27,133256,1599072,45538,3,3,2,4,No,7,25,228,9,2,1,17.7,Medium,0.4674,No
+HOSP10144,CityCare Hospital,General Medicine,L3,Pharmacist,Udupi,Female,40,PhD,Full-Time,Hybrid,Day,20,4,17,116297,1395564,47310,1,4,2,80,Yes,14,37,378,8,1,3,22.7,Low,0.9899,Yes
+HOSP10145,AIIMS Mangaluru,Administration,L1,Radiology Technician,Hubballi,Female,26,Master's,Full-Time,Hybrid,Rotational,3,2,19,156736,1880832,141980,1,1,1,49,Yes,0,34,399,6,1,4,20.7,Medium,0.8765,Yes
+HOSP10146,Mangalore Medical Centre,Pharmacy,L1,Pharmacist,Mangaluru,Male,26,Master's,Full-Time,On-Site,Rotational,7,4,8,178353,2140236,115266,1,1,5,39,Yes,15,86,142,4,1,5,0.9,High,0.8637,Yes
+HOSP10147,Mangalore Medical Centre,Pediatrics,L3,Medical Officer,Mangaluru,Female,38,MBBS,Contract,On-Site,Rotational,6,7,3,173719,2084628,188362,2,3,1,45,Yes,3,67,135,1,1,5,18.1,Medium,0.8427,Yes
+HOSP10148,District General Hospital,Cardiology,L1,Resident Doctor,Mysuru,Female,24,PhD,Contract,Hybrid,Day,14,1,20,87918,1055016,184706,2,2,2,50,Yes,6,58,176,8,3,3,26.6,Low,0.9503,Yes
+HOSP10149,Fortis Hospital,Surgery,L2,Receptionist,Bengaluru,Male,37,Master's,Full-Time,On-Site,Rotational,5,4,26,108179,1298148,12699,3,2,5,10,No,15,105,289,6,2,2,25.9,Low,0.7836,No
+HOSP10150,Manipal Hospital,Administration,L2,Resident Doctor,Udupi,Male,34,Diploma,Full-Time,On-Site,Rotational,4,5,7,92944,1115328,231241,1,2,2,11,No,4,13,36,8,1,3,33.9,Low,0.7776,Yes
+HOSP10151,Apollo Hospital,ICU,L2,Resident Doctor,Chennai,Male,34,MD/MS,Full-Time,On-Site,Night,13,9,0,107142,1285704,66912,3,4,1,12,No,1,116,288,10,1,2,30.3,Medium,0.5276,No
+HOSP10152,District General Hospital,Nursing,L4,Ward Assistant,Bengaluru,Female,33,Diploma,Full-Time,On-Site,Night,20,7,16,45603,547236,145327,2,4,1,63,Yes,0,119,368,8,3,3,12.8,High,0.8393,No
+HOSP10153,Manipal Hospital,Laboratory,L5,Resident Doctor,Mangaluru,Female,27,MD/MS,Full-Time,On-Site,Rotational,12,7,24,64458,773496,79183,1,3,1,7,No,5,46,238,9,2,2,11.9,Low,0.5378,No
+HOSP10154,Manipal Hospital,Nursing,L1,Medical Officer,Bengaluru,Male,35,PhD,Full-Time,On-Site,Night,9,4,8,88605,1063260,60282,5,2,5,64,Yes,12,102,338,4,0,2,21.2,Medium,0.9638,Yes
+HOSP10155,AIIMS Mangaluru,Physiotherapy,L3,Data Analyst,Mangaluru,Male,39,MBBS,Contract,On-Site,Night,17,8,19,37623,451476,58249,2,3,4,8,No,12,70,257,6,2,2,33.1,Medium,0.7805,Yes
+HOSP10156,Manipal Hospital,Cardiology,L4,Consultant Doctor,Bengaluru,Female,55,Master's,Full-Time,On-Site,Night,3,3,12,62440,749280,38176,2,2,4,1,No,15,71,52,4,0,2,4.7,High,0.62,Yes
+HOSP10157,Fortis Hospital,Pediatrics,L1,IT Support Engineer,Mysuru,Male,37,Master's,Full-Time,On-Site,Rotational,7,8,1,100427,1205124,8163,2,1,2,77,Yes,4,41,304,2,3,1,42.7,Medium,0.9877,Yes
+HOSP10158,Mangalore Medical Centre,Pharmacy,L4,Radiology Technician,Kochi,Female,55,Master's,Part-Time,On-Site,Day,10,10,12,156776,1881312,54210,1,5,5,12,No,2,50,56,9,1,2,24.7,Low,0.649,Yes
+HOSP10159,District General Hospital,Emergency,L2,Receptionist,Mysuru,Female,39,PhD,Full-Time,On-Site,Rotational,16,6,8,111826,1341912,123844,4,5,3,1,No,10,18,122,7,3,2,14.1,Low,0.5146,No
+HOSP10160,Manipal Hospital,Pediatrics,L2,Billing Executive,Mysuru,Male,40,MD/MS,Full-Time,On-Site,Rotational,17,5,29,45460,545520,104587,5,2,4,67,Yes,10,65,230,7,2,5,31.4,Medium,0.9606,Yes
+HOSP10161,AIIMS Mangaluru,Cardiology,L5,Medical Officer,Kochi,Male,56,Master's,Full-Time,On-Site,Rotational,20,3,19,128373,1540476,231352,5,3,5,75,Yes,14,46,299,8,1,1,2.5,High,0.9617,Yes
+HOSP10162,Fortis Hospital,Pediatrics,L2,Hospital Administrator,Kochi,Female,55,Diploma,Full-Time,Hybrid,Day,10,1,5,155637,1867644,71979,3,4,5,47,Yes,15,64,161,10,2,2,22.1,Low,0.9268,Yes
+HOSP10163,CityCare Hospital,Cardiology,L3,Data Analyst,Udupi,Male,52,Master's,Part-Time,Hybrid,Rotational,15,7,27,22870,274440,78860,1,2,4,73,Yes,10,41,258,5,0,4,22.1,Medium,0.9795,Yes
+HOSP10164,Mangalore Medical Centre,Cardiology,L4,Radiology Technician,Chennai,Male,60,PhD,Full-Time,On-Site,Day,11,5,0,36909,442908,152215,2,2,5,2,No,8,37,248,1,2,1,7.7,Medium,0.5074,No
+HOSP10165,Mangalore Medical Centre,Radiology,L1,Medical Officer,Chennai,Male,44,MBBS,Part-Time,On-Site,Day,12,2,27,27117,325404,236971,4,4,5,67,Yes,2,117,152,2,3,5,37.8,Medium,0.9182,Yes
+HOSP10166,District General Hospital,Surgery,L3,Data Analyst,Udupi,Male,37,Diploma,Full-Time,On-Site,Night,15,6,24,85474,1025688,4920,1,2,4,5,No,15,12,144,10,3,3,36.0,Low,0.8513,Yes
+HOSP10167,Mangalore Medical Centre,Outpatient,L5,Resident Doctor,Mysuru,Female,27,Master's,Full-Time,On-Site,Night,20,9,4,111926,1343112,247647,1,1,1,4,No,1,105,72,9,3,5,7.3,High,0.3048,No
+HOSP10168,Manipal Hospital,Nursing,L1,Billing Executive,Mysuru,Female,21,Master's,Part-Time,Hybrid,Rotational,0,6,30,145463,1745556,82911,4,4,2,2,No,4,43,107,10,1,5,16.7,Medium,0.3623,Yes
+HOSP10169,AIIMS Mangaluru,Outpatient,L4,Consultant Doctor,Mangaluru,Female,55,Bachelor's,Full-Time,Hybrid,Day,15,5,2,119536,1434432,37996,2,1,3,9,No,8,23,117,5,2,1,5.0,Medium,0.5915,No
+HOSP10170,Mangalore Medical Centre,Outpatient,L3,Receptionist,Mangaluru,Female,52,MD/MS,Full-Time,On-Site,Night,14,1,3,38128,457536,142820,1,5,2,42,Yes,7,95,389,0,1,1,38.3,Medium,0.9328,Yes
+HOSP10171,Mangalore Medical Centre,Outpatient,L3,Physiotherapist,Chennai,Male,56,Diploma,Full-Time,On-Site,Day,5,7,0,87001,1044012,94071,5,4,1,18,No,5,29,114,1,2,4,14.9,High,0.5004,Yes
+HOSP10172,CityCare Hospital,Laboratory,L3,Pharmacist,Udupi,Male,33,Bachelor's,Full-Time,On-Site,Rotational,11,0,13,18440,221280,212323,5,4,1,13,No,2,69,207,7,0,4,20.0,Medium,0.417,No
+HOSP10173,CityCare Hospital,Radiology,L2,Lab Technician,Hubballi,Female,26,MBBS,Full-Time,On-Site,Rotational,7,0,8,141491,1697892,47252,4,3,5,20,Yes,5,37,395,10,2,1,14.9,Medium,0.5477,No
+HOSP10174,Apollo Hospital,Pharmacy,L5,IT Support Engineer,Hubballi,Female,34,MD/MS,Full-Time,On-Site,Rotational,6,5,29,160735,1928820,122734,2,3,2,42,Yes,4,96,275,7,2,1,14.3,Medium,0.7926,Yes
+HOSP10175,Fortis Hospital,Radiology,L5,Consultant Doctor,Udupi,Male,57,Diploma,Full-Time,On-Site,Night,1,4,23,168619,2023428,194251,4,4,1,27,Yes,0,107,92,5,2,1,33.8,Medium,0.6543,Yes
+HOSP10176,Manipal Hospital,General Medicine,L3,Physiotherapist,Mangaluru,Female,35,Master's,Full-Time,On-Site,Day,11,8,3,99662,1195944,137522,1,5,2,20,Yes,4,118,381,2,2,3,33.8,Low,0.7297,Yes
+HOSP10177,Mangalore Medical Centre,General Medicine,L4,Staff Nurse,Chennai,Female,24,Diploma,Contract,On-Site,Rotational,20,6,17,18005,216060,52756,5,2,1,35,Yes,13,22,301,1,0,5,23.5,High,0.9204,Yes
+HOSP10178,Mangalore Medical Centre,Laboratory,L3,Receptionist,Chennai,Male,60,Master's,Full-Time,On-Site,Day,13,1,13,25038,300456,50235,3,3,3,23,Yes,6,73,37,5,1,4,29.8,High,0.6938,No
+HOSP10179,AIIMS Mangaluru,Pediatrics,L2,Medical Officer,Mangaluru,Female,36,MD/MS,Contract,On-Site,Night,15,6,24,24414,292968,90546,4,5,1,53,Yes,8,56,183,0,3,4,23.3,Medium,0.9122,Yes
+HOSP10180,Apollo Hospital,Surgery,L3,Staff Nurse,Hubballi,Male,48,Master's,Full-Time,On-Site,Rotational,10,2,3,87506,1050072,131092,3,5,2,37,Yes,11,109,165,9,2,2,1.8,Medium,0.7227,Yes
+HOSP10181,Fortis Hospital,Laboratory,L3,Physiotherapist,Bengaluru,Male,36,MBBS,Full-Time,On-Site,Day,19,0,24,94586,1135032,125802,3,3,5,16,No,14,78,333,5,3,3,3.4,Low,0.5446,No
+HOSP10182,Apollo Hospital,Cardiology,L3,Consultant Doctor,Bengaluru,Female,24,PhD,Contract,On-Site,Rotational,8,10,9,151678,1820136,211325,5,2,2,21,Yes,0,22,272,8,3,1,17.6,High,0.618,Yes
+HOSP10183,District General Hospital,ICU,L4,Medical Officer,Mangaluru,Male,46,Master's,Full-Time,On-Site,Night,9,7,2,34482,413784,243956,4,3,4,44,Yes,2,119,179,6,3,1,33.9,Medium,0.8125,Yes
+HOSP10184,Fortis Hospital,Surgery,L2,Receptionist,Bengaluru,Female,48,MBBS,Full-Time,Hybrid,Day,16,2,22,51948,623376,108421,3,5,2,73,Yes,7,35,368,8,3,3,41.1,Medium,0.9727,Yes
+HOSP10185,Mangalore Medical Centre,IT,L1,Hospital Administrator,Kochi,Male,52,PhD,Full-Time,On-Site,Day,11,10,6,107987,1295844,140736,1,1,3,60,Yes,5,56,68,1,2,4,1.8,High,0.8873,Yes
+HOSP10186,Mangalore Medical Centre,Nursing,L1,Lab Technician,Udupi,Female,22,MD/MS,Full-Time,On-Site,Day,5,7,9,38875,466500,66635,2,3,3,10,No,12,0,195,10,3,1,16.9,Medium,0.7133,Yes
+HOSP10187,Fortis Hospital,Surgery,L2,Resident Doctor,Udupi,Female,51,MD/MS,Full-Time,On-Site,Rotational,18,6,12,31057,372684,23225,2,5,3,60,Yes,15,71,346,4,2,2,10.5,High,0.9529,Yes
+HOSP10188,Mangalore Medical Centre,Cardiology,L3,Medical Officer,Mangaluru,Female,23,Diploma,Full-Time,On-Site,Rotational,10,1,3,50400,604800,199245,5,3,1,37,Yes,4,2,84,8,0,4,36.8,Medium,0.8472,Yes
+HOSP10189,Manipal Hospital,Cardiology,L3,Hospital Administrator,Mysuru,Male,28,MBBS,Contract,Hybrid,Day,8,0,17,86607,1039284,106885,4,5,3,65,Yes,12,13,308,6,1,5,38.1,Medium,0.9809,Yes
+HOSP10190,Fortis Hospital,Emergency,L3,Receptionist,Hubballi,Male,44,MBBS,Full-Time,On-Site,Day,20,6,10,105561,1266732,237120,4,2,2,32,Yes,9,80,69,8,1,3,9.7,Medium,0.7445,Yes
+HOSP10191,Apollo Hospital,Outpatient,L2,Receptionist,Mangaluru,Female,35,Bachelor's,Contract,Hybrid,Rotational,5,0,24,45503,546036,85333,2,5,5,42,Yes,1,33,23,10,2,4,32.1,Medium,0.8524,Yes
+HOSP10192,Fortis Hospital,Laboratory,L3,Medical Officer,Bengaluru,Male,51,Bachelor's,Contract,On-Site,Rotational,15,5,3,172837,2074044,171297,1,4,3,30,Yes,2,110,138,5,2,5,33.1,High,0.7788,Yes
+HOSP10193,Mangalore Medical Centre,Cardiology,L2,Consultant Doctor,Hubballi,Female,29,PhD,Full-Time,Hybrid,Night,19,10,23,119096,1429152,10807,2,1,2,34,Yes,11,69,359,6,1,2,8.4,Medium,0.8658,Yes
+HOSP10194,Manipal Hospital,General Medicine,L2,Hospital Administrator,Mysuru,Female,59,PhD,Full-Time,On-Site,Night,15,9,13,64612,775344,214346,2,5,1,36,Yes,15,68,392,9,3,3,19.8,Medium,0.8842,Yes
+HOSP10195,Manipal Hospital,Outpatient,L3,Consultant Doctor,Bengaluru,Male,22,Bachelor's,Contract,Hybrid,Day,5,10,17,116318,1395816,6402,4,3,1,46,Yes,1,109,183,4,2,1,28.1,Low,0.8536,Yes
+HOSP10196,District General Hospital,Pharmacy,L4,Data Analyst,Chennai,Female,28,PhD,Contract,On-Site,Rotational,4,9,7,102335,1228020,4521,3,3,5,22,Yes,0,50,242,5,3,1,1.7,Low,0.4377,Yes
+HOSP10197,Apollo Hospital,ICU,L2,Physiotherapist,Kochi,Male,27,Master's,Full-Time,On-Site,Rotational,20,7,26,118989,1427868,194237,1,5,5,35,Yes,6,104,377,0,2,5,18.5,Medium,0.7335,No
+HOSP10198,CityCare Hospital,Nursing,L1,Senior Nurse,Bengaluru,Female,59,Bachelor's,Full-Time,On-Site,Day,3,6,9,111012,1332144,114693,4,4,2,39,Yes,13,103,175,0,2,4,7.4,Medium,0.7692,Yes
+HOSP10199,CityCare Hospital,Laboratory,L1,Medical Officer,Kochi,Male,36,MBBS,Full-Time,Hybrid,Rotational,1,3,4,99748,1196976,8382,2,5,5,80,Yes,2,28,281,1,0,2,24.6,High,0.9704,No
+HOSP10200,Fortis Hospital,Administration,L1,IT Support Engineer,Hubballi,Female,55,Master's,Full-Time,On-Site,Night,5,0,22,158500,1902000,110996,3,2,5,14,No,6,98,192,10,0,5,38.0,Medium,0.7027,Yes
+HOSP10201,District General Hospital,General Medicine,L3,Receptionist,Kochi,Female,50,PhD,Full-Time,On-Site,Night,8,0,6,83195,998340,233729,1,4,1,36,Yes,11,81,42,3,1,2,23.9,Medium,0.9017,Yes
+HOSP10202,AIIMS Mangaluru,Physiotherapy,L2,Pharmacist,Hubballi,Male,30,MD/MS,Full-Time,Hybrid,Day,16,3,11,107846,1294152,15065,5,5,2,3,No,6,103,395,10,0,2,2.1,High,0.3033,Yes
+HOSP10203,Fortis Hospital,IT,L3,Medical Officer,Hubballi,Female,58,Diploma,Full-Time,On-Site,Rotational,13,4,24,120404,1444848,85470,1,1,5,21,Yes,7,47,80,8,0,2,1.8,Medium,0.6831,Yes
+HOSP10204,District General Hospital,Pediatrics,L2,Physiotherapist,Hubballi,Female,38,Bachelor's,Full-Time,On-Site,Night,6,6,2,57142,685704,14425,1,4,2,80,Yes,0,93,375,6,1,3,27.4,High,0.9573,Yes
+HOSP10205,Apollo Hospital,Cardiology,L1,Billing Executive,Hubballi,Male,25,MD/MS,Full-Time,On-Site,Night,18,3,25,89540,1074480,13111,2,5,3,21,Yes,4,78,340,5,3,5,15.1,Medium,0.5507,No
+HOSP10206,Apollo Hospital,Administration,L2,Billing Executive,Hubballi,Female,49,PhD,Full-Time,On-Site,Night,0,9,3,94948,1139376,171871,2,1,1,80,Yes,9,116,153,0,0,3,26.0,Low,0.987,Yes
+HOSP10207,Apollo Hospital,Cardiology,L2,Radiology Technician,Bengaluru,Male,59,MBBS,Full-Time,Hybrid,Day,19,0,9,76951,923412,53257,5,5,1,77,Yes,8,78,43,4,3,4,7.8,Medium,0.9226,Yes
+HOSP10208,Apollo Hospital,Surgery,L2,IT Support Engineer,Hubballi,Female,54,Diploma,Full-Time,On-Site,Day,14,10,3,29755,357060,123990,5,2,1,77,Yes,11,15,312,10,1,4,35.1,Low,0.9895,Yes
+HOSP10209,Apollo Hospital,General Medicine,L2,Receptionist,Bengaluru,Male,43,MD/MS,Full-Time,On-Site,Rotational,17,9,14,135985,1631820,192249,5,3,4,16,No,10,56,64,3,2,1,38.8,Medium,0.7855,Yes
+HOSP10210,District General Hospital,Surgery,L4,Staff Nurse,Hubballi,Female,25,Diploma,Full-Time,Hybrid,Day,2,6,28,102553,1230636,127813,4,5,2,71,Yes,6,96,198,4,3,1,40.1,Low,0.9723,Yes
+HOSP10211,District General Hospital,Emergency,L1,Receptionist,Kochi,Female,50,Bachelor's,Full-Time,On-Site,Rotational,17,1,9,152962,1835544,81046,4,4,3,79,Yes,0,9,375,10,1,1,14.0,Medium,0.9349,Yes
+HOSP10212,Manipal Hospital,Surgery,L5,Data Analyst,Chennai,Female,26,PhD,Contract,On-Site,Night,1,10,20,112376,1348512,37851,2,5,5,79,Yes,7,18,377,8,3,4,29.9,Low,0.9831,Yes
+HOSP10213,CityCare Hospital,Emergency,L2,Resident Doctor,Hubballi,Male,24,MBBS,Full-Time,On-Site,Night,9,1,29,35175,422100,8816,2,5,3,37,Yes,2,100,82,2,1,2,12.9,Low,0.7767,Yes
+HOSP10214,Mangalore Medical Centre,IT,L4,Hospital Administrator,Mysuru,Male,49,PhD,Full-Time,On-Site,Night,10,7,21,83687,1004244,208925,5,5,2,23,Yes,12,113,48,3,1,2,34.4,Medium,0.8506,Yes
+HOSP10215,Apollo Hospital,Emergency,L3,Receptionist,Hubballi,Male,43,Diploma,Full-Time,On-Site,Night,2,9,15,102983,1235796,2175,4,5,1,5,No,3,66,376,7,2,5,5.9,Low,0.25,Yes
+HOSP10216,AIIMS Mangaluru,Administration,L3,Senior Nurse,Hubballi,Male,26,MD/MS,Contract,Hybrid,Day,6,9,14,173360,2080320,11341,3,4,4,67,Yes,3,35,384,2,3,4,34.4,Low,0.9512,Yes
+HOSP10217,Mangalore Medical Centre,Outpatient,L4,Lab Technician,Kochi,Female,52,Bachelor's,Full-Time,On-Site,Night,7,9,18,64629,775548,63908,4,4,2,5,No,14,3,115,2,2,1,20.1,Medium,0.6521,Yes
+HOSP10218,District General Hospital,Cardiology,L3,Billing Executive,Udupi,Female,38,Bachelor's,Full-Time,On-Site,Rotational,18,4,28,134779,1617348,156726,2,5,2,25,Yes,9,74,285,8,2,4,38.6,Low,0.8625,Yes
+HOSP10219,AIIMS Mangaluru,Pediatrics,L3,Lab Technician,Kochi,Male,35,PhD,Full-Time,On-Site,Rotational,17,9,19,86513,1038156,191967,4,3,5,40,Yes,13,104,310,4,3,2,33.4,Low,0.9198,Yes
+HOSP10220,AIIMS Mangaluru,Outpatient,L3,Lab Technician,Mysuru,Male,60,MD/MS,Full-Time,On-Site,Day,12,1,18,100762,1209144,59696,2,5,3,74,Yes,11,32,74,9,3,2,17.3,Low,0.9801,Yes
+HOSP10221,AIIMS Mangaluru,Nursing,L3,Consultant Doctor,Udupi,Male,52,MD/MS,Full-Time,Hybrid,Night,12,4,17,178094,2137128,188961,5,4,3,37,Yes,7,27,172,0,1,3,40.7,High,0.8928,Yes
+HOSP10222,Manipal Hospital,Surgery,L1,Lab Technician,Mangaluru,Female,29,Diploma,Full-Time,Hybrid,Day,18,7,25,150731,1808772,218216,5,2,5,79,Yes,0,95,238,6,3,3,13.1,Medium,0.8997,Yes
+HOSP10223,District General Hospital,Physiotherapy,L2,Resident Doctor,Mangaluru,Male,57,PhD,Full-Time,On-Site,Day,11,5,11,75941,911292,83115,5,5,4,42,Yes,7,120,192,6,1,5,43.5,Medium,0.8931,No
+HOSP10224,AIIMS Mangaluru,Nursing,L3,Data Analyst,Mysuru,Male,30,PhD,Full-Time,On-Site,Day,16,2,24,61473,737676,30194,3,5,1,52,Yes,8,79,115,5,1,4,34.6,High,0.9221,Yes
+HOSP10225,Apollo Hospital,General Medicine,L3,Staff Nurse,Kochi,Female,40,Master's,Full-Time,On-Site,Rotational,11,7,15,34040,408480,165909,3,5,1,14,No,8,8,142,5,1,3,44.6,Low,0.8162,Yes
+HOSP10226,Fortis Hospital,Emergency,L4,Lab Technician,Bengaluru,Female,26,PhD,Full-Time,On-Site,Day,12,8,0,87806,1053672,199966,2,5,4,55,Yes,4,74,31,2,1,3,2.9,Medium,0.7968,No
+HOSP10227,AIIMS Mangaluru,Cardiology,L3,IT Support Engineer,Mysuru,Male,23,Bachelor's,Part-Time,On-Site,Day,11,4,15,162358,1948296,84358,1,1,5,55,Yes,3,5,23,2,1,4,12.7,High,0.8909,Yes
+HOSP10228,Manipal Hospital,ICU,L5,Medical Officer,Chennai,Female,31,Diploma,Full-Time,On-Site,Day,18,1,1,130076,1560912,172648,3,5,2,30,Yes,3,48,381,9,1,2,33.5,Medium,0.8042,Yes
+HOSP10229,Mangalore Medical Centre,Laboratory,L2,IT Support Engineer,Udupi,Male,37,MD/MS,Part-Time,On-Site,Day,13,1,23,73916,886992,102548,2,4,3,56,Yes,8,90,365,10,3,5,41.5,High,0.9553,Yes
+HOSP10230,District General Hospital,Administration,L2,Medical Officer,Udupi,Female,52,PhD,Full-Time,On-Site,Rotational,6,6,14,166672,2000064,150799,4,4,2,50,Yes,14,75,86,8,3,5,1.8,High,0.831,Yes
+HOSP10231,Manipal Hospital,Pediatrics,L2,Consultant Doctor,Hubballi,Male,24,Diploma,Full-Time,On-Site,Day,12,0,6,151363,1816356,34579,5,1,3,23,Yes,7,21,164,0,0,5,0.5,Low,0.6324,No
+HOSP10232,AIIMS Mangaluru,Radiology,L2,Resident Doctor,Mangaluru,Male,24,PhD,Full-Time,On-Site,Day,5,9,27,162195,1946340,96554,5,5,2,57,Yes,9,103,84,6,3,3,11.9,High,0.8595,No
+HOSP10233,District General Hospital,Administration,L4,Staff Nurse,Udupi,Male,37,MD/MS,Contract,On-Site,Rotational,18,1,0,21811,261732,147627,5,3,5,72,Yes,14,47,101,10,2,2,38.4,High,0.9874,Yes
+HOSP10234,Fortis Hospital,IT,L2,Senior Nurse,Mysuru,Male,39,MBBS,Full-Time,On-Site,Night,18,9,4,49276,591312,53294,2,5,5,3,No,9,100,124,9,0,5,34.6,Medium,0.6424,No
+HOSP10235,AIIMS Mangaluru,ICU,L4,Physiotherapist,Udupi,Female,25,MD/MS,Full-Time,On-Site,Rotational,3,3,9,99049,1188588,49777,5,4,4,9,No,11,20,200,6,3,4,15.6,High,0.5102,Yes
+HOSP10236,Manipal Hospital,Physiotherapy,L2,Staff Nurse,Mysuru,Female,52,MD/MS,Full-Time,Hybrid,Rotational,18,0,21,175786,2109432,136978,3,2,2,62,Yes,6,32,359,7,2,5,0.6,Low,0.884,Yes
+HOSP10237,CityCare Hospital,Laboratory,L3,Physiotherapist,Bengaluru,Female,42,MD/MS,Full-Time,On-Site,Day,8,3,20,161266,1935192,40751,4,2,2,72,Yes,15,80,124,5,3,1,25.2,Medium,0.9819,Yes
+HOSP10238,Apollo Hospital,ICU,L3,IT Support Engineer,Hubballi,Female,26,PhD,Full-Time,On-Site,Rotational,15,10,3,91062,1092744,200671,5,3,4,14,No,11,55,245,7,1,2,11.1,Low,0.6656,Yes
+HOSP10239,Mangalore Medical Centre,Surgery,L2,Radiology Technician,Mangaluru,Male,55,Master's,Full-Time,On-Site,Day,3,9,13,168434,2021208,108750,2,5,4,62,Yes,2,28,390,0,0,1,33.7,Low,0.9601,Yes
+HOSP10240,Manipal Hospital,Emergency,L3,Billing Executive,Udupi,Male,42,MD/MS,Full-Time,On-Site,Night,5,4,12,72499,869988,74180,4,1,5,18,No,3,52,47,0,1,2,20.4,Medium,0.6397,Yes
+HOSP10241,District General Hospital,Pediatrics,L2,Physiotherapist,Mysuru,Female,21,Bachelor's,Full-Time,Hybrid,Night,7,8,0,64281,771372,238986,5,5,5,62,Yes,14,39,35,8,0,4,30.7,Medium,0.9678,Yes
+HOSP10242,AIIMS Mangaluru,Pharmacy,L1,Data Analyst,Kochi,Female,40,Bachelor's,Full-Time,On-Site,Day,15,0,15,62852,754224,204750,1,3,2,55,Yes,15,73,296,3,0,3,38.4,Medium,0.9763,Yes
+HOSP10243,Apollo Hospital,Emergency,L2,Pharmacist,Mangaluru,Female,42,Diploma,Full-Time,On-Site,Rotational,4,4,22,22595,271140,31644,5,3,5,20,Yes,8,17,352,2,1,3,24.3,Medium,0.6793,Yes
+HOSP10244,AIIMS Mangaluru,Pharmacy,L1,Data Analyst,Bengaluru,Female,31,Master's,Full-Time,Hybrid,Rotational,20,1,8,113930,1367160,33521,3,3,5,33,Yes,13,46,317,5,0,2,15.5,Medium,0.8452,Yes
+HOSP10245,District General Hospital,Nursing,L2,Receptionist,Mysuru,Female,33,Diploma,Full-Time,On-Site,Rotational,9,8,21,164474,1973688,11564,4,2,2,16,No,12,115,73,9,0,5,34.7,Low,0.8422,Yes
+HOSP10246,AIIMS Mangaluru,Laboratory,L3,Billing Executive,Chennai,Male,23,Bachelor's,Full-Time,On-Site,Rotational,12,5,15,110676,1328112,105155,3,5,4,17,No,7,12,307,8,3,1,12.3,Medium,0.5363,No
+HOSP10247,CityCare Hospital,Cardiology,L3,Billing Executive,Chennai,Male,29,Bachelor's,Full-Time,On-Site,Night,13,1,18,173983,2087796,201712,1,5,2,80,Yes,11,26,133,9,2,4,40.2,High,0.9897,Yes
+HOSP10248,Apollo Hospital,Radiology,L3,Medical Officer,Hubballi,Male,32,MBBS,Contract,On-Site,Day,6,2,14,37405,448860,158371,1,1,1,65,Yes,11,61,57,10,1,5,3.7,Medium,0.9558,Yes
+HOSP10249,Apollo Hospital,General Medicine,L1,Resident Doctor,Hubballi,Female,43,MD/MS,Contract,On-Site,Day,19,7,25,76122,913464,179030,3,3,2,50,Yes,0,73,389,3,3,3,37.7,Medium,0.8569,Yes
+HOSP10250,District General Hospital,Outpatient,L3,Ward Assistant,Bengaluru,Female,34,Bachelor's,Part-Time,On-Site,Night,5,0,13,146909,1762908,187150,4,3,1,64,Yes,15,95,249,8,3,5,4.6,Medium,0.9177,Yes
+HOSP10251,Mangalore Medical Centre,Emergency,L2,Consultant Doctor,Bengaluru,Female,53,PhD,Full-Time,On-Site,Night,6,2,19,21447,257364,144493,1,4,2,42,Yes,2,104,185,4,1,1,3.0,Medium,0.7201,Yes
+HOSP10252,CityCare Hospital,Pediatrics,L2,IT Support Engineer,Hubballi,Female,38,PhD,Full-Time,Hybrid,Rotational,4,9,9,28662,343944,88747,1,4,1,56,Yes,13,44,201,6,0,3,16.7,Medium,0.9537,Yes
+HOSP10253,Manipal Hospital,Outpatient,L4,Pharmacist,Udupi,Male,29,Diploma,Full-Time,On-Site,Night,20,0,20,76282,915384,11202,5,2,1,9,No,15,2,224,2,1,2,43.1,High,0.8969,No
+HOSP10254,AIIMS Mangaluru,IT,L1,Physiotherapist,Udupi,Male,43,Diploma,Full-Time,On-Site,Night,17,10,30,153971,1847652,109407,2,5,2,36,Yes,11,21,385,2,2,4,44.3,Medium,0.9388,Yes
+HOSP10255,Fortis Hospital,IT,L3,Lab Technician,Mysuru,Female,30,MD/MS,Full-Time,On-Site,Night,11,10,11,46582,558984,173257,1,1,5,47,Yes,9,26,264,2,2,4,9.5,Medium,0.8795,Yes
+HOSP10256,AIIMS Mangaluru,ICU,L3,Resident Doctor,Kochi,Male,39,MD/MS,Part-Time,On-Site,Rotational,5,7,27,85471,1025652,237735,4,1,3,68,Yes,1,54,378,7,1,3,7.1,Medium,0.8888,Yes
+HOSP10257,AIIMS Mangaluru,Outpatient,L2,Pharmacist,Mysuru,Male,25,MBBS,Contract,On-Site,Rotational,0,0,0,141513,1698156,134757,4,3,5,55,Yes,1,66,352,5,3,2,16.2,Medium,0.8103,Yes
+HOSP10258,Manipal Hospital,Pediatrics,L2,Consultant Doctor,Kochi,Female,43,Master's,Part-Time,Hybrid,Rotational,3,4,20,125578,1506936,90197,5,1,1,75,Yes,12,32,328,8,1,1,15.5,Medium,0.9801,Yes
+HOSP10259,AIIMS Mangaluru,Laboratory,L2,Medical Officer,Bengaluru,Female,50,Diploma,Full-Time,On-Site,Night,18,3,16,93871,1126452,42637,4,3,2,35,Yes,12,1,140,8,2,4,34.3,Medium,0.8885,Yes
+HOSP10260,CityCare Hospital,Nursing,L4,IT Support Engineer,Mangaluru,Female,45,MD/MS,Full-Time,On-Site,Rotational,11,6,8,101205,1214460,149438,5,5,2,30,Yes,7,74,278,7,1,3,20.3,Medium,0.709,No
+HOSP10261,CityCare Hospital,Pharmacy,L2,Resident Doctor,Mysuru,Female,48,Diploma,Full-Time,On-Site,Day,14,4,22,92081,1104972,234320,1,1,2,54,Yes,5,45,229,0,0,4,35.2,Medium,0.9586,Yes
+HOSP10262,Apollo Hospital,ICU,L2,Consultant Doctor,Mysuru,Female,54,MD/MS,Full-Time,On-Site,Rotational,2,7,18,123783,1485396,24276,1,3,2,37,Yes,11,73,329,5,1,2,33.8,Medium,0.9314,Yes
+HOSP10263,District General Hospital,IT,L2,Radiology Technician,Kochi,Female,45,Bachelor's,Full-Time,Hybrid,Night,19,10,24,101805,1221660,80946,1,5,3,72,Yes,11,102,315,3,3,1,26.2,High,0.9767,Yes
+HOSP10264,Mangalore Medical Centre,General Medicine,L3,Radiology Technician,Bengaluru,Male,30,Diploma,Full-Time,On-Site,Night,7,0,17,142698,1712376,179311,1,5,4,14,No,11,118,213,3,0,2,37.6,Medium,0.8301,Yes
+HOSP10265,Fortis Hospital,General Medicine,L1,Data Analyst,Bengaluru,Male,34,Bachelor's,Full-Time,Hybrid,Night,10,4,27,156138,1873656,75214,2,3,1,15,No,12,32,87,2,2,5,9.2,High,0.6563,Yes
+HOSP10266,AIIMS Mangaluru,Emergency,L2,Data Analyst,Chennai,Female,50,Diploma,Full-Time,On-Site,Rotational,15,3,6,28712,344544,155647,2,3,3,76,Yes,5,57,133,8,1,2,7.7,Low,0.9641,Yes
+HOSP10267,AIIMS Mangaluru,Laboratory,L3,Consultant Doctor,Kochi,Male,45,Master's,Full-Time,On-Site,Day,8,2,8,99527,1194324,172473,1,2,5,52,Yes,3,6,239,1,3,2,33.9,Low,0.9491,Yes
+HOSP10268,Manipal Hospital,Cardiology,L5,Pharmacist,Bengaluru,Female,34,MBBS,Part-Time,On-Site,Rotational,2,4,21,147453,1769436,41230,4,5,4,55,Yes,0,14,239,0,3,4,11.4,Medium,0.7259,Yes
+HOSP10269,District General Hospital,IT,L2,Data Analyst,Hubballi,Female,55,PhD,Full-Time,On-Site,Night,4,9,25,144888,1738656,210496,5,3,4,6,No,10,25,237,9,2,2,0.6,High,0.3801,No
+HOSP10270,CityCare Hospital,Physiotherapy,L2,IT Support Engineer,Udupi,Female,54,PhD,Part-Time,On-Site,Night,19,2,20,105185,1262220,213335,3,5,2,56,Yes,6,10,256,2,1,3,41.1,Medium,0.9478,Yes
+HOSP10271,Fortis Hospital,Laboratory,L2,Resident Doctor,Chennai,Female,30,PhD,Full-Time,On-Site,Day,13,7,11,117851,1414212,124086,5,1,3,54,Yes,7,37,317,3,3,4,28.2,Low,0.9386,Yes
+HOSP10272,Apollo Hospital,Nursing,L3,Pharmacist,Hubballi,Male,55,Bachelor's,Full-Time,On-Site,Night,14,2,6,179878,2158536,129526,3,4,5,51,Yes,15,26,113,3,0,4,20.3,Low,0.9435,Yes
+HOSP10273,CityCare Hospital,Pharmacy,L2,Data Analyst,Mangaluru,Female,31,MD/MS,Full-Time,On-Site,Night,5,0,13,30210,362520,245579,3,4,2,3,No,1,117,272,5,1,5,32.8,Medium,0.3948,Yes
+HOSP10274,District General Hospital,Pediatrics,L3,Senior Nurse,Mysuru,Male,31,PhD,Full-Time,On-Site,Night,3,8,14,54972,659664,199689,1,3,2,42,Yes,1,102,376,0,2,3,15.3,Low,0.7437,Yes
+HOSP10275,Mangalore Medical Centre,Outpatient,L4,Physiotherapist,Chennai,Female,41,Master's,Contract,On-Site,Rotational,7,8,14,52136,625632,154093,3,3,1,39,Yes,15,6,234,0,0,2,42.9,Medium,0.9685,Yes
+HOSP10276,Apollo Hospital,IT,L3,Senior Nurse,Mangaluru,Female,41,PhD,Full-Time,Hybrid,Night,18,5,5,134445,1613340,140521,1,5,4,29,Yes,0,0,399,1,1,5,3.6,Medium,0.5152,No
+HOSP10277,Mangalore Medical Centre,Outpatient,L2,Hospital Administrator,Mysuru,Female,42,Diploma,Full-Time,On-Site,Rotational,4,9,20,33945,407340,146729,2,3,5,9,No,3,73,277,3,3,3,29.0,Medium,0.485,Yes
+HOSP10278,Manipal Hospital,General Medicine,L4,Radiology Technician,Udupi,Male,27,Bachelor's,Full-Time,On-Site,Rotational,12,0,13,97180,1166160,35059,4,5,4,6,No,5,20,366,6,2,5,35.1,Low,0.5569,Yes
+HOSP10279,Manipal Hospital,Pediatrics,L3,Medical Officer,Bengaluru,Female,37,Diploma,Contract,On-Site,Rotational,15,7,1,88453,1061436,1532,3,3,3,35,Yes,13,78,259,5,2,1,21.4,Low,0.8923,Yes
+HOSP10280,AIIMS Mangaluru,Pediatrics,L3,Staff Nurse,Hubballi,Female,22,Diploma,Full-Time,On-Site,Day,0,1,7,103404,1240848,102666,4,5,1,34,Yes,4,29,334,10,1,2,34.1,Medium,0.846,Yes
+HOSP10281,Mangalore Medical Centre,Pediatrics,L1,Physiotherapist,Kochi,Female,32,Diploma,Part-Time,On-Site,Night,12,8,30,162296,1947552,181877,1,3,2,38,Yes,3,93,233,8,2,5,41.7,Low,0.8797,Yes
+HOSP10282,District General Hospital,General Medicine,L5,Radiology Technician,Hubballi,Male,38,MBBS,Full-Time,On-Site,Night,10,7,12,21052,252624,81551,3,2,1,35,Yes,13,7,117,6,0,1,33.6,Medium,0.9438,Yes
+HOSP10283,Fortis Hospital,Nursing,L1,Pharmacist,Udupi,Male,31,MBBS,Full-Time,On-Site,Rotational,20,2,22,45272,543264,168828,5,5,2,19,No,3,87,35,4,1,2,14.3,High,0.5114,No
+HOSP10284,Apollo Hospital,Outpatient,L2,Pharmacist,Mangaluru,Male,36,MD/MS,Full-Time,Hybrid,Rotational,7,4,5,59150,709800,71880,2,2,1,48,Yes,9,82,173,5,0,5,25.5,Low,0.9465,Yes
+HOSP10285,CityCare Hospital,Administration,L1,Pharmacist,Kochi,Female,38,Bachelor's,Full-Time,On-Site,Day,7,8,4,166388,1996656,106734,2,2,2,58,Yes,14,2,35,9,2,5,41.1,Low,0.9871,Yes
+HOSP10286,District General Hospital,Outpatient,L3,Medical Officer,Bengaluru,Male,55,Master's,Full-Time,On-Site,Day,13,0,4,156312,1875744,113997,3,2,4,48,Yes,6,54,217,8,2,5,20.5,Low,0.8784,Yes
+HOSP10287,District General Hospital,Surgery,L2,Senior Nurse,Udupi,Female,46,Master's,Contract,On-Site,Rotational,12,8,24,115095,1381140,205714,2,2,4,25,Yes,6,14,127,0,2,5,30.8,High,0.842,Yes
+HOSP10288,Manipal Hospital,Pharmacy,L1,Staff Nurse,Kochi,Male,36,Master's,Full-Time,On-Site,Day,2,3,0,86774,1041288,165278,5,1,4,35,Yes,1,35,42,10,0,4,21.2,Low,0.759,No
+HOSP10289,Mangalore Medical Centre,Physiotherapy,L1,IT Support Engineer,Udupi,Male,26,Diploma,Full-Time,On-Site,Rotational,3,3,8,61175,734100,52168,4,4,4,42,Yes,12,5,61,8,2,5,5.9,High,0.7819,No
+HOSP10290,AIIMS Mangaluru,Administration,L1,Data Analyst,Udupi,Female,32,MBBS,Full-Time,On-Site,Night,19,3,5,149637,1795644,113123,5,1,1,42,Yes,6,120,56,5,1,4,3.1,Medium,0.7347,Yes
+HOSP10291,AIIMS Mangaluru,Pharmacy,L3,Pharmacist,Bengaluru,Male,33,Bachelor's,Full-Time,On-Site,Rotational,14,9,19,34375,412500,206260,2,3,2,75,Yes,1,41,347,3,3,4,42.9,Medium,0.9717,Yes
+HOSP10292,Apollo Hospital,ICU,L3,Ward Assistant,Chennai,Female,24,Diploma,Full-Time,On-Site,Day,14,8,25,43710,524520,155622,4,3,4,32,Yes,3,49,184,4,1,1,27.8,Low,0.7962,No
+HOSP10293,Manipal Hospital,Laboratory,L2,Hospital Administrator,Mysuru,Female,59,MBBS,Full-Time,On-Site,Day,20,5,29,164246,1970952,137461,5,4,1,77,Yes,14,111,135,0,3,2,5.1,Medium,0.9587,Yes
+HOSP10294,District General Hospital,Laboratory,L2,Physiotherapist,Kochi,Male,22,MBBS,Full-Time,On-Site,Rotational,12,10,6,125026,1500312,87897,1,4,2,44,Yes,0,17,169,6,2,4,38.7,Medium,0.8704,Yes
+HOSP10295,Fortis Hospital,Radiology,L3,Resident Doctor,Bengaluru,Female,46,PhD,Full-Time,On-Site,Rotational,8,7,8,45597,547164,166919,1,4,1,44,Yes,4,101,25,7,1,3,23.8,Medium,0.8485,Yes
+HOSP10296,Manipal Hospital,Laboratory,L1,Data Analyst,Udupi,Female,47,PhD,Full-Time,On-Site,Night,9,3,4,92289,1107468,104599,4,2,4,14,No,0,82,51,10,0,4,34.9,Medium,0.5527,Yes
+HOSP10297,Apollo Hospital,Outpatient,L2,Ward Assistant,Bengaluru,Male,47,Bachelor's,Full-Time,Hybrid,Night,11,2,13,103687,1244244,79239,4,1,3,16,No,15,112,164,4,3,3,6.1,Medium,0.6419,Yes
+HOSP10298,Apollo Hospital,General Medicine,L5,Staff Nurse,Chennai,Male,35,Bachelor's,Full-Time,Hybrid,Rotational,13,0,4,136968,1643616,18642,4,3,1,11,No,3,49,313,1,0,1,40.9,Medium,0.6935,Yes
+HOSP10299,Manipal Hospital,Physiotherapy,L3,Medical Officer,Mysuru,Female,28,Bachelor's,Full-Time,On-Site,Rotational,0,9,7,58274,699288,106862,1,1,4,21,Yes,12,29,312,7,3,3,26.8,Medium,0.8446,Yes
+HOSP10300,Apollo Hospital,Cardiology,L2,IT Support Engineer,Hubballi,Male,27,Diploma,Full-Time,On-Site,Rotational,13,6,6,66634,799608,248751,5,1,5,22,Yes,8,76,196,9,2,1,33.4,Medium,0.7823,No
+HOSP10301,Manipal Hospital,Emergency,L3,IT Support Engineer,Kochi,Female,60,MD/MS,Contract,On-Site,Rotational,13,3,12,48041,576492,36509,4,1,2,77,Yes,12,38,196,6,1,1,1.9,Medium,0.9761,Yes
+HOSP10302,CityCare Hospital,Radiology,L2,Staff Nurse,Mysuru,Female,32,Bachelor's,Contract,On-Site,Day,7,7,12,156320,1875840,79417,1,4,4,11,No,11,115,80,9,3,1,14.5,Low,0.699,Yes
+HOSP10303,Manipal Hospital,Emergency,L3,Resident Doctor,Mangaluru,Male,33,PhD,Full-Time,On-Site,Day,15,2,7,103365,1240380,49237,4,4,5,67,Yes,7,11,96,8,1,3,12.4,Medium,0.9136,Yes
+HOSP10304,Mangalore Medical Centre,Pharmacy,L1,Physiotherapist,Kochi,Male,37,MD/MS,Full-Time,On-Site,Rotational,13,0,10,151275,1815300,146486,4,3,1,50,Yes,5,97,105,3,3,3,42.8,Medium,0.9019,Yes
+HOSP10305,Manipal Hospital,Emergency,L1,Receptionist,Mysuru,Male,37,Diploma,Part-Time,On-Site,Rotational,0,4,27,69986,839832,63176,4,3,1,12,No,14,58,210,10,3,1,8.7,Low,0.6736,No
+HOSP10306,Apollo Hospital,Emergency,L1,Resident Doctor,Udupi,Male,56,MD/MS,Part-Time,On-Site,Day,15,1,25,43370,520440,128633,1,3,5,56,Yes,7,75,26,8,2,1,32.0,Medium,0.9393,Yes
+HOSP10307,Mangalore Medical Centre,Radiology,L5,IT Support Engineer,Kochi,Female,41,Master's,Part-Time,On-Site,Day,17,2,17,53247,638964,79865,5,1,5,54,Yes,4,43,104,3,3,2,2.4,Low,0.8394,Yes
+HOSP10308,Apollo Hospital,ICU,L3,Consultant Doctor,Kochi,Female,28,MD/MS,Full-Time,Hybrid,Rotational,6,5,24,142403,1708836,117181,1,4,2,27,Yes,6,87,281,2,0,1,9.3,Low,0.737,Yes
+HOSP10309,AIIMS Mangaluru,Outpatient,L1,Physiotherapist,Bengaluru,Male,25,Bachelor's,Full-Time,On-Site,Day,14,2,18,137544,1650528,62059,1,2,1,43,Yes,7,3,278,10,3,5,15.6,High,0.8766,Yes
+HOSP10310,AIIMS Mangaluru,Pediatrics,L1,Staff Nurse,Udupi,Male,46,Diploma,Part-Time,On-Site,Night,16,2,5,149506,1794072,49150,4,1,5,18,No,6,35,66,2,3,2,35.9,Medium,0.7697,Yes
+HOSP10311,Mangalore Medical Centre,Laboratory,L3,IT Support Engineer,Mangaluru,Female,36,Bachelor's,Full-Time,On-Site,Night,18,5,21,80982,971784,88367,3,5,3,45,Yes,13,113,360,9,3,2,35.7,Medium,0.9361,Yes
+HOSP10312,CityCare Hospital,Laboratory,L1,IT Support Engineer,Hubballi,Female,56,PhD,Full-Time,On-Site,Rotational,12,4,1,83180,998160,41091,3,1,3,2,No,3,47,113,1,2,2,42.9,High,0.6414,Yes
+HOSP10313,AIIMS Mangaluru,General Medicine,L2,Pharmacist,Chennai,Female,48,Master's,Full-Time,On-Site,Rotational,8,9,27,126534,1518408,204196,3,4,5,19,No,4,13,243,9,1,5,41.3,Low,0.7541,No
+HOSP10314,Manipal Hospital,Radiology,L5,Staff Nurse,Mysuru,Female,49,PhD,Full-Time,On-Site,Night,14,8,12,42644,511728,903,1,5,2,24,Yes,12,80,298,2,1,2,4.1,High,0.7453,Yes
+HOSP10315,Apollo Hospital,General Medicine,L2,Receptionist,Bengaluru,Male,32,Bachelor's,Full-Time,Hybrid,Rotational,2,0,22,56493,677916,241024,4,1,1,74,Yes,13,48,22,7,2,2,37.4,Low,0.9911,Yes
+HOSP10316,AIIMS Mangaluru,Cardiology,L3,Staff Nurse,Mysuru,Female,57,Bachelor's,Full-Time,On-Site,Rotational,0,2,24,101824,1221888,54235,3,4,3,55,Yes,9,66,148,10,0,3,20.6,Medium,0.9008,Yes
+HOSP10317,AIIMS Mangaluru,Cardiology,L5,Receptionist,Mangaluru,Female,50,Bachelor's,Full-Time,On-Site,Night,15,2,27,153031,1836372,189637,2,4,5,80,Yes,5,101,342,7,0,3,39.0,Medium,0.9791,Yes
+HOSP10318,CityCare Hospital,General Medicine,L2,Physiotherapist,Mangaluru,Male,43,MBBS,Full-Time,On-Site,Rotational,7,10,25,65289,783468,55342,2,2,5,60,Yes,13,86,268,1,2,1,4.5,High,0.9414,Yes
+HOSP10319,Mangalore Medical Centre,Radiology,L1,Hospital Administrator,Kochi,Female,36,Master's,Full-Time,On-Site,Day,12,5,10,160215,1922580,173795,2,1,4,54,Yes,13,76,248,10,1,1,37.1,Medium,0.9787,Yes
+HOSP10320,Mangalore Medical Centre,General Medicine,L2,Consultant Doctor,Chennai,Female,34,Bachelor's,Full-Time,On-Site,Day,7,7,0,171612,2059344,35572,5,4,5,34,Yes,11,8,346,1,0,4,7.6,Medium,0.7438,No
+HOSP10321,District General Hospital,Laboratory,L4,Data Analyst,Mangaluru,Male,30,Bachelor's,Full-Time,Hybrid,Day,16,2,23,53481,641772,17610,4,3,2,77,Yes,15,20,150,1,2,5,15.4,Medium,0.9727,Yes
+HOSP10322,CityCare Hospital,Administration,L4,Staff Nurse,Mysuru,Male,27,PhD,Full-Time,Hybrid,Day,13,2,1,95097,1141164,34052,1,4,3,58,Yes,10,104,247,9,1,3,1.8,Low,0.9091,Yes
+HOSP10323,Manipal Hospital,Surgery,L4,Ward Assistant,Udupi,Male,57,PhD,Part-Time,On-Site,Night,20,5,29,40578,486936,98993,1,2,4,38,Yes,5,71,196,6,0,1,6.0,Medium,0.7858,Yes
+HOSP10324,Mangalore Medical Centre,Physiotherapy,L1,Radiology Technician,Udupi,Female,49,Bachelor's,Full-Time,On-Site,Rotational,20,7,16,161859,1942308,87063,4,4,3,56,Yes,12,80,342,5,0,5,20.3,Low,0.9365,Yes
+HOSP10325,Apollo Hospital,Emergency,L4,Lab Technician,Kochi,Female,23,Diploma,Full-Time,On-Site,Rotational,6,5,7,90048,1080576,168622,5,1,3,66,Yes,8,15,330,10,2,2,36.9,Medium,0.9759,Yes
+HOSP10326,CityCare Hospital,Surgery,L4,Lab Technician,Hubballi,Male,35,MBBS,Full-Time,On-Site,Rotational,14,9,1,159668,1916016,185105,4,1,2,33,Yes,9,15,50,0,1,5,34.9,Medium,0.8999,Yes
+HOSP10327,AIIMS Mangaluru,Outpatient,L3,Staff Nurse,Mysuru,Male,56,PhD,Contract,Hybrid,Night,15,2,5,169002,2028024,160083,5,5,5,40,Yes,13,27,85,1,0,3,11.0,High,0.8624,Yes
+HOSP10328,Apollo Hospital,Radiology,L5,Receptionist,Mysuru,Female,39,Diploma,Full-Time,On-Site,Night,18,3,30,113737,1364844,233883,3,1,2,21,Yes,13,50,225,0,2,4,7.3,Medium,0.7048,Yes
+HOSP10329,Apollo Hospital,Nursing,L4,Ward Assistant,Mangaluru,Male,33,MBBS,Full-Time,On-Site,Night,5,0,21,36687,440244,165836,3,5,5,26,Yes,1,55,120,10,0,3,17.8,High,0.5407,No
+HOSP10330,AIIMS Mangaluru,Surgery,L3,Hospital Administrator,Chennai,Male,41,Bachelor's,Full-Time,On-Site,Day,0,7,4,140540,1686480,97540,5,3,4,20,Yes,5,79,339,6,1,1,39.8,Low,0.7726,Yes
+HOSP10331,CityCare Hospital,Physiotherapy,L3,Pharmacist,Mysuru,Male,57,Master's,Full-Time,On-Site,Day,11,3,15,48183,578196,53533,4,2,2,40,Yes,12,56,50,5,3,1,4.6,Low,0.8745,Yes
+HOSP10332,AIIMS Mangaluru,Cardiology,L2,Receptionist,Bengaluru,Female,47,MD/MS,Contract,Hybrid,Rotational,17,5,7,38758,465096,155136,3,3,2,30,Yes,2,109,392,1,0,5,24.7,Medium,0.6888,Yes
+HOSP10333,District General Hospital,Pharmacy,L1,Medical Officer,Hubballi,Female,49,MD/MS,Part-Time,On-Site,Rotational,15,10,18,150154,1801848,123989,4,5,1,26,Yes,13,51,210,1,1,3,4.5,Medium,0.7104,Yes
+HOSP10334,Apollo Hospital,Emergency,L3,Medical Officer,Mangaluru,Female,40,Bachelor's,Full-Time,On-Site,Day,11,2,15,114368,1372416,180653,3,4,2,36,Yes,1,45,85,1,0,1,21.4,Medium,0.7463,Yes
+HOSP10335,Fortis Hospital,Physiotherapy,L2,Physiotherapist,Bengaluru,Female,45,PhD,Full-Time,On-Site,Day,19,10,12,63891,766692,120388,4,4,1,65,Yes,5,77,322,7,3,2,6.1,Medium,0.8616,Yes
+HOSP10336,Fortis Hospital,Pediatrics,L4,Lab Technician,Kochi,Female,26,Diploma,Full-Time,On-Site,Rotational,12,10,25,64901,778812,28702,4,3,5,53,Yes,3,109,254,6,3,2,4.1,Low,0.75,Yes
+HOSP10337,Manipal Hospital,Nursing,L5,Staff Nurse,Udupi,Female,56,Master's,Full-Time,On-Site,Day,7,5,30,121912,1462944,216773,2,4,5,8,No,4,107,297,0,0,4,9.0,Medium,0.3694,No
+HOSP10338,Mangalore Medical Centre,Radiology,L4,Medical Officer,Kochi,Male,22,MBBS,Full-Time,On-Site,Rotational,0,10,19,89062,1068744,123482,5,5,5,41,Yes,4,37,221,3,2,5,11.9,Low,0.7113,Yes
+HOSP10339,AIIMS Mangaluru,Emergency,L1,Staff Nurse,Udupi,Female,42,Bachelor's,Full-Time,On-Site,Rotational,20,8,6,170635,2047620,8631,1,2,1,35,Yes,2,83,369,10,0,1,12.8,Low,0.8074,Yes
+HOSP10340,AIIMS Mangaluru,Outpatient,L2,Physiotherapist,Kochi,Female,52,Master's,Full-Time,On-Site,Rotational,6,8,30,90008,1080096,87388,5,1,5,9,No,15,108,244,3,1,4,29.2,Low,0.7887,Yes
+HOSP10341,Manipal Hospital,Surgery,L1,Lab Technician,Mysuru,Male,36,Master's,Full-Time,On-Site,Night,14,9,15,151847,1822164,124798,4,5,3,58,Yes,11,47,102,6,2,2,2.9,Medium,0.8949,Yes
+HOSP10342,Manipal Hospital,Cardiology,L3,Resident Doctor,Bengaluru,Female,38,PhD,Contract,On-Site,Rotational,12,2,22,164900,1978800,70043,4,5,2,39,Yes,3,40,65,1,1,4,4.1,Medium,0.6832,No
+HOSP10343,Manipal Hospital,ICU,L4,Hospital Administrator,Udupi,Female,25,MBBS,Full-Time,On-Site,Night,12,2,15,35974,431688,197135,5,1,1,53,Yes,2,97,108,3,1,4,8.9,Low,0.823,Yes
+HOSP10344,Apollo Hospital,Administration,L4,Radiology Technician,Mangaluru,Male,56,Master's,Part-Time,On-Site,Rotational,8,3,28,171460,2057520,160053,4,1,5,38,Yes,6,117,205,0,2,1,39.3,Medium,0.8834,Yes
+HOSP10345,District General Hospital,Pediatrics,L2,Radiology Technician,Bengaluru,Male,50,PhD,Full-Time,On-Site,Night,14,6,11,98591,1183092,35764,3,2,3,6,No,14,58,394,10,3,1,28.5,Medium,0.7769,Yes
+HOSP10346,AIIMS Mangaluru,Nursing,L4,Medical Officer,Mangaluru,Male,39,Diploma,Full-Time,On-Site,Day,3,2,13,36615,439380,232843,4,2,2,3,No,15,92,208,10,1,1,33.0,High,0.7925,Yes
+HOSP10347,Apollo Hospital,Administration,L4,Radiology Technician,Bengaluru,Female,43,PhD,Full-Time,On-Site,Night,12,9,23,40838,490056,181585,5,2,2,14,No,0,66,265,3,0,5,17.0,Medium,0.4268,Yes
+HOSP10348,Manipal Hospital,Emergency,L2,IT Support Engineer,Bengaluru,Male,54,Diploma,Full-Time,On-Site,Night,11,7,17,58728,704736,129014,5,4,5,75,Yes,15,73,65,10,3,4,10.0,Low,0.9591,Yes
+HOSP10349,AIIMS Mangaluru,Cardiology,L4,Hospital Administrator,Kochi,Female,33,Diploma,Full-Time,Hybrid,Rotational,4,10,26,134249,1610988,113076,5,5,3,47,Yes,14,83,276,0,3,4,2.2,High,0.8134,Yes
+HOSP10350,Apollo Hospital,Cardiology,L2,Receptionist,Udupi,Female,49,Master's,Full-Time,On-Site,Rotational,6,7,27,96000,1152000,99007,2,1,1,5,No,15,65,371,1,2,5,22.2,Low,0.7653,Yes
+HOSP10351,District General Hospital,Physiotherapy,L2,Resident Doctor,Udupi,Female,56,PhD,Contract,On-Site,Rotational,7,5,17,70798,849576,197270,2,5,5,72,Yes,5,26,80,1,0,2,26.1,Medium,0.9748,Yes
+HOSP10352,Apollo Hospital,Surgery,L3,Hospital Administrator,Chennai,Female,42,Diploma,Full-Time,On-Site,Day,4,3,15,168694,2024328,24940,2,5,2,34,Yes,3,31,124,9,0,3,40.4,Medium,0.877,Yes
+HOSP10353,District General Hospital,Physiotherapy,L2,IT Support Engineer,Bengaluru,Male,56,MBBS,Full-Time,On-Site,Rotational,8,10,19,162608,1951296,107418,2,2,2,71,Yes,15,55,356,2,3,2,39.8,Low,0.9944,Yes
+HOSP10354,Manipal Hospital,Laboratory,L3,Billing Executive,Mysuru,Male,29,Master's,Contract,On-Site,Night,13,10,15,154772,1857264,71792,2,2,2,70,Yes,0,9,33,7,1,5,19.4,Medium,0.9552,Yes
+HOSP10355,District General Hospital,Surgery,L3,Receptionist,Mysuru,Female,59,PhD,Full-Time,On-Site,Rotational,11,4,12,28248,338976,159504,2,5,5,67,Yes,0,39,320,10,1,4,19.3,Low,0.9242,Yes
+HOSP10356,AIIMS Mangaluru,Laboratory,L3,IT Support Engineer,Mangaluru,Male,39,PhD,Full-Time,On-Site,Rotational,3,1,25,63291,759492,8367,2,2,4,57,Yes,4,16,96,5,0,4,7.7,High,0.8913,Yes
+HOSP10357,Manipal Hospital,Physiotherapy,L2,Staff Nurse,Mangaluru,Female,58,MD/MS,Full-Time,On-Site,Day,19,5,28,100629,1207548,111764,5,4,4,76,Yes,13,57,249,5,3,1,12.0,Low,0.971,Yes
+HOSP10358,AIIMS Mangaluru,Laboratory,L3,Physiotherapist,Kochi,Female,26,PhD,Part-Time,On-Site,Rotational,7,2,8,143612,1723344,234673,1,1,4,18,No,4,117,186,8,3,1,41.7,Medium,0.7989,Yes
+HOSP10359,Fortis Hospital,Pediatrics,L3,Data Analyst,Bengaluru,Female,35,Master's,Contract,On-Site,Day,16,5,25,35177,422124,156583,2,5,3,61,Yes,9,96,85,7,3,4,6.8,Medium,0.914,Yes
+HOSP10360,CityCare Hospital,Physiotherapy,L3,Resident Doctor,Mangaluru,Male,40,MBBS,Contract,On-Site,Night,7,4,27,168555,2022660,8573,5,1,5,70,Yes,6,5,51,1,2,4,43.6,Low,0.9816,Yes
+HOSP10361,District General Hospital,Surgery,L2,Data Analyst,Mangaluru,Female,29,PhD,Full-Time,On-Site,Night,20,1,8,61815,741780,15582,1,4,2,9,No,12,38,115,5,0,1,23.0,Medium,0.779,Yes
+HOSP10362,CityCare Hospital,IT,L1,Physiotherapist,Hubballi,Female,52,MD/MS,Part-Time,On-Site,Day,0,4,12,56533,678396,136450,2,2,3,24,Yes,11,110,77,0,0,1,20.8,High,0.8639,Yes
+HOSP10363,CityCare Hospital,Physiotherapy,L3,Physiotherapist,Bengaluru,Male,24,Master's,Full-Time,Hybrid,Rotational,19,4,28,18026,216312,65296,1,3,4,43,Yes,3,17,123,8,1,2,8.3,Medium,0.7934,No
+HOSP10364,District General Hospital,ICU,L1,IT Support Engineer,Kochi,Male,38,Diploma,Full-Time,On-Site,Day,1,8,3,122997,1475964,144572,1,4,1,57,Yes,13,72,331,3,1,4,29.9,Medium,0.9655,Yes
+HOSP10365,Manipal Hospital,Nursing,L3,Lab Technician,Mangaluru,Male,25,Bachelor's,Full-Time,On-Site,Day,3,10,8,78611,943332,65841,3,3,3,24,Yes,8,71,153,3,0,4,21.0,Medium,0.6759,No
+HOSP10366,Fortis Hospital,General Medicine,L4,IT Support Engineer,Kochi,Male,40,Bachelor's,Full-Time,Hybrid,Rotational,20,7,14,105242,1262904,21881,4,1,3,75,Yes,3,88,236,8,0,5,17.0,High,0.9382,Yes
+HOSP10367,AIIMS Mangaluru,General Medicine,L3,Data Analyst,Udupi,Female,43,Diploma,Contract,On-Site,Rotational,0,6,13,173732,2084784,70233,3,5,5,39,Yes,6,94,86,2,1,2,12.3,Low,0.8031,Yes
+HOSP10368,Apollo Hospital,Surgery,L3,IT Support Engineer,Kochi,Male,31,PhD,Contract,On-Site,Rotational,6,2,18,122913,1474956,182614,1,2,3,75,Yes,4,41,197,4,0,3,3.5,Medium,0.9564,Yes
+HOSP10369,AIIMS Mangaluru,Surgery,L5,Staff Nurse,Mysuru,Female,57,Bachelor's,Full-Time,On-Site,Rotational,0,9,11,60082,720984,65285,5,4,5,69,Yes,14,3,393,0,1,3,23.6,Low,0.9747,Yes
+HOSP10370,Apollo Hospital,Administration,L4,IT Support Engineer,Mysuru,Male,42,Bachelor's,Full-Time,Hybrid,Rotational,8,3,20,165330,1983960,59547,2,2,1,9,No,15,19,266,5,0,3,14.4,High,0.784,Yes
+HOSP10371,AIIMS Mangaluru,Nursing,L4,Ward Assistant,Kochi,Male,24,Diploma,Full-Time,Hybrid,Night,2,5,25,121613,1459356,193223,4,3,2,65,Yes,4,27,313,2,2,1,32.0,Medium,0.9451,Yes
+HOSP10372,District General Hospital,Nursing,L4,Radiology Technician,Mysuru,Male,49,PhD,Part-Time,On-Site,Day,11,2,24,116315,1395780,138294,2,3,2,24,Yes,5,39,254,0,2,3,32.7,High,0.7763,Yes
+HOSP10373,Fortis Hospital,Pediatrics,L1,Data Analyst,Udupi,Male,54,PhD,Full-Time,On-Site,Day,18,10,5,107690,1292280,7933,5,5,4,70,Yes,7,64,150,9,3,5,15.3,High,0.9016,Yes
+HOSP10374,Apollo Hospital,Surgery,L1,Ward Assistant,Bengaluru,Male,33,Diploma,Full-Time,On-Site,Night,14,8,2,113220,1358640,83385,4,3,4,10,No,14,103,131,5,0,1,30.3,Low,0.7774,Yes
+HOSP10375,Mangalore Medical Centre,Nursing,L3,Lab Technician,Mysuru,Male,29,PhD,Full-Time,On-Site,Rotational,15,7,25,33389,400668,220844,3,5,1,35,Yes,4,118,73,9,1,1,12.0,Low,0.7221,No
+HOSP10376,Manipal Hospital,Outpatient,L2,Physiotherapist,Mysuru,Female,51,PhD,Full-Time,On-Site,Night,9,5,24,109860,1318320,240839,1,4,2,48,Yes,14,43,309,1,0,3,32.9,Low,0.9707,Yes
+HOSP10377,AIIMS Mangaluru,Administration,L2,Medical Officer,Kochi,Male,27,Master's,Full-Time,On-Site,Rotational,5,3,21,176757,2121084,98706,5,5,4,47,Yes,2,22,258,7,0,1,1.2,Medium,0.6978,Yes
+HOSP10378,AIIMS Mangaluru,Laboratory,L2,Hospital Administrator,Udupi,Male,24,Master's,Contract,On-Site,Night,16,6,19,176267,2115204,209509,1,3,3,6,No,5,56,259,10,3,2,7.2,Medium,0.4905,No
+HOSP10379,Apollo Hospital,Cardiology,L3,Receptionist,Chennai,Male,39,Diploma,Full-Time,On-Site,Day,20,10,15,39797,477564,138012,1,1,5,76,Yes,13,46,314,1,1,2,11.4,High,0.984,Yes
+HOSP10380,Manipal Hospital,Cardiology,L3,Radiology Technician,Chennai,Male,50,MBBS,Full-Time,On-Site,Day,16,2,29,129975,1559700,245398,2,5,4,50,Yes,11,12,131,3,0,3,34.9,Medium,0.9565,Yes
+HOSP10381,Manipal Hospital,Laboratory,L3,Receptionist,Chennai,Female,51,Bachelor's,Full-Time,On-Site,Rotational,20,9,19,115169,1382028,84590,5,2,1,16,No,13,15,107,2,1,5,3.5,Medium,0.6665,No
+HOSP10382,District General Hospital,Radiology,L3,IT Support Engineer,Chennai,Male,55,Master's,Full-Time,On-Site,Rotational,18,7,23,84332,1011984,106399,1,1,2,31,Yes,1,89,247,8,0,1,8.9,High,0.6998,Yes
+HOSP10383,Mangalore Medical Centre,Administration,L4,Billing Executive,Bengaluru,Male,41,Bachelor's,Contract,Hybrid,Rotational,17,0,22,156260,1875120,59145,3,5,1,25,Yes,11,54,323,1,3,4,16.5,Low,0.7846,Yes
+HOSP10384,District General Hospital,Outpatient,L2,Radiology Technician,Kochi,Male,51,MD/MS,Full-Time,On-Site,Day,10,2,16,41696,500352,174682,4,2,5,21,Yes,11,94,324,2,1,3,0.9,Low,0.624,No
+HOSP10385,District General Hospital,Nursing,L4,Staff Nurse,Kochi,Male,39,Diploma,Full-Time,On-Site,Rotational,6,10,15,20024,240288,57520,5,1,5,12,No,7,113,309,6,0,1,34.4,Medium,0.7219,No
+HOSP10386,District General Hospital,IT,L1,Billing Executive,Hubballi,Female,51,MBBS,Full-Time,On-Site,Day,9,4,5,155656,1867872,4544,2,5,1,11,No,7,64,227,3,2,3,25.4,Medium,0.5948,Yes
+HOSP10387,District General Hospital,Administration,L5,Consultant Doctor,Udupi,Male,52,MD/MS,Full-Time,On-Site,Day,6,4,7,108998,1307976,221926,5,4,4,70,Yes,14,80,375,5,1,3,40.6,High,0.9804,Yes
+HOSP10388,District General Hospital,Physiotherapy,L3,Senior Nurse,Chennai,Female,22,MD/MS,Full-Time,Hybrid,Rotational,4,9,18,176116,2113392,54812,2,2,4,0,No,2,15,293,2,3,5,1.9,Medium,0.2643,No
+HOSP10389,Fortis Hospital,Laboratory,L2,Senior Nurse,Bengaluru,Male,30,PhD,Full-Time,On-Site,Day,11,1,29,23285,279420,202682,4,4,2,32,Yes,11,118,89,0,2,4,12.6,High,0.7091,No
+HOSP10390,Manipal Hospital,Outpatient,L1,Senior Nurse,Udupi,Female,22,MD/MS,Full-Time,On-Site,Rotational,15,9,24,25370,304440,182572,3,3,2,13,No,7,36,389,10,1,1,33.0,Medium,0.7291,Yes
+HOSP10391,District General Hospital,ICU,L2,Consultant Doctor,Chennai,Female,22,Diploma,Full-Time,On-Site,Day,20,7,25,35903,430836,170690,1,5,3,63,Yes,8,51,239,5,1,3,30.5,Low,0.9721,Yes
+HOSP10392,Manipal Hospital,Pharmacy,L1,Receptionist,Bengaluru,Male,44,Master's,Full-Time,On-Site,Rotational,17,4,1,115904,1390848,119090,5,5,3,42,Yes,4,116,250,3,1,3,11.3,Low,0.736,Yes
+HOSP10393,Manipal Hospital,Emergency,L1,Staff Nurse,Udupi,Male,37,Diploma,Full-Time,On-Site,Rotational,2,6,13,40995,491940,99054,2,2,2,57,Yes,4,9,309,1,1,1,27.0,Low,0.9644,Yes
+HOSP10394,CityCare Hospital,Laboratory,L3,Billing Executive,Kochi,Female,52,Master's,Full-Time,On-Site,Night,19,6,21,123160,1477920,156516,4,5,3,40,Yes,5,37,326,6,0,3,35.8,Low,0.8892,No
+HOSP10395,Fortis Hospital,IT,L3,Consultant Doctor,Kochi,Female,36,MD/MS,Full-Time,On-Site,Rotational,14,4,11,106377,1276524,217054,1,3,1,80,Yes,6,43,380,9,0,3,2.0,Medium,0.9507,Yes
+HOSP10396,District General Hospital,Nursing,L3,Senior Nurse,Mangaluru,Male,36,MD/MS,Contract,On-Site,Day,4,7,16,162638,1951656,225151,4,5,4,67,Yes,2,94,368,4,1,3,32.4,Medium,0.9314,No
+HOSP10397,AIIMS Mangaluru,IT,L4,Lab Technician,Mysuru,Female,59,MBBS,Contract,On-Site,Rotational,12,8,27,55822,669864,187658,3,1,3,38,Yes,4,73,274,5,3,2,11.7,Medium,0.7684,Yes
+HOSP10398,Apollo Hospital,IT,L3,Resident Doctor,Chennai,Female,51,Master's,Full-Time,Hybrid,Night,18,3,26,125412,1504944,155861,1,4,3,0,No,0,53,161,5,0,2,42.7,Medium,0.6141,No
+HOSP10399,Mangalore Medical Centre,Surgery,L3,Billing Executive,Hubballi,Female,44,MD/MS,Full-Time,On-Site,Day,11,3,14,69222,830664,132689,1,3,1,40,Yes,10,112,88,8,1,4,24.5,Low,0.9078,Yes
+HOSP10400,AIIMS Mangaluru,Surgery,L1,Data Analyst,Udupi,Male,21,PhD,Full-Time,Hybrid,Night,20,7,17,112088,1345056,100834,1,3,5,44,Yes,9,97,108,1,1,5,2.0,Medium,0.7841,Yes
+HOSP10401,Fortis Hospital,Pediatrics,L3,Physiotherapist,Hubballi,Female,31,Bachelor's,Full-Time,On-Site,Day,4,0,15,108450,1301400,134405,2,4,2,78,Yes,4,50,378,5,3,1,18.5,Medium,0.9647,Yes
+HOSP10402,Apollo Hospital,Laboratory,L2,Consultant Doctor,Mangaluru,Female,41,MBBS,Part-Time,On-Site,Rotational,5,3,12,127366,1528392,40002,1,4,1,80,Yes,3,51,155,8,3,5,43.5,High,0.9813,Yes
+HOSP10403,Fortis Hospital,Pediatrics,L5,Staff Nurse,Mysuru,Female,24,Diploma,Full-Time,On-Site,Night,6,5,20,128078,1536936,194692,4,3,5,12,No,0,69,162,3,3,5,33.0,High,0.4001,No
+HOSP10404,Manipal Hospital,Laboratory,L4,Staff Nurse,Udupi,Male,27,MBBS,Full-Time,On-Site,Day,9,3,16,81853,982236,218760,2,4,1,70,Yes,6,91,358,10,2,2,13.9,High,0.9408,Yes
+HOSP10405,Apollo Hospital,Administration,L3,Data Analyst,Bengaluru,Male,46,Bachelor's,Part-Time,On-Site,Night,15,5,7,141794,1701528,220699,1,2,4,8,No,14,91,206,5,1,4,26.1,Medium,0.7762,Yes
+HOSP10406,Manipal Hospital,Emergency,L1,Ward Assistant,Chennai,Female,32,Master's,Contract,On-Site,Night,7,4,0,171405,2056860,131583,4,4,1,62,Yes,0,58,30,6,3,5,27.2,Low,0.9123,Yes
+HOSP10407,AIIMS Mangaluru,IT,L4,Resident Doctor,Mysuru,Male,51,Diploma,Full-Time,On-Site,Rotational,8,8,28,165030,1980360,112850,4,1,1,22,Yes,12,12,167,0,1,5,1.5,Low,0.7276,Yes
+HOSP10408,AIIMS Mangaluru,Administration,L4,Billing Executive,Kochi,Female,37,Diploma,Full-Time,On-Site,Rotational,3,9,24,70442,845304,130011,5,1,4,53,Yes,7,40,311,4,0,3,8.5,High,0.8667,Yes
+HOSP10409,Apollo Hospital,Pharmacy,L1,Medical Officer,Mangaluru,Male,53,Master's,Full-Time,On-Site,Night,20,8,25,170026,2040312,168922,4,2,2,46,Yes,15,11,357,3,1,1,25.1,Medium,0.9608,Yes
+HOSP10410,Apollo Hospital,Cardiology,L2,Radiology Technician,Mysuru,Male,31,MBBS,Full-Time,On-Site,Rotational,20,3,26,27675,332100,121548,3,4,5,38,Yes,13,49,57,9,1,4,18.4,Medium,0.8586,Yes
+HOSP10411,District General Hospital,General Medicine,L4,Senior Nurse,Chennai,Female,48,MD/MS,Contract,On-Site,Rotational,7,3,2,107590,1291080,213244,1,1,3,25,Yes,9,103,364,1,2,1,9.0,High,0.7892,Yes
+HOSP10412,Fortis Hospital,Physiotherapy,L1,Billing Executive,Mysuru,Male,52,MBBS,Part-Time,On-Site,Day,6,7,15,126570,1518840,217125,1,5,2,0,No,11,56,227,1,0,2,34.9,Medium,0.7652,Yes
+HOSP10413,District General Hospital,Outpatient,L4,IT Support Engineer,Chennai,Male,21,Bachelor's,Part-Time,On-Site,Rotational,14,9,27,49661,595932,31786,1,4,1,13,No,1,49,229,1,0,5,22.3,Low,0.5952,Yes
+HOSP10414,Fortis Hospital,Laboratory,L2,Medical Officer,Kochi,Male,48,PhD,Full-Time,On-Site,Night,20,3,1,82289,987468,205428,4,2,3,73,Yes,9,120,20,6,2,5,14.3,Low,0.9559,Yes
+HOSP10415,District General Hospital,Pharmacy,L1,Ward Assistant,Udupi,Female,27,MD/MS,Part-Time,On-Site,Rotational,2,1,14,35184,422208,36244,4,4,4,64,Yes,12,118,379,10,3,1,7.7,Low,0.9262,Yes
+HOSP10416,Manipal Hospital,Cardiology,L4,Senior Nurse,Bengaluru,Male,22,MBBS,Full-Time,On-Site,Rotational,16,1,0,65963,791556,205786,1,3,2,68,Yes,11,56,84,10,3,2,27.7,Medium,0.9783,Yes
+HOSP10417,Apollo Hospital,Nursing,L2,Resident Doctor,Kochi,Male,44,PhD,Full-Time,On-Site,Night,10,0,8,174894,2098728,67261,2,3,5,66,Yes,4,53,20,3,1,3,30.1,Medium,0.9532,Yes
+HOSP10418,AIIMS Mangaluru,Radiology,L3,Hospital Administrator,Bengaluru,Female,24,PhD,Full-Time,On-Site,Rotational,8,4,15,23267,279204,18477,2,1,2,48,Yes,12,65,262,5,2,3,30.3,High,0.9503,Yes
+HOSP10419,Fortis Hospital,Emergency,L1,IT Support Engineer,Udupi,Male,39,Master's,Full-Time,On-Site,Rotational,4,5,30,80814,969768,177605,3,3,2,49,Yes,5,7,400,6,3,5,10.3,Medium,0.7748,Yes
+HOSP10420,Fortis Hospital,Outpatient,L1,Ward Assistant,Mysuru,Male,46,Bachelor's,Part-Time,On-Site,Night,9,8,3,54025,648300,165541,5,2,3,57,Yes,8,105,335,8,0,5,27.0,Low,0.9473,Yes
+HOSP10421,AIIMS Mangaluru,Pediatrics,L3,Receptionist,Bengaluru,Male,31,Bachelor's,Full-Time,On-Site,Rotational,14,4,11,139246,1670952,8496,3,1,4,52,Yes,14,62,44,10,2,4,40.8,Low,0.9673,Yes
+HOSP10422,District General Hospital,Pediatrics,L3,Senior Nurse,Mangaluru,Male,60,Bachelor's,Full-Time,On-Site,Night,13,5,0,95605,1147260,120522,1,2,4,56,Yes,13,8,366,1,3,1,16.2,Medium,0.9611,Yes
+HOSP10423,Fortis Hospital,Administration,L3,Resident Doctor,Mangaluru,Male,31,MD/MS,Full-Time,On-Site,Rotational,3,5,0,150053,1800636,143342,1,2,2,17,No,6,59,69,9,0,5,9.9,High,0.6641,Yes
+HOSP10424,Mangalore Medical Centre,Outpatient,L4,Pharmacist,Chennai,Female,23,Diploma,Full-Time,On-Site,Rotational,20,2,6,61436,737232,207080,1,3,4,15,No,5,119,367,8,2,2,34.9,Low,0.7304,Yes
+HOSP10425,Manipal Hospital,Surgery,L3,Medical Officer,Kochi,Female,32,MD/MS,Full-Time,On-Site,Day,19,3,17,167544,2010528,20724,5,3,3,1,No,4,113,260,10,1,1,8.4,High,0.293,No
+HOSP10426,Apollo Hospital,Cardiology,L1,Medical Officer,Udupi,Male,23,MBBS,Full-Time,Hybrid,Night,1,0,22,168408,2020896,30416,4,2,3,12,No,5,62,51,4,1,4,11.8,Medium,0.4708,Yes
+HOSP10427,AIIMS Mangaluru,Radiology,L2,Radiology Technician,Chennai,Male,47,PhD,Part-Time,On-Site,Rotational,11,3,27,174659,2095908,35575,5,3,5,44,Yes,14,71,52,5,0,3,5.0,Low,0.8422,No
+HOSP10428,Apollo Hospital,Pharmacy,L4,Data Analyst,Kochi,Male,22,PhD,Full-Time,On-Site,Day,0,0,30,95192,1142304,212262,3,3,4,79,Yes,13,114,219,5,3,4,12.4,High,0.9552,Yes
+HOSP10429,Mangalore Medical Centre,Emergency,L4,Resident Doctor,Kochi,Female,36,Diploma,Full-Time,On-Site,Day,19,4,22,138591,1663092,76614,4,3,5,71,Yes,10,2,253,10,3,1,18.8,Low,0.9628,Yes
+HOSP10430,Fortis Hospital,Cardiology,L3,Consultant Doctor,Chennai,Female,22,MBBS,Full-Time,On-Site,Night,4,10,14,102511,1230132,93566,4,4,1,42,Yes,3,72,45,2,2,3,3.4,Medium,0.5742,Yes
+HOSP10431,Fortis Hospital,Radiology,L2,Pharmacist,Hubballi,Male,50,Diploma,Part-Time,On-Site,Night,5,10,25,27665,331980,204180,3,2,3,71,Yes,0,12,61,10,0,2,39.3,Low,0.9747,Yes
+HOSP10432,Mangalore Medical Centre,General Medicine,L2,Hospital Administrator,Kochi,Male,40,PhD,Full-Time,On-Site,Night,10,7,29,176169,2114028,148480,4,5,2,53,Yes,14,8,80,10,3,3,23.4,High,0.9361,Yes
+HOSP10433,AIIMS Mangaluru,Laboratory,L3,Lab Technician,Hubballi,Female,58,MD/MS,Full-Time,Hybrid,Day,7,7,24,109277,1311324,127192,2,2,3,73,Yes,11,94,60,9,1,3,26.7,High,0.9827,Yes
+HOSP10434,Manipal Hospital,Pediatrics,L4,Senior Nurse,Mangaluru,Male,48,Bachelor's,Full-Time,On-Site,Day,6,4,12,70474,845688,19359,3,1,1,30,Yes,8,88,149,6,0,2,17.0,High,0.7966,Yes
+HOSP10435,CityCare Hospital,Pharmacy,L3,IT Support Engineer,Mangaluru,Female,45,PhD,Full-Time,On-Site,Rotational,3,9,15,174257,2091084,139770,3,3,2,75,Yes,15,51,374,6,1,5,30.3,Low,0.9875,Yes
+HOSP10436,AIIMS Mangaluru,Pediatrics,L4,Pharmacist,Kochi,Female,52,Master's,Full-Time,Hybrid,Night,5,1,6,93911,1126932,201464,2,3,4,8,No,10,107,373,7,0,5,19.7,Low,0.6363,No
+HOSP10437,CityCare Hospital,Pharmacy,L4,Resident Doctor,Mangaluru,Male,30,Bachelor's,Full-Time,Hybrid,Day,15,5,15,110643,1327716,224135,5,5,4,72,Yes,4,61,217,4,2,3,34.4,Medium,0.9373,Yes
+HOSP10438,Mangalore Medical Centre,Administration,L1,Receptionist,Udupi,Female,60,PhD,Full-Time,On-Site,Night,19,0,12,48484,581808,170564,5,1,3,47,Yes,7,118,306,1,3,3,37.1,Low,0.9258,Yes
+HOSP10439,District General Hospital,Surgery,L2,Physiotherapist,Hubballi,Male,53,MD/MS,Full-Time,Hybrid,Rotational,14,6,13,119165,1429980,205853,5,4,2,17,No,6,108,170,2,3,4,30.4,Medium,0.596,Yes
+HOSP10440,CityCare Hospital,Pharmacy,L1,Senior Nurse,Hubballi,Male,33,Diploma,Full-Time,On-Site,Day,13,10,16,43835,526020,43634,4,2,2,10,No,7,7,223,8,3,5,22.4,Medium,0.59,No
+HOSP10441,Manipal Hospital,Pediatrics,L2,Staff Nurse,Kochi,Male,57,Bachelor's,Full-Time,Hybrid,Day,11,3,11,114453,1373436,117255,2,4,5,61,Yes,0,110,201,5,1,2,35.3,Low,0.9432,Yes
+HOSP10442,District General Hospital,Administration,L4,Medical Officer,Mangaluru,Male,36,MD/MS,Full-Time,On-Site,Day,11,4,28,71790,861480,42864,3,1,1,18,No,8,94,390,7,3,3,22.5,Medium,0.6496,Yes
+HOSP10443,CityCare Hospital,Pharmacy,L2,Receptionist,Bengaluru,Male,42,MBBS,Full-Time,On-Site,Rotational,15,5,23,27643,331716,94482,3,5,4,73,Yes,0,44,226,7,0,3,5.5,High,0.8529,Yes
+HOSP10444,Mangalore Medical Centre,General Medicine,L3,Data Analyst,Chennai,Male,40,Master's,Full-Time,On-Site,Rotational,14,10,23,93846,1126152,37355,3,1,3,23,Yes,2,52,166,4,1,4,5.7,High,0.5236,No
+HOSP10445,District General Hospital,Surgery,L1,Resident Doctor,Chennai,Female,47,Bachelor's,Full-Time,On-Site,Rotational,12,0,19,168023,2016276,37690,4,5,2,12,No,7,108,223,0,2,4,42.7,Medium,0.6647,No
+HOSP10446,Mangalore Medical Centre,Pharmacy,L2,Hospital Administrator,Hubballi,Female,36,Diploma,Full-Time,On-Site,Rotational,10,8,12,164305,1971660,168886,4,4,4,45,Yes,11,62,67,5,1,4,10.0,Medium,0.8092,Yes
+HOSP10447,CityCare Hospital,Administration,L2,Staff Nurse,Kochi,Female,54,MBBS,Contract,On-Site,Rotational,16,9,23,31200,374400,162717,5,4,3,52,Yes,10,94,277,6,2,1,36.8,Low,0.9588,Yes
+HOSP10448,Mangalore Medical Centre,Nursing,L2,Radiology Technician,Kochi,Female,52,MD/MS,Contract,On-Site,Night,20,3,19,70275,843300,215886,4,1,4,28,Yes,0,80,158,8,1,2,11.5,Low,0.6508,No
+HOSP10449,Manipal Hospital,Cardiology,L3,IT Support Engineer,Udupi,Male,46,Master's,Full-Time,On-Site,Rotational,14,7,14,107001,1284012,203811,5,1,3,35,Yes,13,110,191,1,3,1,19.7,Medium,0.8759,Yes
+HOSP10450,CityCare Hospital,ICU,L2,Billing Executive,Mysuru,Female,45,Diploma,Full-Time,On-Site,Day,13,4,23,170363,2044356,56630,5,3,4,70,Yes,0,56,120,1,2,3,29.6,High,0.9077,Yes
+HOSP10451,CityCare Hospital,Radiology,L3,Ward Assistant,Mysuru,Female,22,MD/MS,Full-Time,On-Site,Rotational,9,10,20,60448,725376,179243,3,5,5,16,No,5,53,206,9,3,4,7.6,Low,0.4295,No
+HOSP10452,CityCare Hospital,ICU,L1,Lab Technician,Hubballi,Female,32,MD/MS,Part-Time,On-Site,Rotational,11,7,3,179652,2155824,21658,4,3,1,47,Yes,4,18,334,0,1,4,33.3,Low,0.9021,Yes
+HOSP10453,AIIMS Mangaluru,Nursing,L1,Lab Technician,Chennai,Male,60,Bachelor's,Full-Time,On-Site,Night,15,0,21,109685,1316220,239204,5,2,4,76,Yes,10,66,395,4,2,4,31.2,Low,0.9775,Yes
+HOSP10454,AIIMS Mangaluru,ICU,L2,Receptionist,Udupi,Female,29,Bachelor's,Full-Time,Hybrid,Night,14,7,1,170418,2045016,15797,2,2,1,23,Yes,5,45,313,1,0,5,24.7,Low,0.8263,Yes
+HOSP10455,AIIMS Mangaluru,Nursing,L3,Staff Nurse,Udupi,Male,32,Diploma,Part-Time,On-Site,Day,9,10,27,28619,343428,58799,2,1,4,53,Yes,2,93,382,2,0,2,25.7,Low,0.9292,Yes
+HOSP10456,Manipal Hospital,Emergency,L3,Billing Executive,Udupi,Female,46,PhD,Full-Time,On-Site,Rotational,3,10,17,123454,1481448,118301,4,4,2,0,No,9,9,40,1,1,1,5.2,Medium,0.4042,Yes
+HOSP10457,District General Hospital,Nursing,L2,Billing Executive,Hubballi,Male,29,PhD,Part-Time,On-Site,Rotational,8,3,1,19766,237192,229414,3,2,5,78,Yes,11,112,317,10,2,2,19.9,Medium,0.9733,Yes
+HOSP10458,Mangalore Medical Centre,Nursing,L2,Medical Officer,Mysuru,Male,30,MD/MS,Full-Time,On-Site,Rotational,20,1,24,21549,258588,227566,3,2,5,66,Yes,9,92,29,3,0,4,4.4,Low,0.9223,No
+HOSP10459,Fortis Hospital,IT,L3,Radiology Technician,Chennai,Female,52,Bachelor's,Full-Time,On-Site,Night,19,10,14,167765,2013180,52236,5,3,1,5,No,5,103,206,10,3,3,14.2,Low,0.348,No
+HOSP10460,CityCare Hospital,Nursing,L1,Physiotherapist,Udupi,Male,54,Master's,Contract,On-Site,Rotational,8,5,29,125938,1511256,6265,4,3,2,77,Yes,1,17,152,2,3,5,40.6,Medium,0.9676,Yes
+HOSP10461,Mangalore Medical Centre,General Medicine,L2,Medical Officer,Chennai,Male,40,Master's,Full-Time,On-Site,Rotational,20,1,25,145673,1748076,125611,2,2,3,54,Yes,7,11,52,8,1,2,26.1,Medium,0.9617,Yes
+HOSP10462,CityCare Hospital,Cardiology,L4,Pharmacist,Mangaluru,Female,59,MD/MS,Full-Time,On-Site,Rotational,19,4,18,66328,795936,203206,5,1,5,37,Yes,14,48,88,9,3,3,33.6,Low,0.9347,Yes
+HOSP10463,Manipal Hospital,Laboratory,L3,Data Analyst,Kochi,Female,22,Bachelor's,Full-Time,On-Site,Night,10,1,14,43301,519612,231791,5,3,2,32,Yes,11,22,99,1,3,4,26.0,High,0.8264,Yes
+HOSP10464,CityCare Hospital,Pharmacy,L2,Lab Technician,Kochi,Female,21,Diploma,Contract,On-Site,Night,10,2,25,62763,753156,213750,1,2,2,7,No,5,61,210,6,3,4,9.1,Medium,0.4834,Yes
+HOSP10465,AIIMS Mangaluru,Radiology,L4,Pharmacist,Chennai,Male,56,Diploma,Full-Time,Hybrid,Rotational,6,10,19,169837,2038044,184566,4,4,1,78,Yes,12,10,120,10,0,4,27.0,Medium,0.9808,Yes
+HOSP10466,Fortis Hospital,Surgery,L4,Hospital Administrator,Bengaluru,Male,44,Diploma,Full-Time,On-Site,Rotational,20,5,9,62787,753444,121754,5,3,2,77,Yes,15,72,304,2,2,4,34.1,High,0.9825,Yes
+HOSP10467,Apollo Hospital,Cardiology,L2,Senior Nurse,Bengaluru,Male,47,Master's,Full-Time,On-Site,Rotational,9,0,27,138675,1664100,183340,2,2,2,19,No,12,117,240,9,1,5,6.7,Medium,0.731,Yes
+HOSP10468,CityCare Hospital,Pediatrics,L3,Consultant Doctor,Hubballi,Female,22,Bachelor's,Full-Time,On-Site,Day,3,5,23,25425,305100,246524,1,5,3,54,Yes,3,55,72,7,2,5,36.9,High,0.9283,Yes
+HOSP10469,Mangalore Medical Centre,Laboratory,L3,Resident Doctor,Hubballi,Male,51,Bachelor's,Full-Time,On-Site,Day,4,2,19,30857,370284,158070,2,3,1,47,Yes,3,87,179,3,2,2,25.2,High,0.8649,No
+HOSP10470,AIIMS Mangaluru,Emergency,L2,IT Support Engineer,Kochi,Male,34,Master's,Full-Time,On-Site,Rotational,4,6,10,110999,1331988,91426,3,5,1,55,Yes,13,88,399,3,2,4,0.7,Low,0.8664,No
+HOSP10471,Apollo Hospital,Emergency,L2,Radiology Technician,Mangaluru,Male,22,Diploma,Full-Time,On-Site,Night,10,1,25,171516,2058192,225486,1,3,2,9,No,10,54,61,8,0,5,23.6,High,0.707,Yes
+HOSP10472,Fortis Hospital,Physiotherapy,L2,Medical Officer,Mysuru,Male,49,Diploma,Contract,Hybrid,Rotational,8,5,9,59457,713484,192411,1,3,3,51,Yes,6,24,66,10,3,3,18.1,Low,0.9182,Yes
+HOSP10473,Apollo Hospital,Nursing,L3,Lab Technician,Mysuru,Male,35,MD/MS,Full-Time,On-Site,Night,15,7,28,149776,1797312,145378,5,5,4,49,Yes,13,110,178,2,1,5,13.7,Low,0.8923,Yes
+HOSP10474,AIIMS Mangaluru,Cardiology,L2,Pharmacist,Hubballi,Male,32,PhD,Full-Time,On-Site,Day,8,0,22,23452,281424,195078,3,1,5,33,Yes,15,8,203,6,2,5,34.8,High,0.9193,Yes
+HOSP10475,District General Hospital,Administration,L4,Ward Assistant,Mangaluru,Male,57,MBBS,Part-Time,On-Site,Rotational,3,10,4,129153,1549836,249789,5,2,1,35,Yes,2,11,265,0,3,2,40.5,High,0.869,Yes
+HOSP10476,District General Hospital,IT,L3,Receptionist,Hubballi,Female,48,PhD,Full-Time,On-Site,Rotational,1,10,8,56862,682344,178417,4,1,3,60,Yes,10,10,30,6,0,5,34.4,Medium,0.9702,Yes
+HOSP10477,Apollo Hospital,ICU,L1,Data Analyst,Mysuru,Female,40,Bachelor's,Contract,On-Site,Night,13,8,19,36300,435600,142957,2,1,3,15,No,2,112,173,9,2,3,38.2,Low,0.7724,Yes
+HOSP10478,Manipal Hospital,Pediatrics,L3,Data Analyst,Chennai,Female,59,Bachelor's,Full-Time,On-Site,Night,2,4,18,158638,1903656,109681,2,2,2,78,Yes,5,37,239,10,3,4,40.9,Medium,0.9858,Yes
+HOSP10479,Mangalore Medical Centre,Emergency,L2,Senior Nurse,Hubballi,Male,44,Bachelor's,Full-Time,On-Site,Rotational,17,4,12,156573,1878876,43826,5,4,5,17,No,8,27,174,1,0,1,41.1,Medium,0.8059,No
+HOSP10480,Mangalore Medical Centre,Radiology,L3,Resident Doctor,Udupi,Male,41,PhD,Full-Time,On-Site,Day,20,4,17,19845,238140,55597,2,1,1,70,Yes,0,7,358,5,3,2,5.6,Low,0.9306,Yes
+HOSP10481,Apollo Hospital,Emergency,L3,Resident Doctor,Chennai,Female,30,MBBS,Full-Time,On-Site,Rotational,5,5,16,137342,1648104,138515,2,1,4,46,Yes,4,73,384,8,1,3,20.8,High,0.8662,No
+HOSP10482,CityCare Hospital,Surgery,L2,Data Analyst,Hubballi,Male,34,MD/MS,Full-Time,On-Site,Day,10,1,26,57181,686172,97375,4,1,2,31,Yes,0,88,302,5,3,2,0.5,Medium,0.4831,No
+HOSP10483,CityCare Hospital,Pharmacy,L2,Data Analyst,Kochi,Female,57,PhD,Full-Time,On-Site,Rotational,20,5,5,52404,628848,247077,3,4,1,42,Yes,0,46,206,2,3,4,23.0,Low,0.7493,Yes
+HOSP10484,Mangalore Medical Centre,Emergency,L1,Billing Executive,Hubballi,Male,38,MBBS,Part-Time,On-Site,Rotational,17,10,9,40564,486768,17084,1,3,1,39,Yes,2,35,81,0,1,5,41.6,Low,0.9106,Yes
+HOSP10485,Mangalore Medical Centre,Surgery,L1,Medical Officer,Kochi,Male,44,Diploma,Full-Time,On-Site,Rotational,11,3,1,115898,1390776,89447,5,5,3,64,Yes,2,49,167,3,1,5,9.4,Medium,0.8568,Yes
+HOSP10486,District General Hospital,Cardiology,L2,Billing Executive,Mangaluru,Female,34,Diploma,Full-Time,On-Site,Night,4,7,23,36227,434724,4383,5,5,5,34,Yes,3,106,163,3,3,3,29.0,Medium,0.6715,Yes
+HOSP10487,Manipal Hospital,Cardiology,L2,Radiology Technician,Mysuru,Female,54,Bachelor's,Full-Time,On-Site,Rotational,8,10,5,113259,1359108,92313,4,4,4,68,Yes,2,8,122,7,1,4,29.2,Low,0.9383,No
+HOSP10488,AIIMS Mangaluru,IT,L5,Physiotherapist,Chennai,Female,32,Master's,Contract,On-Site,Night,19,8,27,142451,1709412,34361,4,1,5,49,Yes,5,104,319,9,3,1,7.6,High,0.8207,Yes
+HOSP10489,CityCare Hospital,Physiotherapy,L2,Hospital Administrator,Chennai,Female,42,Bachelor's,Full-Time,On-Site,Day,17,8,27,35215,422580,80294,1,5,3,11,No,11,59,112,9,2,1,11.1,Low,0.6992,No
+HOSP10490,Mangalore Medical Centre,Laboratory,L2,Ward Assistant,Bengaluru,Female,26,Master's,Full-Time,On-Site,Rotational,18,7,20,148577,1782924,61331,3,4,4,75,Yes,14,71,305,6,3,5,21.1,Medium,0.9635,Yes
+HOSP10491,District General Hospital,Emergency,L3,Hospital Administrator,Bengaluru,Male,56,MBBS,Full-Time,On-Site,Rotational,2,2,12,89074,1068888,95057,5,2,4,57,Yes,3,66,138,9,0,4,8.9,Medium,0.8185,Yes
+HOSP10492,Fortis Hospital,Radiology,L1,Medical Officer,Mysuru,Male,56,Diploma,Full-Time,On-Site,Rotational,8,9,17,170771,2049252,151601,4,5,2,62,Yes,7,52,48,6,1,4,26.5,Low,0.9492,Yes
+HOSP10493,District General Hospital,Emergency,L5,Pharmacist,Bengaluru,Male,42,PhD,Full-Time,On-Site,Night,3,10,6,126621,1519452,189646,5,2,4,72,Yes,0,81,49,6,2,3,22.1,Medium,0.8997,Yes
+HOSP10494,CityCare Hospital,Physiotherapy,L3,Consultant Doctor,Chennai,Female,34,Master's,Contract,On-Site,Day,16,10,1,161526,1938312,219699,2,1,1,48,Yes,7,109,379,1,1,1,23.6,High,0.9461,Yes
+HOSP10495,CityCare Hospital,Outpatient,L4,Data Analyst,Hubballi,Female,36,MBBS,Full-Time,On-Site,Day,16,3,28,124759,1497108,121685,5,5,5,35,Yes,10,98,385,8,1,3,6.5,Medium,0.6862,Yes
+HOSP10496,District General Hospital,Radiology,L1,Staff Nurse,Mangaluru,Female,56,Diploma,Contract,Hybrid,Rotational,1,0,13,146471,1757652,236402,3,4,5,53,Yes,0,16,307,5,1,2,23.5,Medium,0.8707,Yes
+HOSP10497,AIIMS Mangaluru,General Medicine,L2,Physiotherapist,Mangaluru,Female,45,PhD,Full-Time,On-Site,Rotational,8,8,4,39711,476532,96917,3,3,2,46,Yes,10,99,157,1,0,4,2.7,High,0.7798,Yes
+HOSP10498,Apollo Hospital,Nursing,L2,Radiology Technician,Mysuru,Female,52,Master's,Full-Time,On-Site,Night,8,4,17,164131,1969572,231988,5,5,4,31,Yes,0,52,70,0,0,1,39.7,High,0.7832,Yes
+HOSP10499,CityCare Hospital,Laboratory,L4,Senior Nurse,Bengaluru,Female,53,Bachelor's,Contract,Hybrid,Rotational,4,5,10,66398,796776,30932,2,5,3,52,Yes,6,27,311,10,3,3,15.8,Low,0.9155,Yes
+HOSP10500,District General Hospital,General Medicine,L1,Physiotherapist,Hubballi,Male,56,Bachelor's,Full-Time,On-Site,Day,14,2,9,19286,231432,240705,3,5,1,31,Yes,0,113,253,0,0,5,38.6,Medium,0.7203,Yes
+HOSP10501,Mangalore Medical Centre,Outpatient,L2,Data Analyst,Mangaluru,Male,40,Bachelor's,Contract,On-Site,Night,14,10,10,126304,1515648,1908,4,5,2,61,Yes,8,62,74,0,1,2,31.7,Low,0.9669,No
+HOSP10502,District General Hospital,Outpatient,L5,Lab Technician,Mangaluru,Male,38,MBBS,Full-Time,On-Site,Day,2,9,26,122959,1475508,236330,5,4,4,36,Yes,13,14,311,3,2,3,34.6,Low,0.9073,Yes
+HOSP10503,Manipal Hospital,Physiotherapy,L2,Radiology Technician,Udupi,Male,58,Bachelor's,Contract,On-Site,Night,18,7,1,175557,2106684,244561,2,4,3,37,Yes,14,18,259,3,2,5,14.5,Low,0.9155,Yes
+HOSP10504,Apollo Hospital,Emergency,L2,Consultant Doctor,Udupi,Male,23,MD/MS,Full-Time,Hybrid,Day,2,6,14,77967,935604,161430,4,3,4,29,Yes,7,85,331,8,2,1,10.6,High,0.6049,No
+HOSP10505,Fortis Hospital,Physiotherapy,L1,Lab Technician,Chennai,Female,43,Diploma,Full-Time,On-Site,Rotational,5,0,6,115803,1389636,30412,5,4,2,57,Yes,12,69,55,0,1,1,18.6,Medium,0.938,Yes
+HOSP10506,AIIMS Mangaluru,Physiotherapy,L5,Physiotherapist,Mangaluru,Female,52,MBBS,Full-Time,On-Site,Day,3,9,8,147745,1772940,128319,2,4,3,31,Yes,14,46,108,2,0,2,1.6,Low,0.8654,Yes
+HOSP10507,Fortis Hospital,Outpatient,L1,Staff Nurse,Mysuru,Female,36,PhD,Full-Time,On-Site,Rotational,12,4,4,72583,870996,83710,4,1,3,65,Yes,0,70,231,2,2,5,41.4,Low,0.9455,Yes
+HOSP10508,Apollo Hospital,Laboratory,L3,Staff Nurse,Kochi,Female,25,Bachelor's,Full-Time,On-Site,Night,12,9,6,142077,1704924,212104,3,1,3,50,Yes,1,107,337,7,1,4,17.7,High,0.8084,Yes
+HOSP10509,Apollo Hospital,General Medicine,L4,Billing Executive,Kochi,Female,24,Diploma,Full-Time,On-Site,Rotational,10,8,19,129359,1552308,2928,5,2,3,10,No,1,47,384,1,1,1,44.5,Medium,0.7306,Yes
+HOSP10510,Apollo Hospital,ICU,L2,Consultant Doctor,Hubballi,Female,41,Master's,Full-Time,On-Site,Rotational,4,10,1,45086,541032,65158,5,3,4,58,Yes,1,72,264,5,2,4,34.4,Medium,0.8586,No
+HOSP10511,Fortis Hospital,Emergency,L3,Resident Doctor,Mangaluru,Male,60,Bachelor's,Full-Time,On-Site,Rotational,0,5,2,165556,1986672,161704,3,1,3,19,No,5,19,106,10,2,4,4.1,High,0.4871,Yes
+HOSP10512,Mangalore Medical Centre,Outpatient,L1,IT Support Engineer,Mangaluru,Female,34,Diploma,Part-Time,On-Site,Day,8,7,1,122132,1465584,32309,1,3,4,36,Yes,3,36,259,3,3,3,29.9,Medium,0.8,No
+HOSP10513,Apollo Hospital,General Medicine,L2,Ward Assistant,Chennai,Female,59,MD/MS,Full-Time,On-Site,Rotational,16,9,20,77263,927156,9280,4,3,3,72,Yes,7,74,339,9,3,3,12.6,Low,0.9249,Yes
+HOSP10514,District General Hospital,ICU,L4,Data Analyst,Mangaluru,Female,51,Master's,Full-Time,On-Site,Rotational,0,0,21,167747,2012964,40449,3,5,3,48,Yes,0,1,207,5,1,1,11.3,Medium,0.7641,Yes
+HOSP10515,Fortis Hospital,ICU,L4,Senior Nurse,Mysuru,Female,34,MD/MS,Full-Time,On-Site,Day,2,9,30,138155,1657860,218243,5,3,2,18,No,14,63,76,4,3,4,11.9,High,0.624,Yes
+HOSP10516,Apollo Hospital,Cardiology,L3,Data Analyst,Udupi,Male,26,PhD,Full-Time,On-Site,Day,14,10,30,78664,943968,26957,4,5,4,54,Yes,9,85,132,8,3,3,41.3,High,0.9299,Yes
+HOSP10517,District General Hospital,IT,L3,Resident Doctor,Mangaluru,Male,32,Diploma,Full-Time,On-Site,Night,20,6,22,173752,2085024,167967,4,2,4,39,Yes,13,111,242,8,2,5,22.7,Low,0.8889,Yes
+HOSP10518,Mangalore Medical Centre,Emergency,L1,Hospital Administrator,Mangaluru,Female,36,MD/MS,Full-Time,Hybrid,Rotational,9,2,18,166149,1993788,70499,1,2,5,6,No,3,35,89,0,3,5,30.3,Low,0.6249,No
+HOSP10519,Manipal Hospital,ICU,L1,Billing Executive,Chennai,Male,37,PhD,Contract,On-Site,Night,7,8,3,138474,1661688,93057,5,2,2,4,No,15,4,246,2,1,5,13.0,Low,0.7398,Yes
+HOSP10520,Mangalore Medical Centre,Outpatient,L1,Billing Executive,Bengaluru,Male,43,Diploma,Part-Time,On-Site,Night,11,5,23,94968,1139616,229223,2,5,4,41,Yes,9,63,275,0,2,5,23.8,Medium,0.8504,Yes
+HOSP10521,Apollo Hospital,Cardiology,L2,Hospital Administrator,Chennai,Female,34,Diploma,Full-Time,On-Site,Day,14,4,19,152563,1830756,110065,1,5,2,47,Yes,10,6,199,5,3,4,16.1,Medium,0.8955,Yes
+HOSP10522,Fortis Hospital,General Medicine,L2,Receptionist,Chennai,Female,27,MD/MS,Full-Time,Hybrid,Day,8,7,6,152464,1829568,242930,1,2,2,6,No,4,69,203,2,3,5,14.8,Low,0.4945,Yes
+HOSP10523,CityCare Hospital,Surgery,L2,Hospital Administrator,Mysuru,Female,52,Diploma,Full-Time,On-Site,Rotational,9,7,27,85804,1029648,152767,2,5,2,10,No,8,119,210,0,3,4,11.5,High,0.4856,Yes
+HOSP10524,Apollo Hospital,Emergency,L2,Staff Nurse,Hubballi,Female,35,Bachelor's,Full-Time,On-Site,Day,19,2,21,56400,676800,74893,2,4,1,72,Yes,4,21,251,5,0,1,18.7,Medium,0.9617,Yes
+HOSP10525,CityCare Hospital,Laboratory,L2,Staff Nurse,Mangaluru,Female,37,Diploma,Full-Time,On-Site,Rotational,8,1,6,46088,553056,194195,1,4,4,48,Yes,12,73,295,4,3,1,29.9,Medium,0.9403,Yes
+HOSP10526,District General Hospital,Physiotherapy,L3,Pharmacist,Chennai,Male,54,MBBS,Full-Time,Hybrid,Rotational,14,1,16,174537,2094444,25176,4,5,2,29,Yes,10,45,252,7,3,5,10.4,High,0.6876,No
+HOSP10527,Manipal Hospital,Radiology,L4,Lab Technician,Chennai,Female,25,PhD,Full-Time,On-Site,Day,20,4,18,105893,1270716,149481,3,5,1,40,Yes,2,39,73,1,1,5,43.5,Medium,0.8702,Yes
+HOSP10528,AIIMS Mangaluru,Radiology,L2,Physiotherapist,Bengaluru,Female,47,Diploma,Full-Time,On-Site,Rotational,20,9,21,23969,287628,56967,3,1,1,2,No,10,60,276,7,3,5,6.0,Medium,0.3775,Yes
+HOSP10529,Mangalore Medical Centre,General Medicine,L5,Senior Nurse,Chennai,Female,43,MBBS,Full-Time,Hybrid,Day,0,6,15,26981,323772,987,1,1,3,39,Yes,3,109,109,4,0,1,21.9,Medium,0.8631,Yes
+HOSP10530,Manipal Hospital,Administration,L4,Consultant Doctor,Kochi,Male,60,Diploma,Contract,On-Site,Rotational,1,7,2,170104,2041248,185534,4,3,3,50,Yes,9,45,245,7,2,3,4.3,High,0.8362,Yes
+HOSP10531,Apollo Hospital,Administration,L1,Physiotherapist,Hubballi,Female,34,Diploma,Full-Time,On-Site,Day,18,9,14,72091,865092,198573,2,3,4,31,Yes,6,83,266,9,3,1,1.5,Low,0.6542,Yes
+HOSP10532,CityCare Hospital,General Medicine,L4,Data Analyst,Mangaluru,Female,35,MD/MS,Part-Time,On-Site,Rotational,13,7,13,125154,1501848,236692,1,3,3,47,Yes,0,27,170,3,3,5,41.6,High,0.8948,Yes
+HOSP10533,Mangalore Medical Centre,Outpatient,L3,Pharmacist,Mangaluru,Female,53,Bachelor's,Contract,Hybrid,Night,7,7,14,42408,508896,96854,5,2,4,70,Yes,10,86,132,3,1,3,36.6,Low,0.9832,Yes
+HOSP10534,CityCare Hospital,ICU,L3,Staff Nurse,Bengaluru,Male,51,PhD,Full-Time,On-Site,Night,5,9,13,173313,2079756,26015,4,4,1,70,Yes,5,34,288,9,3,3,31.4,Low,0.9569,Yes
+HOSP10535,Fortis Hospital,IT,L2,Billing Executive,Mysuru,Female,55,Bachelor's,Full-Time,Hybrid,Rotational,11,10,6,65940,791280,225799,5,2,1,19,No,7,0,176,3,3,2,39.0,Low,0.852,Yes
+HOSP10536,CityCare Hospital,Emergency,L3,Consultant Doctor,Mangaluru,Female,37,Master's,Full-Time,On-Site,Day,14,2,24,21657,259884,112350,5,5,4,34,Yes,0,28,385,10,3,4,36.2,High,0.7103,Yes
+HOSP10537,Fortis Hospital,Radiology,L2,Staff Nurse,Kochi,Female,48,MD/MS,Contract,On-Site,Rotational,13,10,2,39230,470760,66404,1,1,3,23,Yes,7,8,366,5,3,5,29.3,Medium,0.8508,Yes
+HOSP10538,District General Hospital,Radiology,L3,IT Support Engineer,Mangaluru,Male,39,MD/MS,Contract,Hybrid,Night,20,1,29,167752,2013024,116751,4,5,3,39,Yes,6,8,370,3,2,4,38.2,Low,0.9031,Yes
+HOSP10539,Mangalore Medical Centre,IT,L3,Senior Nurse,Kochi,Female,43,Bachelor's,Full-Time,On-Site,Rotational,0,3,16,102731,1232772,128807,5,5,4,76,Yes,0,21,318,8,1,2,17.9,High,0.9273,Yes
+HOSP10540,Mangalore Medical Centre,ICU,L3,Lab Technician,Hubballi,Female,52,MD/MS,Full-Time,On-Site,Day,10,0,9,156939,1883268,181353,4,1,5,51,Yes,8,62,178,8,2,4,25.1,Medium,0.8883,Yes
+HOSP10541,AIIMS Mangaluru,Radiology,L3,Receptionist,Hubballi,Female,60,Bachelor's,Part-Time,On-Site,Rotational,2,2,14,22329,267948,168218,3,5,3,38,Yes,10,65,349,2,0,5,35.0,High,0.8844,Yes
+HOSP10542,Apollo Hospital,Physiotherapy,L3,Physiotherapist,Udupi,Male,33,MD/MS,Full-Time,On-Site,Day,18,10,28,53865,646380,48231,5,3,2,67,Yes,2,79,244,6,3,2,4.3,Low,0.8539,Yes
+HOSP10543,Fortis Hospital,Laboratory,L1,Physiotherapist,Udupi,Female,40,Diploma,Part-Time,On-Site,Night,17,8,5,55869,670428,160104,5,1,3,60,Yes,1,103,33,4,0,4,38.7,Low,0.9429,Yes
+HOSP10544,AIIMS Mangaluru,Emergency,L2,Hospital Administrator,Kochi,Female,55,Bachelor's,Contract,On-Site,Day,19,6,27,138185,1658220,28305,4,5,5,75,Yes,6,57,374,8,2,1,7.5,Medium,0.9369,Yes
+HOSP10545,CityCare Hospital,Pharmacy,L4,Resident Doctor,Mysuru,Female,25,Bachelor's,Full-Time,On-Site,Rotational,1,6,16,101984,1223808,54306,3,3,1,80,Yes,10,69,128,1,0,3,39.0,High,0.9831,Yes
+HOSP10546,CityCare Hospital,Radiology,L2,Hospital Administrator,Mangaluru,Male,29,MBBS,Full-Time,On-Site,Day,6,0,16,143172,1718064,219248,5,3,1,64,Yes,2,54,115,2,3,2,14.4,Medium,0.8812,Yes
+HOSP10547,AIIMS Mangaluru,General Medicine,L1,IT Support Engineer,Chennai,Male,49,MD/MS,Full-Time,On-Site,Rotational,7,6,13,119069,1428828,121139,1,4,1,61,Yes,0,12,214,9,0,1,15.0,Medium,0.9038,Yes
+HOSP10548,Mangalore Medical Centre,Laboratory,L1,Consultant Doctor,Mangaluru,Female,26,MD/MS,Full-Time,Hybrid,Rotational,18,9,23,107711,1292532,18318,4,3,3,80,Yes,9,96,77,4,2,5,3.8,High,0.9284,Yes
+HOSP10549,CityCare Hospital,Radiology,L2,Ward Assistant,Udupi,Male,45,Bachelor's,Full-Time,On-Site,Day,14,6,24,84252,1011024,144318,4,2,1,1,No,12,18,371,4,3,3,39.9,Low,0.7688,No
+HOSP10550,District General Hospital,Nursing,L5,Hospital Administrator,Chennai,Male,51,Diploma,Part-Time,On-Site,Rotational,9,3,17,97386,1168632,164916,5,1,5,5,No,2,78,313,9,1,2,8.3,Medium,0.3264,Yes
+HOSP10551,District General Hospital,Physiotherapy,L3,Receptionist,Kochi,Male,42,Diploma,Contract,On-Site,Day,0,6,24,136728,1640736,163674,3,1,5,74,Yes,5,32,173,6,2,3,28.5,Medium,0.9663,Yes
+HOSP10552,AIIMS Mangaluru,Laboratory,L5,Pharmacist,Chennai,Female,22,PhD,Contract,On-Site,Night,5,7,4,150783,1809396,21584,5,1,3,42,Yes,2,73,83,7,3,2,29.2,Low,0.88,Yes
+HOSP10553,Fortis Hospital,Cardiology,L3,Hospital Administrator,Mangaluru,Female,25,Diploma,Full-Time,On-Site,Rotational,12,2,28,43801,525612,247399,2,5,2,39,Yes,4,64,177,7,1,2,13.0,Low,0.8205,Yes
+HOSP10554,Fortis Hospital,Pharmacy,L2,Hospital Administrator,Mangaluru,Male,47,MD/MS,Contract,On-Site,Rotational,13,9,7,108709,1304508,15169,5,5,3,38,Yes,8,59,284,0,0,4,44.4,High,0.9298,Yes
+HOSP10555,AIIMS Mangaluru,Pediatrics,L2,Ward Assistant,Mysuru,Male,45,MBBS,Full-Time,Hybrid,Rotational,2,1,6,71270,855240,25968,2,2,1,27,Yes,6,11,140,0,0,3,3.4,High,0.7118,Yes
+HOSP10556,Fortis Hospital,General Medicine,L3,Resident Doctor,Bengaluru,Male,28,Bachelor's,Full-Time,Hybrid,Day,10,6,22,73535,882420,137457,1,3,3,79,Yes,1,42,307,2,0,3,27.6,Low,0.9718,Yes
+HOSP10557,Mangalore Medical Centre,General Medicine,L1,Senior Nurse,Chennai,Female,21,Master's,Full-Time,On-Site,Night,2,4,3,34220,410640,204830,4,5,5,62,Yes,0,92,30,0,3,1,21.8,Low,0.8645,Yes
+HOSP10558,Mangalore Medical Centre,Emergency,L4,Pharmacist,Udupi,Female,40,MBBS,Full-Time,Hybrid,Day,18,4,17,31392,376704,122684,4,3,3,63,Yes,6,16,233,0,0,5,11.4,Low,0.9133,No
+HOSP10559,Fortis Hospital,IT,L4,Hospital Administrator,Udupi,Male,43,Master's,Contract,On-Site,Rotational,9,4,4,151318,1815816,115391,3,3,3,11,No,3,67,181,9,0,1,7.8,High,0.4153,No
+HOSP10560,District General Hospital,Laboratory,L2,IT Support Engineer,Bengaluru,Male,52,MBBS,Full-Time,On-Site,Night,14,6,15,38010,456120,25444,5,5,2,40,Yes,10,28,124,7,1,4,33.3,Medium,0.906,No
+HOSP10561,Fortis Hospital,ICU,L5,Billing Executive,Mangaluru,Male,31,Diploma,Full-Time,Hybrid,Rotational,10,8,13,144951,1739412,234856,1,5,5,28,Yes,6,54,166,0,1,2,41.3,High,0.8905,Yes
+HOSP10562,Mangalore Medical Centre,General Medicine,L4,Lab Technician,Mysuru,Male,59,MD/MS,Full-Time,On-Site,Day,14,10,26,86358,1036296,106081,2,2,4,22,Yes,5,6,201,8,1,4,5.3,High,0.6308,Yes
+HOSP10563,Manipal Hospital,Laboratory,L3,Receptionist,Mysuru,Female,44,Master's,Full-Time,On-Site,Night,12,7,26,166306,1995672,62497,3,4,4,79,Yes,6,43,357,1,3,4,9.1,Medium,0.9251,Yes
+HOSP10564,Apollo Hospital,Outpatient,L1,Ward Assistant,Udupi,Male,31,MBBS,Full-Time,On-Site,Night,4,5,18,114190,1370280,5362,1,1,5,50,Yes,3,76,56,8,2,1,44.4,Low,0.9528,Yes
+HOSP10565,CityCare Hospital,Laboratory,L2,Lab Technician,Mysuru,Female,49,MD/MS,Full-Time,On-Site,Day,3,6,30,133795,1605540,99254,1,5,4,44,Yes,2,4,101,6,0,2,1.2,Medium,0.7412,Yes
+HOSP10566,Manipal Hospital,Outpatient,L3,Ward Assistant,Hubballi,Male,46,Master's,Full-Time,On-Site,Night,12,8,13,140790,1689480,139322,2,5,1,21,Yes,11,59,31,8,0,5,23.1,Low,0.842,Yes
+HOSP10567,Fortis Hospital,Nursing,L2,IT Support Engineer,Bengaluru,Male,36,Bachelor's,Full-Time,On-Site,Rotational,8,10,8,143223,1718676,68354,2,3,4,9,No,4,5,23,2,3,4,23.5,Low,0.5542,No
+HOSP10568,District General Hospital,Surgery,L1,Lab Technician,Mangaluru,Male,55,MBBS,Part-Time,Hybrid,Rotational,16,5,5,93205,1118460,36368,4,4,1,6,No,2,97,62,0,0,5,12.2,Low,0.3223,Yes
+HOSP10569,AIIMS Mangaluru,Surgery,L4,Ward Assistant,Hubballi,Male,40,Bachelor's,Full-Time,On-Site,Night,1,0,16,170856,2050272,44109,5,5,5,72,Yes,13,116,70,0,3,2,30.0,Medium,0.9729,Yes
+HOSP10570,Fortis Hospital,Pediatrics,L1,Data Analyst,Bengaluru,Male,23,Diploma,Full-Time,On-Site,Night,4,3,18,178744,2144928,211661,3,4,4,14,No,2,6,280,10,3,2,42.5,Medium,0.6496,No
+HOSP10571,District General Hospital,Cardiology,L3,Lab Technician,Kochi,Female,21,Bachelor's,Full-Time,On-Site,Day,15,7,11,19082,228984,188717,5,1,4,76,Yes,3,45,153,9,3,1,20.5,Medium,0.9529,No
+HOSP10572,Apollo Hospital,Pediatrics,L5,Resident Doctor,Chennai,Male,21,Bachelor's,Full-Time,On-Site,Rotational,6,6,3,160220,1922640,188069,3,3,1,45,Yes,7,56,106,5,2,3,33.8,Medium,0.8868,Yes
+HOSP10573,Fortis Hospital,Outpatient,L4,Radiology Technician,Udupi,Male,37,PhD,Full-Time,On-Site,Day,0,2,15,176566,2118792,27426,1,2,1,60,Yes,1,53,381,6,3,1,29.3,Low,0.9554,Yes
+HOSP10574,Mangalore Medical Centre,Radiology,L2,Pharmacist,Mysuru,Male,22,MBBS,Full-Time,On-Site,Rotational,11,9,24,93093,1117116,117632,2,1,3,60,Yes,3,91,75,8,2,5,21.5,High,0.9147,Yes
+HOSP10575,AIIMS Mangaluru,ICU,L4,Consultant Doctor,Kochi,Female,49,Diploma,Contract,Hybrid,Night,20,2,10,69952,839424,112637,2,4,2,50,Yes,10,45,236,5,2,1,2.7,Medium,0.9033,Yes
+HOSP10576,District General Hospital,Radiology,L1,Senior Nurse,Mysuru,Female,40,Bachelor's,Full-Time,Hybrid,Night,10,10,21,54719,656628,39023,1,4,4,37,Yes,15,9,385,4,0,2,33.5,Low,0.9615,Yes
+HOSP10577,District General Hospital,Administration,L1,Data Analyst,Hubballi,Female,26,MD/MS,Part-Time,On-Site,Rotational,11,2,3,66737,800844,122268,1,1,2,11,No,2,3,87,1,1,4,16.7,Medium,0.5719,No
+HOSP10578,District General Hospital,Radiology,L3,Medical Officer,Mangaluru,Female,28,Master's,Contract,Hybrid,Day,18,0,16,125271,1503252,190339,3,4,2,76,Yes,6,66,371,1,2,3,10.5,Medium,0.9274,Yes
+HOSP10579,Apollo Hospital,Emergency,L2,Staff Nurse,Mangaluru,Male,49,Bachelor's,Full-Time,On-Site,Rotational,11,9,7,163111,1957332,155964,1,2,4,65,Yes,15,24,63,7,2,2,42.7,Low,0.9926,Yes
+HOSP10580,Fortis Hospital,Radiology,L2,IT Support Engineer,Mangaluru,Male,53,Diploma,Full-Time,On-Site,Night,11,0,13,85839,1030068,190304,3,2,1,53,Yes,1,86,162,0,1,4,34.9,Low,0.9134,Yes
+HOSP10581,Apollo Hospital,Pediatrics,L3,IT Support Engineer,Mysuru,Male,23,Bachelor's,Full-Time,On-Site,Day,13,5,26,65931,791172,109211,5,4,3,38,Yes,0,90,365,7,2,5,43.3,High,0.7765,Yes
+HOSP10582,CityCare Hospital,General Medicine,L1,Hospital Administrator,Kochi,Female,55,Master's,Contract,On-Site,Night,1,0,1,57925,695100,94897,2,4,5,75,Yes,9,77,61,10,1,5,11.9,Low,0.9681,No
+HOSP10583,CityCare Hospital,Physiotherapy,L2,Billing Executive,Mangaluru,Male,25,Diploma,Contract,On-Site,Rotational,1,4,10,105745,1268940,190297,2,2,4,38,Yes,0,60,158,9,0,5,37.7,Medium,0.8743,Yes
+HOSP10584,Fortis Hospital,General Medicine,L2,Receptionist,Kochi,Male,47,MBBS,Full-Time,On-Site,Rotational,3,3,30,144298,1731576,147079,2,4,4,77,Yes,5,37,92,10,3,1,27.5,High,0.972,Yes
+HOSP10585,Mangalore Medical Centre,Surgery,L4,Consultant Doctor,Mysuru,Female,32,Diploma,Part-Time,On-Site,Day,19,4,10,111709,1340508,79777,5,5,5,29,Yes,2,31,286,6,1,5,44.2,Medium,0.7878,Yes
+HOSP10586,Apollo Hospital,Physiotherapy,L3,Staff Nurse,Hubballi,Female,40,MBBS,Full-Time,Hybrid,Rotational,15,6,23,60287,723444,44858,5,3,2,47,Yes,6,22,213,6,3,5,42.6,Low,0.9273,Yes
+HOSP10587,AIIMS Mangaluru,IT,L2,IT Support Engineer,Kochi,Female,40,Diploma,Contract,On-Site,Day,9,5,21,125252,1503024,176145,4,5,3,30,Yes,7,110,174,4,1,1,43.8,High,0.8941,Yes
+HOSP10588,District General Hospital,ICU,L2,Pharmacist,Hubballi,Male,29,Master's,Contract,On-Site,Day,12,8,23,127323,1527876,220510,3,4,2,24,Yes,4,103,265,2,3,4,42.9,Medium,0.7616,Yes
+HOSP10589,District General Hospital,ICU,L1,Consultant Doctor,Mysuru,Male,59,Master's,Full-Time,On-Site,Day,1,5,5,30803,369636,90042,3,4,5,67,Yes,4,36,333,6,0,2,0.8,Medium,0.8702,Yes
+HOSP10590,Fortis Hospital,Emergency,L1,Lab Technician,Mysuru,Female,24,Diploma,Full-Time,On-Site,Day,2,8,20,136819,1641828,83098,4,3,5,50,Yes,11,2,237,6,2,3,33.5,Medium,0.925,Yes
+HOSP10591,Mangalore Medical Centre,Pediatrics,L4,Lab Technician,Udupi,Male,39,Bachelor's,Full-Time,On-Site,Day,18,3,20,111361,1336332,20239,2,4,3,12,No,1,98,272,6,0,5,12.6,High,0.4064,Yes
+HOSP10592,CityCare Hospital,Surgery,L2,Medical Officer,Mysuru,Female,58,Master's,Full-Time,On-Site,Rotational,5,0,13,31698,380376,194041,3,3,5,62,Yes,7,12,296,10,2,5,31.9,High,0.9332,Yes
+HOSP10593,CityCare Hospital,Nursing,L1,Staff Nurse,Mysuru,Female,47,MBBS,Part-Time,On-Site,Night,18,0,29,33376,400512,144137,3,2,5,41,Yes,9,33,296,1,3,5,44.1,High,0.9295,Yes
+HOSP10594,District General Hospital,Administration,L3,IT Support Engineer,Bengaluru,Male,33,MBBS,Full-Time,On-Site,Day,20,9,9,31117,373404,110951,2,3,3,53,Yes,15,87,91,2,3,1,2.3,Medium,0.9172,Yes
+HOSP10595,Fortis Hospital,ICU,L3,Senior Nurse,Mangaluru,Female,33,MD/MS,Full-Time,On-Site,Day,19,6,25,66786,801432,41291,1,3,4,66,Yes,12,64,148,2,2,1,25.7,High,0.9683,Yes
+HOSP10596,Apollo Hospital,General Medicine,L3,IT Support Engineer,Udupi,Female,42,PhD,Full-Time,On-Site,Rotational,18,2,26,131005,1572060,38805,1,5,2,79,Yes,0,75,377,3,1,1,33.2,High,0.9703,Yes
+HOSP10597,CityCare Hospital,Radiology,L2,Pharmacist,Chennai,Female,48,PhD,Contract,On-Site,Rotational,7,1,7,84480,1013760,98831,4,4,4,55,Yes,9,7,205,8,0,3,11.8,High,0.8983,No
+HOSP10598,Apollo Hospital,Radiology,L2,Lab Technician,Udupi,Male,42,PhD,Full-Time,On-Site,Day,13,5,6,150583,1806996,149515,5,2,4,18,No,8,82,32,9,1,2,10.5,High,0.6172,Yes
+HOSP10599,Mangalore Medical Centre,IT,L2,Hospital Administrator,Udupi,Female,39,MBBS,Full-Time,On-Site,Day,9,5,7,71233,854796,9290,3,1,2,45,Yes,0,8,348,0,3,5,3.2,Low,0.6936,Yes
+HOSP10600,CityCare Hospital,Surgery,L1,Radiology Technician,Chennai,Female,28,MD/MS,Full-Time,On-Site,Day,2,6,27,129022,1548264,131283,3,3,4,14,No,0,27,239,6,0,4,4.7,Medium,0.2838,Yes
+HOSP10601,CityCare Hospital,Pediatrics,L3,Resident Doctor,Bengaluru,Female,28,PhD,Contract,On-Site,Day,5,4,7,171574,2058888,83634,4,1,3,31,Yes,0,77,25,6,0,5,29.7,Low,0.7849,No
+HOSP10602,Manipal Hospital,Pediatrics,L4,Resident Doctor,Hubballi,Female,46,PhD,Part-Time,On-Site,Day,14,7,22,110529,1326348,19072,4,4,2,48,Yes,6,90,258,10,1,5,23.0,Medium,0.8462,Yes
+HOSP10603,CityCare Hospital,Cardiology,L3,Ward Assistant,Mysuru,Female,46,Diploma,Full-Time,On-Site,Night,17,6,1,118919,1427028,43290,3,3,1,20,Yes,3,17,131,3,2,5,1.8,Low,0.4093,Yes
+HOSP10604,AIIMS Mangaluru,Outpatient,L4,Senior Nurse,Mangaluru,Female,43,Diploma,Full-Time,On-Site,Day,13,1,26,101533,1218396,85186,2,1,4,64,Yes,11,41,247,10,2,5,43.6,High,0.9841,Yes
+HOSP10605,Fortis Hospital,Pharmacy,L2,IT Support Engineer,Kochi,Female,33,Diploma,Full-Time,On-Site,Night,18,0,30,87407,1048884,15115,2,5,5,69,Yes,6,40,36,0,0,2,29.7,Medium,0.9717,Yes
+HOSP10606,Fortis Hospital,ICU,L3,Resident Doctor,Chennai,Male,48,Bachelor's,Full-Time,On-Site,Day,9,8,15,91809,1101708,5149,5,1,2,26,Yes,4,69,92,2,2,4,23.4,Medium,0.6568,No
+HOSP10607,Apollo Hospital,Pediatrics,L2,Ward Assistant,Hubballi,Male,29,PhD,Full-Time,Hybrid,Rotational,14,4,8,35229,422748,41992,3,5,1,22,Yes,15,32,31,4,3,1,12.6,Medium,0.7722,Yes
+HOSP10608,Mangalore Medical Centre,IT,L3,Staff Nurse,Chennai,Female,40,Bachelor's,Contract,Hybrid,Rotational,3,10,12,176457,2117484,17716,3,2,5,46,Yes,11,100,105,1,1,4,29.8,Low,0.945,Yes
+HOSP10609,CityCare Hospital,General Medicine,L2,Lab Technician,Mysuru,Male,39,MD/MS,Full-Time,On-Site,Rotational,1,4,22,60176,722112,97724,3,4,1,11,No,15,105,199,6,1,5,16.7,Medium,0.6524,Yes
+HOSP10610,AIIMS Mangaluru,Surgery,L1,Receptionist,Bengaluru,Male,59,MBBS,Part-Time,On-Site,Night,2,9,11,112825,1353900,13621,3,1,4,65,Yes,13,88,141,9,1,4,31.8,Medium,0.9726,Yes
+HOSP10611,Apollo Hospital,Administration,L2,Billing Executive,Chennai,Female,32,PhD,Full-Time,On-Site,Night,6,3,26,152332,1827984,137892,4,3,5,4,No,6,76,223,9,0,5,30.9,High,0.4704,No
+HOSP10612,Manipal Hospital,Cardiology,L5,Data Analyst,Mysuru,Male,35,MBBS,Full-Time,Hybrid,Night,15,1,30,115555,1386660,113065,1,4,4,8,No,9,53,89,6,0,4,4.6,Low,0.5352,Yes
+HOSP10613,Apollo Hospital,IT,L2,Lab Technician,Mysuru,Female,51,Diploma,Full-Time,Hybrid,Rotational,9,4,21,21145,253740,173872,3,1,5,19,No,13,86,127,9,2,3,41.0,Low,0.8606,Yes
+HOSP10614,Apollo Hospital,Laboratory,L1,Data Analyst,Bengaluru,Female,34,PhD,Full-Time,On-Site,Night,18,1,24,115289,1383468,186115,1,3,2,62,Yes,6,35,220,4,1,4,22.2,Medium,0.9457,Yes
+HOSP10615,CityCare Hospital,Emergency,L2,Hospital Administrator,Udupi,Female,31,Master's,Full-Time,On-Site,Rotational,16,6,28,156874,1882488,30399,2,3,3,71,Yes,3,96,71,9,3,1,18.0,Low,0.9461,Yes
+HOSP10616,Manipal Hospital,Administration,L4,Radiology Technician,Udupi,Female,46,Bachelor's,Full-Time,On-Site,Rotational,18,10,16,20263,243156,119374,5,3,3,72,Yes,1,84,56,5,3,1,43.0,Low,0.9629,Yes
+HOSP10617,Apollo Hospital,Outpatient,L3,Consultant Doctor,Mangaluru,Female,47,Bachelor's,Full-Time,On-Site,Night,4,8,26,175985,2111820,145074,2,3,1,70,Yes,7,97,136,0,1,4,20.0,Low,0.9612,No
+HOSP10618,AIIMS Mangaluru,Laboratory,L3,Resident Doctor,Mangaluru,Male,31,PhD,Full-Time,On-Site,Rotational,19,8,1,75788,909456,43098,3,1,5,29,Yes,1,55,278,3,0,4,32.6,Medium,0.7495,Yes
+HOSP10619,AIIMS Mangaluru,Nursing,L1,Staff Nurse,Udupi,Female,58,Diploma,Full-Time,On-Site,Day,12,10,12,157227,1886724,45511,2,2,4,15,No,15,99,283,3,0,2,29.7,Low,0.8979,Yes
+HOSP10620,Fortis Hospital,Outpatient,L3,Data Analyst,Hubballi,Male,54,Bachelor's,Contract,Hybrid,Day,12,5,0,149994,1799928,53243,4,5,2,4,No,8,16,322,10,0,4,7.8,Medium,0.4435,No
+HOSP10621,Manipal Hospital,Radiology,L2,Billing Executive,Kochi,Female,39,Diploma,Full-Time,On-Site,Night,10,0,25,169744,2036928,115131,1,5,2,28,Yes,4,9,83,7,3,1,44.6,High,0.8777,No
+HOSP10622,Manipal Hospital,Emergency,L4,Physiotherapist,Mysuru,Female,26,MD/MS,Part-Time,On-Site,Day,10,5,27,63344,760128,28750,3,5,2,46,Yes,8,86,61,1,1,3,21.1,High,0.8492,Yes
+HOSP10623,Fortis Hospital,ICU,L3,IT Support Engineer,Kochi,Female,58,MBBS,Full-Time,Hybrid,Rotational,15,4,18,140819,1689828,222682,4,2,3,21,Yes,14,43,62,0,3,1,18.1,Medium,0.8261,Yes
+HOSP10624,Apollo Hospital,General Medicine,L1,Resident Doctor,Mysuru,Male,48,Master's,Part-Time,Hybrid,Day,14,3,10,168086,2017032,148382,1,3,4,77,Yes,8,1,144,6,1,2,41.4,Medium,0.9888,Yes
+HOSP10625,Manipal Hospital,Emergency,L1,IT Support Engineer,Udupi,Female,21,MBBS,Full-Time,On-Site,Night,16,5,4,91352,1096224,55398,4,3,2,56,Yes,13,98,289,5,3,4,24.1,Low,0.939,Yes
+HOSP10626,AIIMS Mangaluru,Outpatient,L1,Billing Executive,Mangaluru,Female,55,MBBS,Contract,On-Site,Rotational,17,5,0,58324,699888,213614,2,4,2,34,Yes,7,13,366,4,3,3,31.9,Low,0.9026,Yes
+HOSP10627,AIIMS Mangaluru,Pharmacy,L2,Senior Nurse,Hubballi,Female,60,MD/MS,Full-Time,On-Site,Rotational,18,5,19,112075,1344900,206279,3,5,1,59,Yes,7,120,252,7,2,1,38.2,Low,0.9544,Yes
+HOSP10628,CityCare Hospital,Laboratory,L2,Hospital Administrator,Mangaluru,Female,28,Bachelor's,Full-Time,On-Site,Night,3,1,29,95169,1142028,248797,2,5,5,69,Yes,3,110,151,10,3,3,11.0,Medium,0.8818,Yes
+HOSP10629,Manipal Hospital,ICU,L3,Consultant Doctor,Kochi,Male,27,Master's,Full-Time,Hybrid,Rotational,4,6,12,41384,496608,44345,5,3,5,59,Yes,15,108,21,1,1,5,8.0,Medium,0.9141,Yes
+HOSP10630,Apollo Hospital,Physiotherapy,L2,Resident Doctor,Mangaluru,Female,31,Bachelor's,Full-Time,Hybrid,Rotational,6,3,7,21512,258144,93430,3,5,5,57,Yes,13,40,134,1,3,1,3.5,High,0.8982,Yes
+HOSP10631,Fortis Hospital,Pharmacy,L2,IT Support Engineer,Udupi,Male,59,PhD,Full-Time,On-Site,Night,1,8,5,155138,1861656,114921,2,3,1,2,No,3,1,20,8,2,5,40.4,High,0.5852,Yes
+HOSP10632,Fortis Hospital,Radiology,L1,Staff Nurse,Hubballi,Female,24,MBBS,Full-Time,On-Site,Day,0,9,28,141775,1701300,91729,3,3,3,33,Yes,13,18,350,0,2,3,9.4,Low,0.7996,Yes
+HOSP10633,Apollo Hospital,Pharmacy,L1,Resident Doctor,Kochi,Male,45,PhD,Full-Time,On-Site,Night,11,1,16,96743,1160916,51843,1,3,1,44,Yes,1,79,84,5,1,4,14.2,Medium,0.7534,Yes
+HOSP10634,Mangalore Medical Centre,Cardiology,L4,Data Analyst,Hubballi,Male,32,Diploma,Contract,Hybrid,Rotational,9,4,11,103642,1243704,141294,3,1,2,49,Yes,3,106,144,2,2,4,13.2,Low,0.8344,Yes
+HOSP10635,District General Hospital,Cardiology,L2,Senior Nurse,Mysuru,Female,46,MBBS,Full-Time,On-Site,Rotational,7,3,0,147587,1771044,220394,3,1,4,1,No,15,107,275,4,2,4,14.1,Medium,0.5171,No
+HOSP10636,CityCare Hospital,Nursing,L3,Physiotherapist,Mangaluru,Female,58,Bachelor's,Full-Time,On-Site,Rotational,0,8,2,97858,1174296,162581,1,1,2,14,No,3,88,341,7,0,5,30.2,Low,0.7245,Yes
+HOSP10637,Fortis Hospital,Outpatient,L4,Pharmacist,Hubballi,Male,32,MBBS,Full-Time,On-Site,Night,11,3,13,72800,873600,131458,2,1,2,36,Yes,5,0,162,6,1,4,43.0,High,0.9312,Yes
+HOSP10638,Manipal Hospital,Surgery,L3,Medical Officer,Bengaluru,Female,57,Diploma,Full-Time,On-Site,Day,1,7,25,118364,1420368,64334,3,2,4,14,No,2,1,347,3,2,2,15.2,High,0.4855,No
+HOSP10639,CityCare Hospital,Administration,L4,Physiotherapist,Mangaluru,Female,44,MD/MS,Full-Time,On-Site,Day,9,7,30,20387,244644,67170,4,4,5,59,Yes,1,111,265,7,2,1,18.6,Low,0.845,Yes
+HOSP10640,Manipal Hospital,Administration,L2,Ward Assistant,Mysuru,Female,36,PhD,Full-Time,On-Site,Night,16,5,7,150871,1810452,40878,3,4,1,63,Yes,14,26,135,10,2,1,34.8,High,0.9771,Yes
+HOSP10641,Mangalore Medical Centre,Physiotherapy,L5,Resident Doctor,Hubballi,Male,33,PhD,Contract,Hybrid,Rotational,2,5,10,137095,1645140,200741,2,3,3,80,Yes,7,1,396,10,1,3,19.7,Medium,0.9796,Yes
+HOSP10642,AIIMS Mangaluru,Physiotherapy,L1,Lab Technician,Kochi,Female,45,Bachelor's,Contract,Hybrid,Rotational,6,10,26,53548,642576,238752,1,5,2,51,Yes,1,93,322,9,0,5,41.7,Medium,0.9305,Yes
+HOSP10643,CityCare Hospital,ICU,L1,Radiology Technician,Mysuru,Female,24,MBBS,Contract,On-Site,Day,11,7,13,108450,1301400,169421,2,1,2,22,Yes,7,50,109,10,3,1,22.9,Medium,0.8444,Yes
+HOSP10644,Fortis Hospital,Radiology,L3,Lab Technician,Bengaluru,Female,31,Bachelor's,Full-Time,On-Site,Night,7,9,7,123669,1484028,231343,5,4,3,36,Yes,6,9,315,1,0,5,16.0,Medium,0.754,No
+HOSP10645,CityCare Hospital,Pediatrics,L5,Physiotherapist,Hubballi,Male,52,MD/MS,Part-Time,On-Site,Night,19,8,28,98171,1178052,153024,3,4,1,40,Yes,2,18,61,6,1,3,43.7,High,0.871,Yes
+HOSP10646,CityCare Hospital,Nursing,L4,Data Analyst,Chennai,Female,27,MBBS,Full-Time,On-Site,Night,11,4,2,63414,760968,90352,3,1,2,56,Yes,5,105,54,4,1,4,19.4,High,0.8937,Yes
+HOSP10647,CityCare Hospital,Cardiology,L1,Lab Technician,Chennai,Male,31,MBBS,Full-Time,On-Site,Day,2,10,6,91071,1092852,152601,1,2,3,24,Yes,5,79,60,10,1,3,10.8,Medium,0.6766,Yes
+HOSP10648,District General Hospital,ICU,L2,Staff Nurse,Udupi,Female,48,Bachelor's,Full-Time,Hybrid,Day,16,0,27,130808,1569696,202375,3,2,2,36,Yes,9,12,360,5,3,2,8.4,High,0.8091,Yes
+HOSP10649,CityCare Hospital,Pediatrics,L5,Lab Technician,Mangaluru,Male,43,Bachelor's,Full-Time,On-Site,Day,8,0,18,96591,1159092,172593,4,4,5,39,Yes,13,47,143,2,1,4,44.8,High,0.9412,Yes
+HOSP10650,Manipal Hospital,Administration,L2,Consultant Doctor,Kochi,Female,43,Diploma,Full-Time,On-Site,Day,9,1,3,22297,267564,18383,4,2,5,45,Yes,4,113,76,10,0,4,34.0,Medium,0.8738,Yes
+HOSP10651,AIIMS Mangaluru,Surgery,L4,Pharmacist,Udupi,Female,48,MD/MS,Full-Time,Hybrid,Day,5,9,24,127513,1530156,135973,2,1,2,59,Yes,12,55,313,9,2,4,18.7,Low,0.9683,Yes
+HOSP10652,Mangalore Medical Centre,Pharmacy,L4,Resident Doctor,Hubballi,Male,46,Diploma,Full-Time,Hybrid,Day,0,9,15,146668,1760016,42889,1,4,2,18,No,7,71,254,6,2,3,37.3,Medium,0.7532,Yes
+HOSP10653,Apollo Hospital,Cardiology,L2,Billing Executive,Chennai,Male,45,PhD,Full-Time,On-Site,Rotational,11,4,12,104479,1253748,14633,5,1,5,8,No,14,55,115,6,1,2,24.8,High,0.7804,No
+HOSP10654,CityCare Hospital,ICU,L2,Hospital Administrator,Chennai,Male,49,MBBS,Full-Time,On-Site,Night,4,3,19,116752,1401024,62244,2,2,2,68,Yes,10,49,338,1,1,5,14.6,Low,0.9754,Yes
+HOSP10655,Fortis Hospital,Emergency,L2,Lab Technician,Chennai,Female,39,Bachelor's,Full-Time,On-Site,Rotational,12,0,18,154080,1848960,129177,1,1,1,4,No,15,94,362,0,3,3,33.6,Medium,0.7951,Yes
+HOSP10656,CityCare Hospital,Pediatrics,L2,Senior Nurse,Hubballi,Female,53,MBBS,Full-Time,On-Site,Day,14,3,4,133481,1601772,150235,1,2,1,25,Yes,11,44,151,9,2,1,33.7,Low,0.9272,Yes
+HOSP10657,Fortis Hospital,Pharmacy,L4,Hospital Administrator,Chennai,Female,56,MBBS,Full-Time,On-Site,Night,10,3,22,165892,1990704,190091,2,2,4,18,No,15,88,195,1,3,1,22.8,High,0.8466,Yes
+HOSP10658,Manipal Hospital,Cardiology,L2,Pharmacist,Mysuru,Female,34,Master's,Part-Time,On-Site,Night,7,9,4,171325,2055900,141779,2,1,1,29,Yes,4,58,71,7,3,3,2.5,High,0.6462,Yes
+HOSP10659,Fortis Hospital,Administration,L4,IT Support Engineer,Hubballi,Male,34,PhD,Full-Time,Hybrid,Day,4,3,19,178274,2139288,219184,3,2,2,47,Yes,15,38,57,10,3,5,3.9,Medium,0.891,Yes
+HOSP10660,Apollo Hospital,IT,L1,Billing Executive,Kochi,Female,55,Master's,Full-Time,On-Site,Rotational,1,0,23,178308,2139696,83597,5,3,2,15,No,6,20,362,9,3,1,35.6,Medium,0.7112,No
+HOSP10661,AIIMS Mangaluru,Radiology,L5,Data Analyst,Udupi,Female,50,MBBS,Full-Time,On-Site,Day,11,8,3,85156,1021872,176173,4,1,3,70,Yes,15,54,24,2,0,5,37.1,High,0.9888,Yes
+HOSP10662,Fortis Hospital,Pediatrics,L2,Pharmacist,Kochi,Female,48,Bachelor's,Full-Time,On-Site,Rotational,1,2,1,78263,939156,175778,3,3,1,17,No,5,119,232,10,1,4,30.7,Low,0.6614,Yes
+HOSP10663,Fortis Hospital,Administration,L1,Lab Technician,Bengaluru,Female,37,MBBS,Part-Time,On-Site,Rotational,15,3,25,136996,1643952,208156,1,1,5,55,Yes,10,56,139,3,1,3,37.8,High,0.9736,Yes
+HOSP10664,AIIMS Mangaluru,Cardiology,L1,Pharmacist,Chennai,Female,23,PhD,Full-Time,Hybrid,Night,20,4,12,117252,1407024,15115,5,2,5,20,Yes,14,113,345,7,3,4,32.5,Medium,0.8142,Yes
+HOSP10665,Apollo Hospital,Pediatrics,L3,Hospital Administrator,Bengaluru,Female,36,Master's,Full-Time,On-Site,Night,2,6,29,136632,1639584,75379,5,2,4,30,Yes,6,101,388,2,3,1,40.4,Medium,0.8461,Yes
+HOSP10666,CityCare Hospital,Nursing,L3,Radiology Technician,Mangaluru,Female,50,Bachelor's,Contract,On-Site,Rotational,9,5,15,92855,1114260,233553,2,4,3,0,No,12,40,228,5,0,5,7.2,Medium,0.57,Yes
+HOSP10667,Fortis Hospital,Pharmacy,L4,Data Analyst,Mangaluru,Male,49,MBBS,Full-Time,On-Site,Night,18,4,21,34575,414900,39979,5,4,5,2,No,8,92,236,1,3,4,17.8,Medium,0.3392,Yes
+HOSP10668,AIIMS Mangaluru,Cardiology,L1,Lab Technician,Bengaluru,Female,35,MD/MS,Full-Time,On-Site,Rotational,7,7,1,30204,362448,171713,5,3,4,24,Yes,2,69,43,2,0,1,21.2,High,0.5749,Yes
+HOSP10669,Manipal Hospital,Nursing,L1,Staff Nurse,Hubballi,Female,45,PhD,Full-Time,On-Site,Day,6,0,18,29952,359424,69377,1,2,1,7,No,9,81,361,0,0,2,13.7,High,0.658,Yes
+HOSP10670,AIIMS Mangaluru,Laboratory,L3,Physiotherapist,Kochi,Female,58,PhD,Full-Time,On-Site,Day,0,6,16,101323,1215876,6416,3,4,3,64,Yes,6,48,224,8,3,4,32.8,High,0.942,No
+HOSP10671,Manipal Hospital,ICU,L2,Consultant Doctor,Bengaluru,Female,58,MD/MS,Full-Time,On-Site,Night,11,5,4,178448,2141376,141705,5,2,3,61,Yes,12,43,245,3,1,2,41.1,Low,0.9872,Yes
+HOSP10672,Apollo Hospital,IT,L2,Medical Officer,Mangaluru,Male,43,MBBS,Full-Time,On-Site,Night,4,10,24,160712,1928544,128785,2,1,2,6,No,9,34,237,5,0,2,18.9,Medium,0.7294,Yes
+HOSP10673,CityCare Hospital,Physiotherapy,L5,Receptionist,Bengaluru,Male,45,PhD,Contract,On-Site,Rotational,15,4,17,44437,533244,234261,3,4,1,6,No,2,90,230,6,1,1,42.4,Medium,0.6351,Yes
+HOSP10674,AIIMS Mangaluru,Pharmacy,L5,Ward Assistant,Hubballi,Male,27,Bachelor's,Full-Time,Hybrid,Day,3,6,27,145129,1741548,131666,2,3,3,7,No,12,4,45,1,1,3,23.5,High,0.7246,Yes
+HOSP10675,Mangalore Medical Centre,Pediatrics,L5,Data Analyst,Bengaluru,Male,42,MBBS,Full-Time,Hybrid,Rotational,16,2,22,105681,1268172,145465,5,4,4,18,No,1,70,271,7,0,5,23.8,Medium,0.4534,No
+HOSP10676,Mangalore Medical Centre,Radiology,L4,Pharmacist,Kochi,Male,37,MBBS,Full-Time,On-Site,Day,20,0,20,25903,310836,166452,3,2,5,16,No,15,73,22,8,2,1,27.2,High,0.8057,Yes
+HOSP10677,District General Hospital,Administration,L2,Staff Nurse,Udupi,Male,38,Master's,Contract,On-Site,Night,1,8,17,44863,538356,176128,5,5,1,10,No,11,73,21,9,0,4,12.4,High,0.5681,No
+HOSP10678,Fortis Hospital,Physiotherapy,L2,Resident Doctor,Hubballi,Female,30,PhD,Part-Time,On-Site,Night,11,1,7,61381,736572,219351,1,5,1,48,Yes,6,50,111,10,2,5,17.6,Medium,0.8683,Yes
+HOSP10679,Apollo Hospital,Emergency,L3,Resident Doctor,Mangaluru,Male,30,PhD,Full-Time,On-Site,Night,0,9,26,46548,558576,130364,3,2,3,10,No,3,56,21,1,0,3,25.1,High,0.5692,No
+HOSP10680,AIIMS Mangaluru,Administration,L4,Ward Assistant,Kochi,Male,27,MD/MS,Full-Time,On-Site,Day,11,2,14,29467,353604,97507,2,1,3,40,Yes,0,57,169,4,0,1,42.4,High,0.9265,Yes
+HOSP10681,Mangalore Medical Centre,Pediatrics,L1,Data Analyst,Bengaluru,Female,58,Master's,Full-Time,Hybrid,Night,11,7,12,75954,911448,247256,1,4,3,61,Yes,5,91,90,1,1,3,29.1,High,0.9407,Yes
+HOSP10682,Fortis Hospital,IT,L2,Data Analyst,Bengaluru,Male,47,Master's,Full-Time,Hybrid,Rotational,11,9,12,41901,502812,118243,4,5,4,51,Yes,10,35,23,10,1,4,15.3,Medium,0.8819,Yes
+HOSP10683,Mangalore Medical Centre,Outpatient,L1,Consultant Doctor,Udupi,Female,53,PhD,Full-Time,On-Site,Night,18,8,15,41301,495612,135933,2,1,2,65,Yes,5,9,57,4,3,1,1.0,High,0.9227,Yes
+HOSP10684,AIIMS Mangaluru,Administration,L3,Pharmacist,Mangaluru,Female,21,MBBS,Full-Time,On-Site,Night,16,2,21,142686,1712232,103070,5,2,3,67,Yes,5,49,378,6,1,4,44.2,Low,0.9796,Yes
+HOSP10685,Manipal Hospital,Outpatient,L4,Billing Executive,Mangaluru,Male,54,Master's,Full-Time,Hybrid,Rotational,19,5,19,103180,1238160,36126,2,1,2,74,Yes,1,98,89,5,1,5,22.4,Medium,0.9541,Yes
+HOSP10686,AIIMS Mangaluru,ICU,L4,Radiology Technician,Mysuru,Female,24,MD/MS,Contract,On-Site,Rotational,10,6,12,87903,1054836,80382,4,2,2,66,Yes,0,116,220,3,1,5,42.3,Low,0.9648,Yes
+HOSP10687,District General Hospital,IT,L2,Ward Assistant,Mangaluru,Male,37,Master's,Full-Time,On-Site,Night,12,0,19,121955,1463460,222785,2,4,1,39,Yes,2,98,327,1,1,3,24.9,Low,0.823,Yes
+HOSP10688,AIIMS Mangaluru,Cardiology,L5,Consultant Doctor,Udupi,Male,24,MD/MS,Contract,On-Site,Day,7,6,1,165276,1983312,164754,1,1,5,4,No,11,36,271,6,3,3,27.4,High,0.7425,Yes
+HOSP10689,AIIMS Mangaluru,Nursing,L3,Pharmacist,Chennai,Female,46,Master's,Full-Time,On-Site,Rotational,9,3,2,37755,453060,18228,2,4,5,21,Yes,13,111,306,9,1,5,32.2,Medium,0.8418,Yes
+HOSP10690,District General Hospital,Emergency,L1,Hospital Administrator,Mysuru,Female,24,MD/MS,Full-Time,On-Site,Rotational,7,4,14,77817,933804,231371,3,1,4,36,Yes,1,19,311,8,2,2,14.8,Low,0.7326,Yes
+HOSP10691,Apollo Hospital,General Medicine,L2,Staff Nurse,Mysuru,Male,21,Master's,Full-Time,On-Site,Day,19,7,22,20093,241116,24009,4,2,4,10,No,5,12,173,0,2,5,31.6,Medium,0.5953,Yes
+HOSP10692,AIIMS Mangaluru,Pediatrics,L2,Receptionist,Bengaluru,Female,27,Master's,Full-Time,On-Site,Day,7,3,18,114319,1371828,94,2,2,5,43,Yes,12,74,152,2,3,1,23.9,High,0.931,Yes
+HOSP10693,District General Hospital,Surgery,L1,Physiotherapist,Bengaluru,Female,50,Bachelor's,Full-Time,On-Site,Rotational,8,3,12,40940,491280,238060,4,1,5,52,Yes,11,108,390,6,1,4,30.4,High,0.9401,Yes
+HOSP10694,Fortis Hospital,General Medicine,L5,Radiology Technician,Mangaluru,Male,29,MD/MS,Full-Time,On-Site,Day,6,7,4,146714,1760568,80636,1,2,1,76,Yes,5,18,93,8,2,5,37.7,Low,0.9855,Yes
+HOSP10695,Manipal Hospital,Administration,L2,Billing Executive,Mysuru,Male,55,MD/MS,Full-Time,On-Site,Rotational,13,4,25,109544,1314528,183293,3,3,1,60,Yes,12,91,293,4,0,5,8.7,High,0.9076,Yes
+HOSP10696,Manipal Hospital,Physiotherapy,L4,Hospital Administrator,Bengaluru,Female,28,MD/MS,Full-Time,On-Site,Day,1,5,21,102437,1229244,98453,5,3,5,66,Yes,4,101,290,6,2,4,27.8,Medium,0.9005,Yes
+HOSP10697,AIIMS Mangaluru,Pediatrics,L2,Hospital Administrator,Udupi,Male,44,Diploma,Part-Time,On-Site,Rotational,10,10,5,110969,1331628,148502,2,4,3,12,No,9,55,204,9,1,4,2.8,Medium,0.5493,Yes
+HOSP10698,Apollo Hospital,Nursing,L1,Medical Officer,Bengaluru,Male,39,Master's,Full-Time,Hybrid,Night,7,4,13,125001,1500012,166643,1,3,3,10,No,9,44,372,6,2,1,5.0,Medium,0.556,Yes
+HOSP10699,Apollo Hospital,Laboratory,L2,Resident Doctor,Hubballi,Male,56,MD/MS,Full-Time,On-Site,Night,12,0,3,105725,1268700,54486,4,3,1,10,No,4,59,24,3,0,4,30.5,High,0.5689,Yes
+HOSP10700,Fortis Hospital,Nursing,L1,Senior Nurse,Hubballi,Male,47,PhD,Full-Time,On-Site,Rotational,20,6,21,133784,1605408,90510,4,5,2,6,No,8,67,312,4,2,3,3.7,High,0.2972,No
+HOSP10701,AIIMS Mangaluru,Surgery,L2,Staff Nurse,Bengaluru,Male,52,Diploma,Contract,Hybrid,Night,14,5,18,128675,1544100,227737,1,5,5,16,No,13,56,379,1,1,5,27.0,Low,0.8635,Yes
+HOSP10702,Manipal Hospital,Emergency,L4,Resident Doctor,Mysuru,Male,34,Bachelor's,Full-Time,On-Site,Night,2,1,22,112266,1347192,243842,2,5,4,47,Yes,4,53,105,7,0,4,10.3,Medium,0.8124,Yes
+HOSP10703,Apollo Hospital,Nursing,L3,Lab Technician,Chennai,Male,38,MD/MS,Full-Time,On-Site,Day,13,10,6,27236,326832,193366,5,5,3,13,No,12,36,233,0,3,1,14.0,Medium,0.6445,Yes
+HOSP10704,AIIMS Mangaluru,Radiology,L3,Receptionist,Chennai,Female,48,MD/MS,Full-Time,On-Site,Day,14,6,3,90597,1087164,20860,2,2,2,62,Yes,9,82,34,1,0,4,6.3,Medium,0.934,Yes
+HOSP10705,Mangalore Medical Centre,Laboratory,L1,Hospital Administrator,Mysuru,Male,49,Diploma,Full-Time,On-Site,Day,1,5,1,152974,1835688,72812,3,4,3,63,Yes,5,36,292,2,2,5,11.6,Medium,0.8711,Yes
+HOSP10706,Apollo Hospital,General Medicine,L1,Senior Nurse,Kochi,Female,36,Master's,Contract,On-Site,Rotational,18,4,26,117656,1411872,66087,2,4,2,74,Yes,10,116,70,6,3,2,37.0,Medium,0.9868,Yes
+HOSP10707,District General Hospital,Cardiology,L1,Data Analyst,Chennai,Female,55,PhD,Full-Time,Hybrid,Day,11,7,6,52364,628368,244856,3,3,5,76,Yes,3,13,272,5,0,4,28.9,Medium,0.9517,Yes
+HOSP10708,Mangalore Medical Centre,ICU,L3,Resident Doctor,Hubballi,Female,51,Bachelor's,Full-Time,On-Site,Day,19,4,2,125071,1500852,139558,4,4,5,64,Yes,9,94,64,6,0,3,42.8,Low,0.9692,Yes
+HOSP10709,Apollo Hospital,Radiology,L1,Billing Executive,Udupi,Male,24,MD/MS,Full-Time,On-Site,Night,3,10,14,112410,1348920,214135,3,3,5,33,Yes,13,91,210,10,0,5,2.7,Medium,0.6962,No
+HOSP10710,Manipal Hospital,Laboratory,L2,Billing Executive,Mysuru,Male,57,Master's,Full-Time,Hybrid,Rotational,2,1,0,169168,2030016,49607,5,4,1,8,No,13,99,141,4,1,1,35.8,High,0.7691,Yes
+HOSP10711,CityCare Hospital,Cardiology,L3,Billing Executive,Mangaluru,Female,37,PhD,Contract,On-Site,Rotational,4,5,1,161092,1933104,140817,1,1,2,76,Yes,15,43,206,3,3,5,31.6,Medium,0.9928,Yes
+HOSP10712,Mangalore Medical Centre,Cardiology,L2,Consultant Doctor,Hubballi,Male,59,PhD,Full-Time,On-Site,Day,2,0,9,76473,917676,106664,3,1,4,36,Yes,14,101,233,6,3,2,12.1,High,0.846,Yes
+HOSP10713,Fortis Hospital,Pediatrics,L1,Radiology Technician,Udupi,Female,46,Bachelor's,Full-Time,On-Site,Day,14,4,15,62153,745836,209605,2,4,4,29,Yes,0,82,168,2,0,1,32.9,Low,0.7836,Yes
+HOSP10714,Fortis Hospital,Laboratory,L2,IT Support Engineer,Udupi,Male,59,MBBS,Full-Time,On-Site,Rotational,18,5,24,56502,678024,18330,3,2,5,40,Yes,3,41,189,9,3,2,32.4,Medium,0.8586,No
+HOSP10715,Manipal Hospital,Emergency,L4,Resident Doctor,Mysuru,Male,24,PhD,Full-Time,On-Site,Day,1,6,27,33675,404100,120803,4,3,4,44,Yes,1,0,228,6,2,2,20.9,Medium,0.7543,Yes
+HOSP10716,Apollo Hospital,Administration,L3,Billing Executive,Udupi,Female,50,MBBS,Part-Time,On-Site,Rotational,11,1,14,173437,2081244,171150,3,4,3,46,Yes,9,22,101,1,2,3,31.1,Low,0.9144,Yes
+HOSP10717,AIIMS Mangaluru,Surgery,L2,Medical Officer,Mysuru,Female,50,PhD,Full-Time,On-Site,Rotational,4,0,23,136384,1636608,186404,5,3,2,6,No,2,118,215,7,0,4,20.3,Low,0.3871,No
+HOSP10718,Apollo Hospital,Surgery,L1,Physiotherapist,Chennai,Female,42,Bachelor's,Full-Time,On-Site,Rotational,16,5,14,96229,1154748,235193,3,5,2,13,No,6,63,265,5,2,3,15.4,High,0.4217,No
+HOSP10719,Manipal Hospital,General Medicine,L5,Consultant Doctor,Bengaluru,Male,31,Diploma,Contract,On-Site,Day,13,2,30,107049,1284588,185604,5,4,2,47,Yes,6,27,364,2,0,3,21.3,Medium,0.8808,Yes
+HOSP10720,Fortis Hospital,General Medicine,L3,IT Support Engineer,Hubballi,Female,22,Bachelor's,Full-Time,On-Site,Rotational,9,4,13,107157,1285884,221437,2,2,3,5,No,0,111,376,2,2,3,40.3,Medium,0.5709,No
+HOSP10721,Apollo Hospital,Surgery,L2,Staff Nurse,Kochi,Male,32,Bachelor's,Full-Time,On-Site,Rotational,2,10,21,123711,1484532,43336,4,5,1,33,Yes,7,3,59,4,0,1,17.6,Medium,0.7943,Yes
+HOSP10722,Fortis Hospital,Nursing,L4,Staff Nurse,Bengaluru,Male,50,Diploma,Full-Time,On-Site,Rotational,3,1,13,128090,1537080,8070,1,4,3,79,Yes,15,40,187,2,0,4,18.5,High,0.9866,Yes
+HOSP10723,Mangalore Medical Centre,Emergency,L2,Staff Nurse,Hubballi,Male,56,Diploma,Contract,On-Site,Night,5,0,5,111321,1335852,1320,2,1,2,45,Yes,6,59,62,5,3,4,27.6,Medium,0.9296,Yes
+HOSP10724,AIIMS Mangaluru,Outpatient,L3,Staff Nurse,Mysuru,Female,38,Master's,Full-Time,Hybrid,Day,15,0,13,44465,533580,89043,2,4,2,58,Yes,0,17,348,1,3,1,34.0,High,0.9302,Yes
+HOSP10725,Mangalore Medical Centre,Nursing,L3,Physiotherapist,Hubballi,Female,46,PhD,Full-Time,On-Site,Day,6,10,16,50286,603432,38921,1,1,2,69,Yes,7,62,230,7,0,3,33.2,Medium,0.9765,Yes
+HOSP10726,Fortis Hospital,Physiotherapy,L2,Resident Doctor,Chennai,Female,27,Master's,Full-Time,On-Site,Night,14,3,17,72795,873540,6589,3,1,4,7,No,13,60,198,10,3,3,1.4,Medium,0.429,No
+HOSP10727,Fortis Hospital,Nursing,L5,Billing Executive,Mysuru,Male,21,Diploma,Full-Time,On-Site,Rotational,20,9,19,126139,1513668,195481,3,4,1,23,Yes,13,48,42,10,3,2,31.1,Low,0.8714,No
+HOSP10728,CityCare Hospital,ICU,L3,Pharmacist,Bengaluru,Male,46,MBBS,Full-Time,On-Site,Night,19,1,18,121845,1462140,92995,3,4,3,66,Yes,1,46,114,8,1,2,20.5,High,0.9166,Yes
+HOSP10729,CityCare Hospital,Pharmacy,L3,Resident Doctor,Mangaluru,Female,43,MBBS,Full-Time,On-Site,Night,10,0,29,67986,815832,15589,4,1,2,3,No,7,114,179,6,2,5,23.8,Medium,0.4745,No
+HOSP10730,Mangalore Medical Centre,Administration,L1,Hospital Administrator,Mangaluru,Male,46,Bachelor's,Full-Time,On-Site,Night,20,5,16,93396,1120752,36375,2,3,5,0,No,2,38,263,2,3,2,25.5,Medium,0.436,Yes
+HOSP10731,District General Hospital,ICU,L1,Lab Technician,Hubballi,Male,26,MD/MS,Full-Time,Hybrid,Rotational,0,3,15,73178,878136,43085,5,5,1,33,Yes,9,88,36,10,0,4,33.1,Low,0.8622,No
+HOSP10732,Mangalore Medical Centre,Pediatrics,L2,IT Support Engineer,Mangaluru,Female,26,Bachelor's,Full-Time,On-Site,Rotational,4,9,7,28745,344940,60840,1,2,5,8,No,6,81,131,9,1,1,37.5,Medium,0.7581,Yes
+HOSP10733,CityCare Hospital,Pharmacy,L4,Billing Executive,Mysuru,Female,28,Bachelor's,Contract,On-Site,Day,12,6,6,97637,1171644,174272,2,4,1,62,Yes,12,5,122,3,1,3,29.3,Low,0.9825,Yes
+HOSP10734,Fortis Hospital,Pharmacy,L2,Receptionist,Udupi,Female,44,MD/MS,Contract,On-Site,Night,20,10,19,154100,1849200,98704,3,5,2,75,Yes,5,82,333,9,3,5,25.6,Medium,0.9498,Yes
+HOSP10735,Manipal Hospital,Laboratory,L3,IT Support Engineer,Mysuru,Male,42,PhD,Full-Time,On-Site,Day,13,5,27,66566,798792,157804,1,5,1,9,No,4,52,105,1,0,2,17.1,High,0.5826,Yes
+HOSP10736,Mangalore Medical Centre,Emergency,L3,Billing Executive,Udupi,Male,39,Diploma,Full-Time,On-Site,Rotational,8,4,11,61722,740664,97047,5,3,1,9,No,14,75,54,8,0,5,6.6,High,0.524,Yes
+HOSP10737,Fortis Hospital,Emergency,L1,Radiology Technician,Bengaluru,Male,57,MBBS,Full-Time,On-Site,Rotational,16,9,8,104623,1255476,153498,2,5,2,49,Yes,15,24,49,4,0,1,43.2,Low,0.9855,Yes
+HOSP10738,Manipal Hospital,Pharmacy,L3,Senior Nurse,Kochi,Male,38,Bachelor's,Full-Time,Hybrid,Rotational,14,1,26,129074,1548888,30982,2,4,5,43,Yes,10,98,211,1,0,1,21.1,High,0.9023,Yes
+HOSP10739,Manipal Hospital,Physiotherapy,L1,Pharmacist,Udupi,Male,51,MD/MS,Part-Time,On-Site,Day,20,4,13,92974,1115688,59720,4,5,5,47,Yes,9,64,198,9,0,5,25.7,High,0.8704,Yes
+HOSP10740,CityCare Hospital,Nursing,L5,IT Support Engineer,Mangaluru,Female,57,Master's,Full-Time,On-Site,Rotational,6,8,19,102084,1225008,147818,2,4,4,5,No,13,4,123,5,2,5,33.9,Medium,0.7372,Yes
+HOSP10741,Mangalore Medical Centre,Laboratory,L2,Pharmacist,Mysuru,Male,50,Bachelor's,Full-Time,On-Site,Day,11,8,0,173839,2086068,28514,2,4,5,23,Yes,10,64,184,6,0,5,3.5,Medium,0.6195,Yes
+HOSP10742,Apollo Hospital,Administration,L1,Hospital Administrator,Bengaluru,Male,53,MBBS,Part-Time,On-Site,Rotational,5,1,30,135353,1624236,195961,5,1,5,57,Yes,1,7,141,1,0,3,38.5,High,0.9284,Yes
+HOSP10743,AIIMS Mangaluru,Pharmacy,L2,Resident Doctor,Mangaluru,Male,30,Diploma,Full-Time,On-Site,Day,20,6,9,122417,1469004,134923,5,3,1,63,Yes,1,38,153,0,2,4,36.0,Medium,0.9172,Yes
+HOSP10744,CityCare Hospital,Radiology,L2,Pharmacist,Bengaluru,Female,57,Bachelor's,Full-Time,On-Site,Rotational,15,9,30,86099,1033188,150868,1,2,4,55,Yes,12,110,309,6,3,2,35.0,Medium,0.9715,Yes
+HOSP10745,CityCare Hospital,General Medicine,L4,Ward Assistant,Kochi,Female,32,Bachelor's,Full-Time,On-Site,Night,4,3,16,157570,1890840,76034,3,1,2,11,No,11,42,331,0,1,2,1.5,Medium,0.6077,Yes
+HOSP10746,Apollo Hospital,General Medicine,L3,Ward Assistant,Chennai,Female,50,PhD,Full-Time,On-Site,Rotational,8,2,16,43107,517284,193870,5,2,2,34,Yes,14,81,243,2,2,2,23.9,Low,0.911,Yes
+HOSP10747,AIIMS Mangaluru,ICU,L3,Receptionist,Mysuru,Male,47,MD/MS,Full-Time,On-Site,Rotational,13,10,16,177865,2134380,98388,1,4,3,70,Yes,0,109,44,3,1,5,2.9,High,0.8583,Yes
+HOSP10748,Fortis Hospital,Pediatrics,L1,Lab Technician,Hubballi,Female,59,Master's,Part-Time,On-Site,Day,7,0,3,151768,1821216,194057,2,1,4,5,No,13,72,390,1,1,5,25.0,Medium,0.7271,No
+HOSP10749,District General Hospital,IT,L1,Data Analyst,Mysuru,Female,29,Master's,Part-Time,Hybrid,Day,13,2,16,71839,862068,165664,1,5,1,64,Yes,8,4,32,6,2,5,32.5,Medium,0.9647,Yes
+HOSP10750,Mangalore Medical Centre,IT,L1,Senior Nurse,Kochi,Female,41,Diploma,Full-Time,On-Site,Rotational,11,10,17,107241,1286892,44845,1,5,3,79,Yes,15,118,338,4,0,3,5.9,Low,0.979,Yes
+HOSP10751,District General Hospital,General Medicine,L3,Medical Officer,Mysuru,Male,32,MBBS,Contract,On-Site,Night,9,8,19,41397,496764,147002,1,2,3,59,Yes,10,3,249,0,1,3,31.4,Medium,0.9798,Yes
+HOSP10752,Fortis Hospital,Outpatient,L4,Physiotherapist,Hubballi,Female,49,Diploma,Full-Time,Hybrid,Day,19,8,22,25704,308448,110853,1,4,2,67,Yes,7,107,121,7,0,3,20.5,Medium,0.9485,Yes
+HOSP10753,CityCare Hospital,Cardiology,L2,Resident Doctor,Udupi,Male,53,Bachelor's,Part-Time,On-Site,Night,19,6,1,34442,413304,108417,5,2,5,28,Yes,7,92,397,9,3,3,36.6,Medium,0.7943,No
+HOSP10754,AIIMS Mangaluru,ICU,L1,Physiotherapist,Bengaluru,Male,35,Bachelor's,Full-Time,On-Site,Rotational,20,2,7,147576,1770912,113436,3,3,1,37,Yes,0,0,395,6,2,1,24.2,High,0.7215,Yes
+HOSP10755,CityCare Hospital,IT,L3,Receptionist,Hubballi,Female,22,Master's,Contract,On-Site,Day,12,2,12,27765,333180,238198,1,5,4,21,Yes,4,93,222,3,1,3,15.5,Low,0.6587,Yes
+HOSP10756,Manipal Hospital,General Medicine,L4,Medical Officer,Mangaluru,Male,59,MBBS,Contract,On-Site,Day,18,3,22,133828,1605936,21159,4,1,3,7,No,11,55,286,1,0,3,15.3,Low,0.7111,Yes
+HOSP10757,CityCare Hospital,Pediatrics,L3,Receptionist,Kochi,Female,38,MD/MS,Full-Time,On-Site,Day,14,6,24,28002,336024,226144,2,1,1,62,Yes,5,44,384,6,1,3,40.4,Medium,0.9755,Yes
+HOSP10758,CityCare Hospital,IT,L4,Billing Executive,Udupi,Male,23,MBBS,Contract,On-Site,Night,7,6,29,29390,352680,89788,2,1,2,12,No,14,64,241,10,3,2,20.7,Medium,0.8312,Yes
+HOSP10759,Fortis Hospital,Nursing,L2,Resident Doctor,Mangaluru,Female,27,Bachelor's,Part-Time,On-Site,Rotational,20,1,21,24641,295692,24003,2,5,3,26,Yes,1,2,123,1,3,2,18.6,Low,0.707,Yes
+HOSP10760,Fortis Hospital,Nursing,L1,Resident Doctor,Mangaluru,Female,38,MD/MS,Part-Time,On-Site,Rotational,9,4,19,129119,1549428,105722,2,4,3,17,No,9,21,130,5,1,2,2.3,Low,0.6911,Yes
+HOSP10761,Fortis Hospital,Emergency,L4,Senior Nurse,Kochi,Female,58,MBBS,Full-Time,On-Site,Rotational,2,6,21,33624,403488,35139,2,5,2,17,No,14,71,88,0,2,4,16.7,High,0.727,Yes
+HOSP10762,District General Hospital,Physiotherapy,L3,Physiotherapist,Udupi,Male,57,MBBS,Part-Time,On-Site,Day,20,6,14,27966,335592,236444,1,5,2,76,Yes,4,55,377,6,3,1,38.3,Low,0.9835,Yes
+HOSP10763,Manipal Hospital,Emergency,L2,Ward Assistant,Chennai,Female,53,MD/MS,Contract,On-Site,Rotational,2,5,19,89301,1071612,52452,3,1,2,61,Yes,5,17,277,6,0,5,34.4,High,0.9637,Yes
+HOSP10764,Fortis Hospital,Administration,L3,Staff Nurse,Mangaluru,Male,51,Bachelor's,Full-Time,On-Site,Night,4,9,22,133123,1597476,22205,4,5,1,13,No,8,24,187,3,3,3,10.3,Medium,0.4714,No
+HOSP10765,AIIMS Mangaluru,Pharmacy,L4,Physiotherapist,Mangaluru,Female,31,MBBS,Contract,On-Site,Day,15,9,8,166295,1995540,227131,5,1,1,10,No,14,47,312,3,0,2,18.9,Medium,0.8133,Yes
+HOSP10766,District General Hospital,Radiology,L3,Radiology Technician,Udupi,Male,24,MD/MS,Full-Time,On-Site,Rotational,16,7,2,96183,1154196,56955,4,4,1,16,No,9,115,393,9,1,1,9.2,Low,0.6111,Yes
+HOSP10767,Apollo Hospital,Emergency,L3,Receptionist,Mysuru,Male,38,PhD,Full-Time,On-Site,Rotational,5,2,2,22959,275508,241235,5,3,5,50,Yes,0,83,68,4,0,3,43.0,High,0.8624,Yes
+HOSP10768,AIIMS Mangaluru,IT,L2,Radiology Technician,Mangaluru,Female,24,PhD,Full-Time,On-Site,Rotational,19,0,1,176329,2115948,7464,5,1,3,13,No,12,30,269,1,1,4,27.1,Low,0.8136,Yes
+HOSP10769,Mangalore Medical Centre,Outpatient,L3,Resident Doctor,Bengaluru,Female,54,Bachelor's,Full-Time,On-Site,Rotational,19,2,0,68802,825624,213718,4,2,1,56,Yes,9,29,350,8,3,5,34.1,Medium,0.9536,Yes
+HOSP10770,Mangalore Medical Centre,Laboratory,L3,Staff Nurse,Udupi,Female,49,MD/MS,Full-Time,On-Site,Day,15,10,13,142125,1705500,242924,1,3,5,5,No,2,79,94,9,2,3,32.3,Low,0.4914,Yes
+HOSP10771,AIIMS Mangaluru,General Medicine,L4,Consultant Doctor,Mangaluru,Female,44,PhD,Full-Time,On-Site,Day,1,1,16,141795,1701540,203729,2,4,3,56,Yes,11,65,220,3,3,5,39.4,High,0.963,Yes
+HOSP10772,Fortis Hospital,Laboratory,L4,Medical Officer,Kochi,Female,42,MD/MS,Contract,Hybrid,Rotational,19,1,12,45215,542580,9840,1,3,1,3,No,8,80,53,10,3,3,42.7,High,0.7149,No
+HOSP10773,Apollo Hospital,Pediatrics,L4,Lab Technician,Hubballi,Male,22,MBBS,Full-Time,On-Site,Day,14,1,18,73046,876552,233688,2,1,2,10,No,14,9,333,8,3,4,1.9,Medium,0.6517,No
+HOSP10774,Apollo Hospital,Emergency,L1,Staff Nurse,Bengaluru,Female,26,Bachelor's,Full-Time,On-Site,Night,17,4,29,112593,1351116,40768,3,4,4,73,Yes,13,70,130,2,3,1,43.9,Medium,0.9839,Yes
+HOSP10775,District General Hospital,Radiology,L3,Billing Executive,Hubballi,Female,45,PhD,Full-Time,On-Site,Rotational,0,0,22,97036,1164432,140533,5,2,1,10,No,0,58,371,8,2,5,39.2,High,0.5798,Yes
+HOSP10776,Apollo Hospital,Pediatrics,L4,Lab Technician,Hubballi,Male,41,MBBS,Full-Time,On-Site,Rotational,18,9,14,127864,1534368,20927,4,1,4,78,Yes,0,105,335,0,3,5,17.5,High,0.9091,Yes
+HOSP10777,Mangalore Medical Centre,Cardiology,L3,IT Support Engineer,Mangaluru,Female,36,Diploma,Contract,On-Site,Night,11,3,26,138333,1659996,221006,3,1,1,7,No,0,50,256,6,0,1,37.7,Medium,0.6758,Yes
+HOSP10778,Manipal Hospital,Cardiology,L4,Physiotherapist,Bengaluru,Female,51,Diploma,Full-Time,On-Site,Rotational,7,9,24,34772,417264,98622,2,4,2,58,Yes,6,115,51,3,2,5,33.3,High,0.9362,Yes
+HOSP10779,Fortis Hospital,Laboratory,L4,Physiotherapist,Bengaluru,Male,34,Bachelor's,Part-Time,On-Site,Rotational,5,4,13,69943,839316,15329,1,4,4,20,Yes,12,8,228,6,2,2,35.8,Medium,0.8702,Yes
+HOSP10780,Apollo Hospital,Pharmacy,L2,Lab Technician,Mysuru,Female,59,PhD,Full-Time,Hybrid,Rotational,11,1,1,86868,1042416,15791,4,3,5,64,Yes,4,53,151,9,0,1,10.3,Low,0.9072,Yes
+HOSP10781,District General Hospital,ICU,L3,Data Analyst,Hubballi,Female,48,PhD,Full-Time,On-Site,Day,6,4,6,67855,814260,52627,5,2,2,23,Yes,5,61,125,5,1,4,29.4,Low,0.7639,No
+HOSP10782,Mangalore Medical Centre,Pharmacy,L1,Medical Officer,Bengaluru,Female,52,PhD,Full-Time,On-Site,Day,17,9,16,171290,2055480,128885,3,3,4,29,Yes,12,80,52,3,3,3,1.7,Medium,0.5853,Yes
+HOSP10783,Manipal Hospital,IT,L2,Billing Executive,Mysuru,Male,48,MD/MS,Full-Time,On-Site,Night,13,3,17,119124,1429488,145444,5,3,4,56,Yes,14,8,62,3,2,3,38.2,Medium,0.9615,Yes
+HOSP10784,CityCare Hospital,Nursing,L3,Staff Nurse,Udupi,Female,29,MBBS,Full-Time,Hybrid,Day,7,7,5,75205,902460,245311,2,1,2,79,Yes,13,8,387,7,3,1,42.8,Low,0.9958,Yes
+HOSP10785,CityCare Hospital,Administration,L4,Consultant Doctor,Mysuru,Male,42,PhD,Full-Time,On-Site,Day,19,0,26,154031,1848372,223962,5,4,2,72,Yes,7,100,126,6,3,2,30.0,Low,0.9658,Yes
+HOSP10786,Manipal Hospital,Pharmacy,L2,Resident Doctor,Kochi,Female,52,MBBS,Full-Time,On-Site,Day,13,4,20,43874,526488,179541,1,1,2,16,No,13,23,284,3,0,4,23.3,Medium,0.8501,Yes
+HOSP10787,Mangalore Medical Centre,Physiotherapy,L1,Senior Nurse,Chennai,Male,25,Bachelor's,Part-Time,Hybrid,Night,4,10,7,149007,1788084,109554,3,2,3,58,Yes,12,38,245,10,0,3,32.8,Low,0.9758,Yes
+HOSP10788,District General Hospital,Administration,L3,Billing Executive,Mangaluru,Female,43,PhD,Full-Time,On-Site,Rotational,8,9,27,19301,231612,130436,3,3,5,30,Yes,15,74,198,5,0,3,15.0,Low,0.8153,Yes
+HOSP10789,Manipal Hospital,Administration,L1,Physiotherapist,Udupi,Male,25,Bachelor's,Full-Time,On-Site,Day,7,0,26,76017,912204,87073,1,2,1,63,Yes,1,7,241,5,3,2,28.4,High,0.9521,Yes
+HOSP10790,Fortis Hospital,Radiology,L1,Radiology Technician,Chennai,Male,52,PhD,Full-Time,On-Site,Rotational,1,9,1,61319,735828,249894,5,4,4,47,Yes,12,24,389,0,2,5,32.5,Medium,0.9193,Yes
+HOSP10791,Fortis Hospital,Emergency,L1,Medical Officer,Chennai,Male,30,Diploma,Full-Time,On-Site,Rotational,15,9,0,40455,485460,34370,1,4,1,22,Yes,1,109,144,1,2,1,6.8,Low,0.522,No
+HOSP10792,CityCare Hospital,Radiology,L1,Senior Nurse,Udupi,Male,59,Master's,Contract,On-Site,Day,12,3,15,153184,1838208,51408,4,5,2,69,Yes,2,65,295,3,1,2,6.7,Medium,0.8947,Yes
+HOSP10793,Apollo Hospital,Administration,L1,Receptionist,Kochi,Male,35,Bachelor's,Full-Time,On-Site,Rotational,6,7,6,75033,900396,90941,1,2,5,29,Yes,12,9,186,5,3,2,32.4,High,0.9219,Yes
+HOSP10794,District General Hospital,Pediatrics,L2,Receptionist,Mysuru,Male,27,PhD,Full-Time,On-Site,Rotational,15,0,21,124924,1499088,238423,5,1,5,54,Yes,2,116,170,5,1,2,19.7,Medium,0.8676,Yes
+HOSP10795,CityCare Hospital,Cardiology,L2,Consultant Doctor,Mangaluru,Female,49,Master's,Contract,On-Site,Night,6,10,23,50735,608820,154775,1,2,3,6,No,12,23,60,0,1,2,40.1,Low,0.9156,No
+HOSP10796,Apollo Hospital,Administration,L4,Receptionist,Mysuru,Female,23,Bachelor's,Full-Time,On-Site,Rotational,13,1,10,90781,1089372,146306,2,3,2,74,Yes,2,111,319,7,1,5,14.4,High,0.9285,Yes
+HOSP10797,Apollo Hospital,Radiology,L3,Billing Executive,Bengaluru,Male,39,MD/MS,Full-Time,On-Site,Day,13,0,30,144031,1728372,138604,1,4,4,11,No,3,79,400,1,1,4,2.4,Medium,0.3272,No
+HOSP10798,Fortis Hospital,Outpatient,L3,Pharmacist,Mysuru,Male,30,PhD,Full-Time,On-Site,Rotational,11,10,14,146305,1755660,236742,1,4,3,59,Yes,2,82,54,4,1,2,29.4,Medium,0.933,Yes
+HOSP10799,Mangalore Medical Centre,Pediatrics,L1,Hospital Administrator,Udupi,Male,48,MD/MS,Full-Time,On-Site,Day,0,6,12,126049,1512588,35416,5,2,2,51,Yes,1,58,333,3,3,2,30.9,Medium,0.899,Yes
+HOSP10800,AIIMS Mangaluru,Radiology,L2,Resident Doctor,Mangaluru,Male,49,Diploma,Part-Time,On-Site,Rotational,0,1,29,170783,2049396,72439,4,2,3,26,Yes,8,30,323,4,0,1,25.1,Medium,0.8414,No
+HOSP10801,Mangalore Medical Centre,Pharmacy,L3,Physiotherapist,Mysuru,Female,35,PhD,Part-Time,On-Site,Night,11,0,23,23630,283560,18242,4,2,1,11,No,5,10,250,4,1,3,30.9,Medium,0.6696,Yes
+HOSP10802,AIIMS Mangaluru,General Medicine,L1,Resident Doctor,Mangaluru,Male,55,Diploma,Contract,On-Site,Rotational,19,5,1,83488,1001856,181326,5,3,2,12,No,2,5,234,9,2,5,23.8,High,0.4933,No
+HOSP10803,Manipal Hospital,Laboratory,L2,Receptionist,Mangaluru,Female,26,Master's,Full-Time,On-Site,Day,20,5,13,152278,1827336,79324,5,3,4,71,Yes,8,69,333,7,3,2,31.3,Medium,0.9581,Yes
+HOSP10804,Fortis Hospital,ICU,L3,Data Analyst,Bengaluru,Female,32,Bachelor's,Full-Time,On-Site,Rotational,14,9,23,74289,891468,35249,5,1,4,79,Yes,14,31,120,9,1,4,2.5,High,0.9696,Yes
+HOSP10805,Apollo Hospital,Nursing,L3,IT Support Engineer,Bengaluru,Male,58,MBBS,Part-Time,Hybrid,Rotational,3,1,5,36953,443436,100124,2,2,2,61,Yes,3,38,76,6,2,4,16.9,Medium,0.921,Yes
+HOSP10806,District General Hospital,Radiology,L1,IT Support Engineer,Udupi,Male,33,Diploma,Full-Time,On-Site,Night,6,0,8,118932,1427184,95049,3,1,3,28,Yes,3,47,234,8,1,4,9.9,Medium,0.6356,No
+HOSP10807,AIIMS Mangaluru,Physiotherapy,L2,Senior Nurse,Kochi,Female,49,MBBS,Full-Time,On-Site,Rotational,15,9,27,159140,1909680,239647,1,5,5,34,Yes,7,12,175,10,0,1,4.9,Medium,0.7652,Yes
+HOSP10808,Mangalore Medical Centre,ICU,L3,IT Support Engineer,Chennai,Female,39,MBBS,Full-Time,On-Site,Night,2,2,6,96930,1163160,85078,5,3,2,59,Yes,6,58,83,0,3,4,10.9,Low,0.8783,Yes
+HOSP10809,Apollo Hospital,Outpatient,L1,IT Support Engineer,Mangaluru,Male,23,Bachelor's,Full-Time,On-Site,Rotational,6,9,17,19067,228804,32294,5,4,4,28,Yes,14,66,81,5,0,1,9.0,Low,0.7883,Yes
+HOSP10810,AIIMS Mangaluru,Surgery,L3,Resident Doctor,Kochi,Male,28,Master's,Full-Time,On-Site,Night,5,4,23,68658,823896,190856,5,5,1,30,Yes,15,55,358,5,2,5,43.8,High,0.9208,Yes
+HOSP10811,AIIMS Mangaluru,Radiology,L3,Hospital Administrator,Chennai,Male,28,Bachelor's,Contract,On-Site,Rotational,15,5,8,70165,841980,134756,4,4,4,76,Yes,6,119,388,1,1,4,13.3,Medium,0.9374,Yes
+HOSP10812,AIIMS Mangaluru,General Medicine,L5,Pharmacist,Chennai,Female,40,PhD,Contract,Hybrid,Rotational,7,2,22,98781,1185372,154867,5,5,5,75,Yes,9,40,387,10,0,3,10.8,Low,0.9617,Yes
+HOSP10813,District General Hospital,ICU,L2,Senior Nurse,Udupi,Female,24,Diploma,Full-Time,On-Site,Night,5,8,3,158931,1907172,191373,1,1,4,60,Yes,6,55,81,7,0,2,37.7,Medium,0.9756,Yes
+HOSP10814,Fortis Hospital,Nursing,L4,Physiotherapist,Chennai,Male,41,MBBS,Full-Time,On-Site,Day,9,10,8,47164,565968,200259,5,1,5,1,No,9,34,113,5,1,5,19.2,Low,0.5664,Yes
+HOSP10815,District General Hospital,Administration,L3,Staff Nurse,Chennai,Female,23,Bachelor's,Full-Time,On-Site,Night,15,4,3,122946,1475352,141503,1,3,2,32,Yes,15,37,360,10,3,3,19.3,High,0.8845,Yes
+HOSP10816,CityCare Hospital,Radiology,L2,Radiology Technician,Mangaluru,Female,28,Bachelor's,Contract,On-Site,Rotational,10,1,11,145580,1746960,206739,2,4,4,71,Yes,10,120,45,9,2,5,20.2,Low,0.9687,Yes
+HOSP10817,Apollo Hospital,Emergency,L1,Senior Nurse,Mangaluru,Male,43,Bachelor's,Full-Time,Hybrid,Day,12,9,3,117251,1407012,89627,3,5,3,61,Yes,15,80,140,8,3,4,19.0,Medium,0.9416,Yes
+HOSP10818,Fortis Hospital,Outpatient,L3,Ward Assistant,Hubballi,Male,36,Diploma,Full-Time,On-Site,Night,5,5,24,38773,465276,90381,4,2,3,58,Yes,4,66,69,9,2,5,15.0,Medium,0.8575,Yes
+HOSP10819,Fortis Hospital,Laboratory,L2,Data Analyst,Kochi,Female,33,Master's,Full-Time,On-Site,Rotational,0,7,29,51939,623268,90027,1,2,4,39,Yes,14,33,390,4,2,5,13.2,Medium,0.9009,Yes
+HOSP10820,Fortis Hospital,General Medicine,L2,Pharmacist,Mysuru,Female,23,Bachelor's,Full-Time,On-Site,Night,20,10,23,155186,1862232,186444,2,3,4,48,Yes,6,75,271,6,0,5,39.7,Low,0.937,Yes
+HOSP10821,Mangalore Medical Centre,IT,L1,Data Analyst,Bengaluru,Male,29,Diploma,Full-Time,On-Site,Rotational,18,5,19,116475,1397700,70366,3,4,1,31,Yes,3,87,55,5,1,1,7.7,Medium,0.5877,Yes
+HOSP10822,Fortis Hospital,IT,L4,Senior Nurse,Mysuru,Male,34,MBBS,Part-Time,On-Site,Day,11,3,13,30818,369816,94176,3,2,4,37,Yes,15,69,308,10,3,3,8.6,High,0.817,Yes
+HOSP10823,District General Hospital,Physiotherapy,L4,Senior Nurse,Kochi,Male,33,PhD,Full-Time,On-Site,Day,5,5,23,27335,328020,119667,3,3,1,78,Yes,7,105,398,4,0,4,25.9,High,0.9625,Yes
+HOSP10824,Fortis Hospital,ICU,L3,Ward Assistant,Bengaluru,Male,27,MD/MS,Full-Time,On-Site,Rotational,17,7,30,73008,876096,72870,1,3,1,12,No,8,10,119,5,0,2,15.8,Medium,0.6863,No
+HOSP10825,Manipal Hospital,General Medicine,L2,IT Support Engineer,Mysuru,Male,35,Diploma,Full-Time,On-Site,Day,12,7,23,89745,1076940,47387,2,4,1,53,Yes,12,111,343,3,0,4,19.3,Medium,0.9365,Yes
+HOSP10826,Apollo Hospital,Pediatrics,L1,Physiotherapist,Hubballi,Female,27,MD/MS,Full-Time,On-Site,Day,6,9,6,21577,258924,183999,5,2,1,75,Yes,11,26,348,2,3,4,36.4,Low,0.9869,Yes
+HOSP10827,Fortis Hospital,Nursing,L3,Billing Executive,Bengaluru,Female,58,Bachelor's,Contract,On-Site,Rotational,12,1,25,91916,1102992,9304,2,2,2,12,No,2,47,155,0,0,1,40.7,Low,0.855,No
+HOSP10828,Apollo Hospital,Laboratory,L2,Billing Executive,Mangaluru,Female,54,Bachelor's,Full-Time,On-Site,Night,20,7,12,153148,1837776,244255,2,2,3,38,Yes,6,23,213,0,1,1,35.7,High,0.9399,Yes
+HOSP10829,Manipal Hospital,Administration,L1,Data Analyst,Mysuru,Female,42,Diploma,Contract,On-Site,Rotational,7,5,21,77314,927768,17032,2,1,1,22,Yes,11,17,240,5,0,5,11.0,High,0.8313,Yes
+HOSP10830,Manipal Hospital,Radiology,L3,Senior Nurse,Bengaluru,Male,44,MD/MS,Full-Time,On-Site,Rotational,20,1,7,59205,710460,91291,1,2,3,13,No,9,26,298,8,0,4,44.1,Medium,0.8774,Yes
+HOSP10831,Apollo Hospital,Radiology,L5,Radiology Technician,Hubballi,Male,57,Bachelor's,Full-Time,On-Site,Day,16,0,22,160167,1922004,112889,1,5,1,16,No,8,53,345,7,2,3,16.7,Medium,0.6444,Yes
+HOSP10832,AIIMS Mangaluru,IT,L3,Resident Doctor,Chennai,Male,21,MBBS,Full-Time,On-Site,Day,8,5,4,131583,1578996,59486,1,1,3,23,Yes,0,54,74,1,0,1,8.0,Medium,0.6376,Yes
+HOSP10833,CityCare Hospital,Radiology,L3,Physiotherapist,Bengaluru,Female,30,Master's,Full-Time,On-Site,Rotational,19,6,11,102715,1232580,65552,2,1,4,57,Yes,1,119,129,8,3,1,22.7,Low,0.9153,Yes
+HOSP10834,Mangalore Medical Centre,Laboratory,L5,Radiology Technician,Bengaluru,Female,36,Master's,Full-Time,Hybrid,Night,12,9,12,74680,896160,204916,1,1,4,62,Yes,15,104,168,7,3,3,32.8,Medium,0.9785,Yes
+HOSP10835,AIIMS Mangaluru,Emergency,L2,Receptionist,Hubballi,Female,28,Bachelor's,Part-Time,On-Site,Day,1,4,28,46400,556800,160726,3,1,3,33,Yes,6,20,284,8,1,1,4.2,High,0.745,Yes
+HOSP10836,AIIMS Mangaluru,Surgery,L3,Physiotherapist,Chennai,Male,45,MD/MS,Full-Time,On-Site,Rotational,3,9,19,125345,1504140,39244,1,3,1,50,Yes,14,58,181,3,3,3,28.7,Medium,0.9562,Yes
+HOSP10837,District General Hospital,Physiotherapy,L5,Receptionist,Mysuru,Female,32,PhD,Full-Time,On-Site,Day,1,7,13,105110,1261320,137014,4,5,2,9,No,12,114,206,8,3,2,38.7,Medium,0.7464,Yes
+HOSP10838,Mangalore Medical Centre,Cardiology,L1,Radiology Technician,Udupi,Male,45,Bachelor's,Part-Time,On-Site,Rotational,3,10,27,138120,1657440,50697,1,4,3,71,Yes,1,33,148,1,0,3,12.1,Low,0.9333,Yes
+HOSP10839,Mangalore Medical Centre,Pharmacy,L3,Hospital Administrator,Mysuru,Male,37,PhD,Contract,On-Site,Day,17,8,17,46562,558744,126031,1,2,5,20,Yes,6,119,127,0,1,2,31.3,Low,0.8636,Yes
+HOSP10840,AIIMS Mangaluru,Physiotherapy,L3,Pharmacist,Chennai,Male,46,PhD,Full-Time,Hybrid,Day,4,3,26,36510,438120,2693,1,1,2,36,Yes,0,96,87,8,3,5,18.3,Medium,0.7131,Yes
+HOSP10841,Fortis Hospital,ICU,L3,IT Support Engineer,Kochi,Male,34,MD/MS,Contract,On-Site,Day,18,6,23,79608,955296,187823,1,4,5,6,No,14,57,85,9,1,5,18.9,High,0.7353,Yes
+HOSP10842,District General Hospital,Emergency,L3,Radiology Technician,Hubballi,Male,56,PhD,Full-Time,Hybrid,Rotational,9,7,24,70182,842184,81098,4,3,3,12,No,2,47,163,7,1,1,13.0,High,0.4489,No
+HOSP10843,District General Hospital,Physiotherapy,L4,Lab Technician,Mysuru,Male,43,MBBS,Full-Time,On-Site,Rotational,17,5,19,44883,538596,249849,5,4,1,79,Yes,14,53,72,6,2,3,28.3,High,0.9825,Yes
+HOSP10844,Manipal Hospital,Administration,L4,Radiology Technician,Bengaluru,Female,26,MD/MS,Part-Time,On-Site,Rotational,20,1,3,167800,2013600,6259,1,1,5,29,Yes,4,17,147,7,2,1,16.6,Medium,0.7678,Yes
+HOSP10845,Mangalore Medical Centre,IT,L1,Staff Nurse,Hubballi,Male,25,Bachelor's,Full-Time,On-Site,Night,9,6,20,29094,349128,119746,3,5,3,30,Yes,13,2,340,0,0,3,37.5,Medium,0.9031,Yes
+HOSP10846,AIIMS Mangaluru,Outpatient,L4,Staff Nurse,Mangaluru,Male,45,MBBS,Full-Time,On-Site,Night,4,8,17,151479,1817748,244955,4,4,2,4,No,11,23,226,8,3,1,43.3,High,0.755,No
+HOSP10847,Manipal Hospital,ICU,L2,Medical Officer,Chennai,Female,38,Diploma,Full-Time,On-Site,Day,16,4,6,30644,367728,107772,5,1,1,31,Yes,13,0,339,9,0,5,42.1,Medium,0.9381,Yes
+HOSP10848,Apollo Hospital,Radiology,L2,Receptionist,Mysuru,Male,33,Master's,Part-Time,Hybrid,Night,12,1,14,103834,1246008,117928,1,1,5,15,No,10,5,235,10,0,5,7.8,High,0.6809,Yes
+HOSP10849,CityCare Hospital,General Medicine,L2,Lab Technician,Hubballi,Female,34,Bachelor's,Part-Time,Hybrid,Rotational,16,3,20,126982,1523784,136014,5,2,3,72,Yes,5,18,87,8,1,1,1.1,High,0.9327,Yes
+HOSP10850,District General Hospital,Administration,L2,IT Support Engineer,Mysuru,Female,48,Bachelor's,Full-Time,Hybrid,Rotational,8,2,5,70748,848976,47419,3,2,1,21,Yes,14,85,81,10,1,3,20.0,Medium,0.7998,Yes
+HOSP10851,Apollo Hospital,ICU,L2,Lab Technician,Hubballi,Female,38,Bachelor's,Full-Time,On-Site,Day,11,3,15,77021,924252,102092,4,5,1,63,Yes,12,114,229,8,1,4,32.9,Medium,0.9633,Yes
+HOSP10852,Apollo Hospital,Outpatient,L5,Resident Doctor,Bengaluru,Male,48,MBBS,Full-Time,On-Site,Rotational,13,9,19,80651,967812,56105,4,2,4,43,Yes,8,42,356,5,0,3,44.0,Medium,0.9402,Yes
+HOSP10853,Fortis Hospital,Nursing,L3,Lab Technician,Mangaluru,Male,47,Diploma,Full-Time,On-Site,Day,13,6,23,54807,657684,196979,5,5,1,39,Yes,8,7,346,3,3,1,35.4,Low,0.9117,Yes
+HOSP10854,CityCare Hospital,Radiology,L3,Resident Doctor,Mangaluru,Female,52,MD/MS,Full-Time,On-Site,Rotational,7,9,7,46669,560028,158455,1,3,3,36,Yes,2,68,389,1,0,3,26.3,Medium,0.7808,Yes
+HOSP10855,Apollo Hospital,Physiotherapy,L1,Medical Officer,Kochi,Male,29,Diploma,Part-Time,On-Site,Day,4,7,27,179233,2150796,23404,2,3,2,77,Yes,13,51,71,10,0,2,1.7,High,0.975,Yes
+HOSP10856,Apollo Hospital,Physiotherapy,L4,Medical Officer,Hubballi,Male,60,MBBS,Full-Time,On-Site,Night,18,0,20,156354,1876248,72656,4,2,4,15,No,7,72,135,3,0,3,37.2,High,0.7245,No
+HOSP10857,CityCare Hospital,ICU,L4,Pharmacist,Mysuru,Female,52,Bachelor's,Full-Time,On-Site,Night,13,7,15,44539,534468,136774,2,3,3,42,Yes,15,46,400,6,2,5,8.4,Low,0.9075,Yes
+HOSP10858,CityCare Hospital,General Medicine,L4,Billing Executive,Mangaluru,Female,40,Master's,Full-Time,On-Site,Night,8,4,27,152379,1828548,204955,4,4,3,62,Yes,12,84,84,0,2,5,3.0,Medium,0.8803,Yes
+HOSP10859,Apollo Hospital,Nursing,L1,Staff Nurse,Chennai,Male,48,Bachelor's,Full-Time,On-Site,Rotational,6,6,21,35745,428940,100965,1,4,3,14,No,3,27,149,8,3,2,38.3,Medium,0.737,No
+HOSP10860,CityCare Hospital,Radiology,L1,Radiology Technician,Mangaluru,Female,53,MD/MS,Contract,On-Site,Night,7,10,15,52555,630660,56332,1,4,5,43,Yes,6,45,196,2,2,3,25.7,Medium,0.8833,Yes
+HOSP10861,Apollo Hospital,Outpatient,L2,Radiology Technician,Udupi,Female,24,PhD,Full-Time,On-Site,Night,13,10,2,150145,1801740,170491,4,3,5,8,No,5,3,297,3,0,4,6.2,Medium,0.3334,No
+HOSP10862,Apollo Hospital,Surgery,L1,Receptionist,Udupi,Female,54,Master's,Full-Time,On-Site,Rotational,13,0,16,50683,608196,221648,5,4,2,64,Yes,7,119,182,4,2,3,17.7,Medium,0.8956,Yes
+HOSP10863,Fortis Hospital,Physiotherapy,L2,Ward Assistant,Mangaluru,Male,23,Bachelor's,Full-Time,On-Site,Rotational,10,1,8,43741,524892,103182,1,5,3,43,Yes,15,87,351,2,2,5,4.3,Medium,0.8588,Yes
+HOSP10864,AIIMS Mangaluru,Outpatient,L4,Ward Assistant,Hubballi,Male,46,Master's,Full-Time,On-Site,Rotational,13,0,24,171358,2056296,111395,1,1,5,19,No,5,7,171,3,0,5,28.9,Low,0.8032,Yes
+HOSP10865,Apollo Hospital,Emergency,L2,Consultant Doctor,Kochi,Male,28,PhD,Full-Time,On-Site,Day,20,4,2,21599,259188,102619,3,2,5,69,Yes,3,115,369,4,3,1,13.1,Medium,0.9032,Yes
+HOSP10866,Manipal Hospital,Physiotherapy,L1,Physiotherapist,Mangaluru,Female,26,Diploma,Full-Time,On-Site,Rotational,7,5,19,146513,1758156,219150,1,5,5,73,Yes,1,60,255,0,2,5,39.0,Medium,0.9521,Yes
+HOSP10867,District General Hospital,Outpatient,L2,Pharmacist,Bengaluru,Male,36,MBBS,Full-Time,On-Site,Rotational,2,9,28,45293,543516,108269,3,4,2,32,Yes,6,16,177,8,0,1,16.4,Low,0.7948,Yes
+HOSP10868,Mangalore Medical Centre,Pediatrics,L1,Consultant Doctor,Mysuru,Female,44,Bachelor's,Full-Time,On-Site,Night,17,8,6,33389,400668,73844,1,1,2,79,Yes,10,33,346,9,0,5,22.5,Medium,0.9862,Yes
+HOSP10869,AIIMS Mangaluru,IT,L1,Consultant Doctor,Kochi,Male,59,MD/MS,Full-Time,On-Site,Night,2,7,17,30318,363816,170314,1,2,3,5,No,14,19,125,9,0,5,3.3,Medium,0.6526,No
+HOSP10870,AIIMS Mangaluru,Pharmacy,L2,Senior Nurse,Bengaluru,Male,50,Diploma,Full-Time,On-Site,Night,12,6,11,21055,252660,124983,5,5,4,30,Yes,12,79,325,3,1,4,12.8,High,0.7227,Yes
+HOSP10871,AIIMS Mangaluru,Laboratory,L2,Receptionist,Kochi,Female,33,Bachelor's,Contract,On-Site,Day,11,4,18,139164,1669968,34142,5,2,3,65,Yes,10,73,274,8,0,1,30.6,Medium,0.978,Yes
+HOSP10872,Fortis Hospital,IT,L4,Senior Nurse,Bengaluru,Male,25,Diploma,Full-Time,On-Site,Day,14,2,15,100579,1206948,109699,1,3,5,17,No,3,33,377,3,2,1,33.3,Medium,0.7048,Yes
+HOSP10873,Apollo Hospital,Pharmacy,L5,Data Analyst,Mysuru,Female,45,MD/MS,Full-Time,On-Site,Day,17,8,21,155392,1864704,96226,4,4,5,27,Yes,12,42,132,0,2,5,11.3,Medium,0.6879,No
+HOSP10874,Fortis Hospital,Administration,L2,Receptionist,Mysuru,Male,40,Bachelor's,Full-Time,On-Site,Rotational,4,4,26,122817,1473804,7393,4,5,1,67,Yes,8,9,49,4,0,1,22.9,Low,0.9657,Yes
+HOSP10875,Apollo Hospital,Outpatient,L2,Consultant Doctor,Udupi,Male,38,PhD,Full-Time,On-Site,Rotational,6,2,23,22642,271704,201011,1,5,3,64,Yes,8,93,31,8,1,5,36.9,Medium,0.969,Yes
+HOSP10876,Fortis Hospital,Pharmacy,L4,Lab Technician,Hubballi,Female,38,PhD,Part-Time,On-Site,Rotational,10,2,30,27321,327852,200154,4,1,5,79,Yes,6,29,196,2,1,5,17.4,High,0.9632,Yes
+HOSP10877,Fortis Hospital,Radiology,L2,Physiotherapist,Bengaluru,Female,22,MD/MS,Full-Time,On-Site,Rotational,10,2,16,97968,1175616,102281,1,1,5,44,Yes,4,114,357,4,1,3,6.5,Medium,0.782,Yes
+HOSP10878,District General Hospital,Surgery,L1,Billing Executive,Udupi,Female,30,Master's,Full-Time,On-Site,Day,14,5,19,120770,1449240,159965,5,1,4,57,Yes,2,24,65,2,2,1,19.7,Medium,0.8844,Yes
+HOSP10879,Manipal Hospital,Pediatrics,L4,Pharmacist,Bengaluru,Male,32,MD/MS,Full-Time,On-Site,Rotational,9,0,14,175116,2101392,9388,2,2,1,46,Yes,2,56,190,2,1,2,27.2,Low,0.9329,Yes
+HOSP10880,Fortis Hospital,Emergency,L1,Receptionist,Udupi,Male,33,Master's,Full-Time,On-Site,Rotational,14,10,0,171043,2052516,249171,3,4,3,65,Yes,8,109,149,0,3,1,0.8,High,0.8714,Yes
+HOSP10881,District General Hospital,Outpatient,L3,Billing Executive,Mysuru,Male,31,Bachelor's,Part-Time,Hybrid,Night,12,3,1,127762,1533144,238364,4,2,2,51,Yes,8,62,264,1,3,1,16.0,High,0.8904,Yes
+HOSP10882,CityCare Hospital,Emergency,L3,Consultant Doctor,Kochi,Female,39,Master's,Full-Time,On-Site,Rotational,13,7,7,132183,1586196,62969,4,4,3,35,Yes,11,106,372,1,1,4,27.5,Low,0.8707,Yes
+HOSP10883,Manipal Hospital,General Medicine,L2,IT Support Engineer,Chennai,Female,55,Bachelor's,Full-Time,On-Site,Rotational,16,2,21,135159,1621908,36660,5,5,3,0,No,12,104,222,8,3,2,42.9,Medium,0.6946,Yes
+HOSP10884,Fortis Hospital,Physiotherapy,L2,Hospital Administrator,Udupi,Female,59,Bachelor's,Full-Time,On-Site,Night,12,4,24,43727,524724,89244,4,2,4,38,Yes,10,70,245,6,0,2,18.7,Low,0.8833,No
+HOSP10885,Mangalore Medical Centre,Outpatient,L4,Radiology Technician,Bengaluru,Male,46,MBBS,Full-Time,On-Site,Rotational,9,1,1,171631,2059572,155798,1,2,3,74,Yes,15,46,99,7,1,4,7.8,Medium,0.9817,Yes
+HOSP10886,AIIMS Mangaluru,Laboratory,L1,Physiotherapist,Bengaluru,Male,34,Bachelor's,Full-Time,On-Site,Day,0,1,18,91820,1101840,79544,1,2,4,0,No,3,83,329,1,1,4,24.3,Low,0.5026,Yes
+HOSP10887,CityCare Hospital,Outpatient,L2,Senior Nurse,Chennai,Female,44,Master's,Contract,On-Site,Day,0,10,8,127062,1524744,232625,2,3,4,74,Yes,10,80,54,8,1,1,13.2,Low,0.9764,Yes
+HOSP10888,CityCare Hospital,ICU,L3,Data Analyst,Hubballi,Male,21,MBBS,Full-Time,On-Site,Night,14,6,8,45476,545712,194068,2,4,5,73,Yes,0,2,71,2,0,3,10.1,Low,0.9205,Yes
+HOSP10889,District General Hospital,Surgery,L3,Radiology Technician,Mysuru,Female,42,MBBS,Contract,Hybrid,Rotational,15,9,12,160063,1920756,131183,2,4,2,13,No,12,110,180,9,0,4,26.8,High,0.7946,No
+HOSP10890,CityCare Hospital,ICU,L1,Billing Executive,Bengaluru,Male,43,Bachelor's,Full-Time,On-Site,Rotational,11,2,5,138355,1660260,115370,1,2,4,77,Yes,9,45,103,1,1,2,41.3,High,0.9922,Yes
+HOSP10891,Manipal Hospital,Outpatient,L4,Receptionist,Mangaluru,Male,39,MD/MS,Full-Time,On-Site,Rotational,5,4,29,88047,1056564,17545,2,3,1,70,Yes,4,103,347,0,2,2,37.7,Low,0.9734,Yes
+HOSP10892,Fortis Hospital,Pediatrics,L2,Senior Nurse,Kochi,Female,38,MD/MS,Full-Time,Hybrid,Night,5,2,14,159868,1918416,171240,2,2,1,22,Yes,13,35,45,8,2,1,8.6,Medium,0.8222,Yes
+HOSP10893,Fortis Hospital,Pharmacy,L4,Senior Nurse,Udupi,Male,32,PhD,Contract,On-Site,Day,11,5,18,21881,262572,133451,1,4,2,42,Yes,15,25,244,7,3,3,34.6,Low,0.9677,Yes
+HOSP10894,Mangalore Medical Centre,Emergency,L4,Physiotherapist,Hubballi,Male,48,MBBS,Full-Time,On-Site,Rotational,14,9,20,33668,404016,226845,5,5,4,21,Yes,15,9,336,10,0,5,10.7,Low,0.7557,Yes
+HOSP10895,AIIMS Mangaluru,Pediatrics,L3,Senior Nurse,Chennai,Female,48,Bachelor's,Full-Time,On-Site,Rotational,3,2,14,46106,553272,242556,4,3,2,59,Yes,7,33,173,3,3,4,13.4,High,0.878,Yes
+HOSP10896,District General Hospital,Outpatient,L2,Billing Executive,Kochi,Female,53,MD/MS,Full-Time,On-Site,Day,3,7,17,33729,404748,87346,3,3,5,26,Yes,9,77,312,6,3,4,41.4,Low,0.8189,Yes
+HOSP10897,AIIMS Mangaluru,Pharmacy,L5,Hospital Administrator,Mysuru,Male,39,Bachelor's,Full-Time,On-Site,Night,1,1,6,147354,1768248,172192,1,2,1,55,Yes,14,7,114,2,1,1,41.0,Medium,0.9881,Yes
+HOSP10898,CityCare Hospital,Emergency,L1,Medical Officer,Hubballi,Female,48,Bachelor's,Full-Time,Hybrid,Rotational,11,2,25,88320,1059840,17809,1,5,3,1,No,14,54,244,2,2,3,8.0,Medium,0.5387,Yes
+HOSP10899,Mangalore Medical Centre,Pharmacy,L3,Data Analyst,Udupi,Male,57,MBBS,Contract,On-Site,Rotational,6,7,10,72913,874956,183885,3,4,1,38,Yes,3,90,286,3,3,2,3.4,Low,0.6724,No
+HOSP10900,AIIMS Mangaluru,Laboratory,L1,Staff Nurse,Udupi,Female,46,PhD,Contract,On-Site,Night,19,7,7,77402,928824,205077,3,1,4,50,Yes,9,9,60,1,1,2,13.5,Medium,0.925,Yes
+HOSP10901,Manipal Hospital,Surgery,L2,Billing Executive,Chennai,Male,55,MBBS,Full-Time,Hybrid,Night,8,0,5,139649,1675788,27967,2,4,2,18,No,9,56,152,9,0,5,26.4,High,0.7848,Yes
+HOSP10902,Fortis Hospital,IT,L2,Medical Officer,Mangaluru,Male,54,Diploma,Contract,On-Site,Rotational,8,7,7,121930,1463160,140820,3,4,1,61,Yes,3,113,85,3,3,2,39.5,High,0.9447,Yes
+HOSP10903,CityCare Hospital,Nursing,L5,Billing Executive,Chennai,Female,55,MD/MS,Full-Time,On-Site,Rotational,7,9,1,167022,2004264,23424,4,5,3,70,Yes,12,78,229,9,2,4,5.8,Low,0.933,Yes
+HOSP10904,Mangalore Medical Centre,Administration,L5,Staff Nurse,Mysuru,Male,60,MD/MS,Full-Time,On-Site,Night,13,1,18,77739,932868,217584,4,3,3,75,Yes,11,100,172,2,0,5,19.0,High,0.9619,Yes
+HOSP10905,AIIMS Mangaluru,Pediatrics,L1,Ward Assistant,Hubballi,Male,36,MD/MS,Full-Time,Hybrid,Day,0,6,15,22507,270084,154986,4,4,2,66,Yes,13,85,191,7,1,3,12.6,High,0.9416,Yes
+HOSP10906,District General Hospital,Physiotherapy,L1,IT Support Engineer,Hubballi,Female,58,Master's,Full-Time,On-Site,Rotational,20,5,6,120552,1446624,226675,4,3,2,62,Yes,8,44,344,10,0,5,1.2,Low,0.894,No
+HOSP10907,Manipal Hospital,Pediatrics,L3,Ward Assistant,Bengaluru,Female,33,Bachelor's,Contract,On-Site,Day,11,1,9,97059,1164708,108411,4,5,1,4,No,14,49,78,1,3,3,35.6,Medium,0.7514,Yes
+HOSP10908,Manipal Hospital,Nursing,L2,Senior Nurse,Mangaluru,Male,43,MBBS,Full-Time,On-Site,Day,1,4,11,173739,2084868,209550,2,5,4,71,Yes,8,63,203,10,0,2,36.7,Low,0.9825,Yes
+HOSP10909,AIIMS Mangaluru,IT,L1,Pharmacist,Mangaluru,Female,42,MD/MS,Full-Time,On-Site,Night,12,6,16,153064,1836768,150563,1,2,5,77,Yes,6,94,199,8,0,1,10.3,Medium,0.9643,Yes
+HOSP10910,Fortis Hospital,Cardiology,L3,Pharmacist,Hubballi,Female,36,Diploma,Full-Time,Hybrid,Day,3,7,6,148514,1782168,180526,3,1,3,60,Yes,9,1,341,2,0,5,7.2,Medium,0.92,Yes
+HOSP10911,AIIMS Mangaluru,Radiology,L3,Staff Nurse,Hubballi,Male,48,MD/MS,Full-Time,On-Site,Rotational,19,2,21,105680,1268160,70069,1,5,2,70,Yes,7,44,343,3,2,5,6.9,Low,0.9411,Yes
+HOSP10912,CityCare Hospital,Laboratory,L5,Radiology Technician,Kochi,Male,55,PhD,Full-Time,On-Site,Day,17,0,7,43530,522360,182997,3,5,5,6,No,11,94,31,9,3,4,21.1,Low,0.5196,No
+HOSP10913,AIIMS Mangaluru,Outpatient,L2,Physiotherapist,Kochi,Female,28,Bachelor's,Contract,Hybrid,Rotational,18,6,6,33305,399660,89119,2,3,5,49,Yes,11,61,87,9,1,4,11.5,Medium,0.9027,Yes
+HOSP10914,Manipal Hospital,Laboratory,L2,Senior Nurse,Kochi,Female,42,Bachelor's,Part-Time,On-Site,Day,15,4,3,127097,1525164,37049,2,5,5,45,Yes,3,13,348,2,2,3,23.3,Medium,0.8264,No
+HOSP10915,Mangalore Medical Centre,Nursing,L3,Physiotherapist,Mangaluru,Female,41,MBBS,Part-Time,On-Site,Day,13,4,2,70044,840528,27821,5,4,4,71,Yes,7,73,221,2,3,1,17.6,Medium,0.9283,Yes
+HOSP10916,AIIMS Mangaluru,Outpatient,L4,Medical Officer,Bengaluru,Male,46,Master's,Full-Time,On-Site,Day,7,6,18,148436,1781232,95797,5,2,2,75,Yes,13,93,25,7,1,4,9.9,Medium,0.9668,Yes
+HOSP10917,Fortis Hospital,Physiotherapy,L3,Pharmacist,Udupi,Male,60,MBBS,Full-Time,On-Site,Rotational,11,0,14,107363,1288356,234144,2,2,3,73,Yes,5,99,34,7,1,4,33.9,Low,0.9808,Yes
+HOSP10918,Mangalore Medical Centre,ICU,L3,Lab Technician,Kochi,Male,41,MD/MS,Full-Time,On-Site,Rotational,8,7,3,76817,921804,161017,2,4,2,13,No,15,110,61,5,1,2,7.2,Medium,0.7225,Yes
+HOSP10919,District General Hospital,Pharmacy,L2,Data Analyst,Bengaluru,Male,45,PhD,Full-Time,Hybrid,Day,5,9,30,121038,1452456,148456,3,5,1,72,Yes,12,103,50,3,3,2,36.1,Low,0.9821,Yes
+HOSP10920,Apollo Hospital,Radiology,L4,Medical Officer,Chennai,Male,21,Diploma,Full-Time,On-Site,Rotational,17,4,24,64666,775992,159482,2,1,3,68,Yes,15,14,200,0,1,4,25.5,High,0.987,Yes
+HOSP10921,AIIMS Mangaluru,Surgery,L2,IT Support Engineer,Mysuru,Male,26,MBBS,Part-Time,On-Site,Rotational,1,7,8,175245,2102940,77734,1,5,2,64,Yes,2,13,281,3,1,3,37.5,Medium,0.9578,Yes
+HOSP10922,Fortis Hospital,Surgery,L1,Data Analyst,Kochi,Male,43,Master's,Full-Time,On-Site,Rotational,7,9,12,36909,442908,194838,3,2,3,64,Yes,6,30,308,7,2,1,0.7,Low,0.9125,Yes
+HOSP10923,Mangalore Medical Centre,Nursing,L3,Hospital Administrator,Chennai,Female,43,MBBS,Full-Time,On-Site,Night,13,9,17,162057,1944684,225962,2,1,1,56,Yes,2,28,40,5,1,4,33.8,Low,0.9566,Yes
+HOSP10924,Fortis Hospital,Laboratory,L2,Medical Officer,Udupi,Female,43,Bachelor's,Full-Time,On-Site,Rotational,5,4,20,40525,486300,247478,3,3,3,61,Yes,10,26,399,1,0,3,2.8,Low,0.9108,Yes
+HOSP10925,District General Hospital,Surgery,L1,Staff Nurse,Mysuru,Male,52,MD/MS,Full-Time,On-Site,Day,9,6,15,130293,1563516,138241,3,3,5,19,No,15,84,201,2,2,3,42.8,Low,0.8561,Yes
+HOSP10926,Manipal Hospital,Physiotherapy,L4,Hospital Administrator,Mysuru,Male,50,MD/MS,Full-Time,Hybrid,Night,7,9,0,119046,1428552,171201,4,5,4,74,Yes,6,8,203,6,2,4,31.8,Medium,0.9562,Yes
+HOSP10927,Fortis Hospital,Cardiology,L2,Resident Doctor,Udupi,Male,33,MD/MS,Contract,On-Site,Rotational,16,2,3,55403,664836,97445,5,5,1,25,Yes,4,19,263,10,3,3,14.7,High,0.6034,Yes
+HOSP10928,Mangalore Medical Centre,Pediatrics,L3,Medical Officer,Kochi,Female,38,MD/MS,Full-Time,On-Site,Night,11,1,17,152902,1834824,3830,3,1,3,43,Yes,3,98,369,10,1,5,14.7,Medium,0.7684,Yes
+HOSP10929,Fortis Hospital,General Medicine,L2,Hospital Administrator,Mangaluru,Male,43,MD/MS,Part-Time,On-Site,Day,16,5,7,149605,1795260,187378,3,1,1,66,Yes,2,57,168,3,0,3,38.8,Medium,0.9604,Yes
+HOSP10930,Fortis Hospital,Physiotherapy,L4,Senior Nurse,Udupi,Female,35,MD/MS,Full-Time,Hybrid,Day,12,4,19,170018,2040216,86940,4,5,5,69,Yes,7,78,275,3,0,4,40.7,Medium,0.9623,Yes
+HOSP10931,Fortis Hospital,Outpatient,L1,Data Analyst,Udupi,Female,53,Diploma,Full-Time,On-Site,Rotational,18,8,15,41504,498048,196339,2,2,4,61,Yes,3,87,119,4,1,3,40.2,Medium,0.9582,Yes
+HOSP10932,CityCare Hospital,Administration,L2,Consultant Doctor,Udupi,Female,41,Master's,Full-Time,On-Site,Rotational,11,9,20,128551,1542612,158829,3,3,1,44,Yes,7,48,74,7,1,4,36.5,Low,0.9218,No
+HOSP10933,CityCare Hospital,Nursing,L5,Consultant Doctor,Mysuru,Female,59,MD/MS,Contract,On-Site,Night,15,3,10,73715,884580,63867,4,1,5,10,No,9,56,205,6,3,2,36.9,Low,0.8222,Yes
+HOSP10934,Manipal Hospital,ICU,L4,Senior Nurse,Bengaluru,Female,43,Master's,Part-Time,Hybrid,Rotational,4,10,19,177327,2127924,166722,1,2,5,71,Yes,2,15,339,8,0,4,26.0,High,0.9606,Yes
+HOSP10935,AIIMS Mangaluru,Pharmacy,L2,Billing Executive,Chennai,Male,47,PhD,Full-Time,On-Site,Day,15,2,20,54855,658260,164838,4,5,5,73,Yes,9,99,105,4,2,3,1.8,High,0.8868,Yes
+HOSP10936,Fortis Hospital,Administration,L2,Resident Doctor,Mangaluru,Male,38,MD/MS,Full-Time,On-Site,Night,5,8,20,59721,716652,212550,5,4,3,33,Yes,12,74,193,0,3,4,4.4,Low,0.7148,Yes
+HOSP10937,District General Hospital,Pharmacy,L4,IT Support Engineer,Kochi,Female,44,MBBS,Full-Time,On-Site,Rotational,10,7,20,129597,1555164,32419,5,1,2,45,Yes,8,120,41,3,3,1,29.4,Low,0.9223,Yes
+HOSP10938,AIIMS Mangaluru,Emergency,L3,Resident Doctor,Kochi,Male,60,MD/MS,Full-Time,On-Site,Night,16,5,26,118659,1423908,16668,2,4,1,80,Yes,5,7,263,5,2,4,18.4,High,0.9632,Yes
+HOSP10939,District General Hospital,Administration,L4,Staff Nurse,Chennai,Female,27,Bachelor's,Contract,On-Site,Day,13,0,18,52723,632676,147318,2,2,2,31,Yes,14,66,79,5,3,4,25.7,Medium,0.9172,Yes
+HOSP10940,AIIMS Mangaluru,General Medicine,L4,Pharmacist,Bengaluru,Female,40,Diploma,Full-Time,On-Site,Night,5,9,22,23539,282468,24996,5,3,5,74,Yes,15,18,123,8,1,1,10.8,High,0.9723,No
+HOSP10941,Manipal Hospital,Laboratory,L1,Physiotherapist,Udupi,Male,47,MBBS,Full-Time,On-Site,Rotational,10,10,18,134360,1612320,51312,5,2,2,4,No,4,109,158,9,2,1,29.4,Low,0.5668,Yes
+HOSP10942,Fortis Hospital,Cardiology,L1,Data Analyst,Mangaluru,Male,26,MBBS,Full-Time,Hybrid,Day,11,0,17,119140,1429680,134137,3,3,5,62,Yes,4,104,322,4,2,1,11.3,High,0.841,No
+HOSP10943,Fortis Hospital,Pediatrics,L3,Resident Doctor,Kochi,Male,47,Bachelor's,Full-Time,Hybrid,Rotational,12,5,18,170383,2044596,10467,5,2,5,28,Yes,12,66,178,4,0,5,21.0,High,0.8077,Yes
+HOSP10944,Apollo Hospital,Pediatrics,L1,Lab Technician,Chennai,Male,29,MD/MS,Full-Time,On-Site,Rotational,3,2,10,87180,1046160,181718,2,1,4,47,Yes,2,35,251,5,2,4,21.8,Low,0.8774,No
+HOSP10945,District General Hospital,Cardiology,L2,Staff Nurse,Hubballi,Male,51,Diploma,Full-Time,On-Site,Day,6,2,2,134985,1619820,241452,5,1,4,15,No,1,88,96,10,3,1,8.4,Medium,0.368,No
+HOSP10946,AIIMS Mangaluru,Radiology,L5,Ward Assistant,Chennai,Female,41,MBBS,Full-Time,On-Site,Rotational,1,5,7,103981,1247772,152079,2,4,2,24,Yes,5,59,37,5,0,1,39.5,Low,0.8872,No
+HOSP10947,AIIMS Mangaluru,Emergency,L3,Radiology Technician,Kochi,Male,46,Diploma,Full-Time,On-Site,Night,5,2,19,53934,647208,199151,1,2,1,71,Yes,10,35,41,2,3,2,23.9,Medium,0.982,Yes
+HOSP10948,CityCare Hospital,Pharmacy,L4,Ward Assistant,Udupi,Male,60,MBBS,Full-Time,On-Site,Night,5,10,18,158583,1902996,28702,5,2,2,28,Yes,0,10,203,5,1,5,39.1,Medium,0.7873,Yes
+HOSP10949,Apollo Hospital,General Medicine,L3,IT Support Engineer,Hubballi,Male,33,MD/MS,Part-Time,On-Site,Rotational,17,9,9,149255,1791060,94369,2,4,1,51,Yes,14,50,164,7,1,4,12.2,Medium,0.9389,Yes
+HOSP10950,Mangalore Medical Centre,Surgery,L3,Staff Nurse,Bengaluru,Female,43,PhD,Full-Time,On-Site,Rotational,19,5,15,27475,329700,75569,4,5,2,45,Yes,14,79,57,5,0,3,8.2,Medium,0.8547,Yes
+HOSP10951,Mangalore Medical Centre,Administration,L1,Data Analyst,Mangaluru,Male,40,MBBS,Full-Time,On-Site,Day,7,4,4,77577,930924,53952,3,2,3,24,Yes,13,54,300,10,0,5,1.3,Low,0.7605,Yes
+HOSP10952,CityCare Hospital,Emergency,L2,Hospital Administrator,Bengaluru,Female,57,PhD,Full-Time,On-Site,Night,7,3,19,44008,528096,189137,2,2,3,22,Yes,6,53,307,4,3,5,4.7,Medium,0.6329,No
+HOSP10953,CityCare Hospital,Physiotherapy,L2,Medical Officer,Bengaluru,Male,48,MBBS,Full-Time,On-Site,Night,7,7,8,60756,729072,34169,5,2,1,33,Yes,14,16,162,2,1,2,7.1,Medium,0.8692,Yes
+HOSP10954,CityCare Hospital,Nursing,L2,Physiotherapist,Chennai,Male,37,Master's,Full-Time,On-Site,Night,7,1,7,98730,1184760,16829,5,5,4,66,Yes,4,61,32,0,0,4,4.0,High,0.8249,Yes
+HOSP10955,District General Hospital,Administration,L4,Radiology Technician,Mangaluru,Female,48,MD/MS,Full-Time,On-Site,Night,0,10,10,176984,2123808,191207,1,1,1,33,Yes,3,41,205,4,1,4,40.4,Low,0.9152,Yes
+HOSP10956,District General Hospital,General Medicine,L2,Ward Assistant,Mangaluru,Male,22,Bachelor's,Full-Time,Hybrid,Day,1,6,15,100702,1208424,4522,4,4,2,31,Yes,8,23,286,5,1,1,41.1,Medium,0.8978,Yes
+HOSP10957,Manipal Hospital,ICU,L2,Billing Executive,Kochi,Male,45,PhD,Contract,On-Site,Rotational,11,3,6,64840,778080,85687,2,5,5,28,Yes,9,16,288,5,1,1,42.2,Medium,0.9307,Yes
+HOSP10958,Manipal Hospital,ICU,L2,Radiology Technician,Kochi,Female,26,Bachelor's,Full-Time,On-Site,Night,14,1,14,56623,679476,166391,4,3,3,8,No,15,47,116,5,3,5,43.2,Medium,0.8088,Yes
+HOSP10959,CityCare Hospital,Outpatient,L1,Lab Technician,Mangaluru,Male,31,MD/MS,Full-Time,On-Site,Day,3,6,23,81303,975636,120334,1,3,5,65,Yes,0,83,376,2,3,2,22.4,Medium,0.8983,Yes
+HOSP10960,Apollo Hospital,Emergency,L2,Lab Technician,Hubballi,Female,58,Bachelor's,Full-Time,On-Site,Rotational,2,0,28,64062,768744,157615,3,5,3,56,Yes,10,85,313,3,1,4,24.1,Medium,0.9215,Yes
+HOSP10961,AIIMS Mangaluru,Laboratory,L1,Hospital Administrator,Mysuru,Female,26,MD/MS,Full-Time,Hybrid,Rotational,13,3,20,74690,896280,118576,4,5,2,38,Yes,14,69,20,2,1,2,6.3,High,0.8335,Yes
+HOSP10962,District General Hospital,General Medicine,L1,IT Support Engineer,Kochi,Female,31,Bachelor's,Full-Time,On-Site,Night,7,8,19,116980,1403760,234192,1,1,3,6,No,3,6,314,1,1,3,6.6,Low,0.4953,Yes
+HOSP10963,Apollo Hospital,General Medicine,L1,Lab Technician,Mysuru,Female,34,PhD,Part-Time,On-Site,Day,12,3,22,172706,2072472,117419,2,3,1,68,Yes,15,13,46,7,2,4,34.9,High,0.9852,Yes
+HOSP10964,Fortis Hospital,Cardiology,L2,Staff Nurse,Chennai,Female,22,Master's,Full-Time,On-Site,Rotational,18,2,16,153162,1837944,161545,3,4,5,7,No,2,10,55,6,2,1,38.6,Medium,0.5414,Yes
+HOSP10965,District General Hospital,Physiotherapy,L4,Physiotherapist,Hubballi,Male,60,Bachelor's,Full-Time,On-Site,Day,4,9,5,63266,759192,7699,5,2,5,17,No,5,11,179,10,3,5,35.4,Medium,0.6972,No
+HOSP10966,District General Hospital,Laboratory,L2,Data Analyst,Mangaluru,Male,23,PhD,Full-Time,Hybrid,Day,12,9,14,179080,2148960,68165,1,2,2,48,Yes,4,109,50,7,1,2,37.6,Medium,0.9472,Yes
+HOSP10967,Manipal Hospital,Physiotherapy,L2,Hospital Administrator,Hubballi,Male,55,MBBS,Full-Time,On-Site,Rotational,19,1,7,105643,1267716,171527,5,1,5,15,No,6,4,146,5,2,1,12.8,High,0.5654,No
+HOSP10968,AIIMS Mangaluru,Pharmacy,L3,Staff Nurse,Kochi,Female,53,MD/MS,Full-Time,On-Site,Day,0,2,6,76704,920448,75692,3,1,2,20,Yes,12,4,281,10,0,5,21.2,Medium,0.8025,Yes
+HOSP10969,AIIMS Mangaluru,Pharmacy,L1,Consultant Doctor,Bengaluru,Female,44,Diploma,Full-Time,On-Site,Day,15,0,1,135374,1624488,17441,1,3,4,9,No,0,19,364,6,0,1,20.9,High,0.4966,No
+HOSP10970,Mangalore Medical Centre,Surgery,L4,Billing Executive,Chennai,Female,39,Diploma,Full-Time,On-Site,Day,1,9,29,26382,316584,30716,1,4,1,3,No,12,53,229,0,1,4,44.8,Low,0.8472,Yes
+HOSP10971,Mangalore Medical Centre,Outpatient,L3,Medical Officer,Mangaluru,Female,38,MD/MS,Full-Time,On-Site,Day,6,7,12,107609,1291308,62175,3,4,3,43,Yes,4,54,169,9,2,2,42.7,Medium,0.9029,Yes
+HOSP10972,Mangalore Medical Centre,Pediatrics,L2,Receptionist,Udupi,Male,44,Master's,Full-Time,On-Site,Day,5,0,29,64698,776376,6834,2,5,3,7,No,13,57,50,4,0,3,27.1,Medium,0.7656,No
+HOSP10973,Mangalore Medical Centre,ICU,L3,Medical Officer,Chennai,Male,55,Bachelor's,Contract,On-Site,Rotational,4,2,22,19110,229320,18179,1,1,3,54,Yes,1,78,119,3,3,1,6.6,Medium,0.8607,Yes
+HOSP10974,Fortis Hospital,Nursing,L1,Lab Technician,Mysuru,Female,21,Master's,Full-Time,On-Site,Day,3,2,28,133266,1599192,26219,3,2,4,18,No,1,89,348,9,0,2,12.0,Medium,0.475,No
+HOSP10975,Fortis Hospital,Pharmacy,L3,Consultant Doctor,Hubballi,Female,56,Diploma,Part-Time,Hybrid,Day,1,1,5,149458,1793496,103153,4,2,1,63,Yes,10,96,321,2,3,4,16.7,Medium,0.9321,Yes
+HOSP10976,District General Hospital,Laboratory,L2,Resident Doctor,Mangaluru,Male,45,PhD,Part-Time,On-Site,Day,9,4,28,65801,789612,146854,5,3,5,39,Yes,14,120,372,1,0,1,39.4,Medium,0.9367,Yes
+HOSP10977,CityCare Hospital,General Medicine,L4,Resident Doctor,Chennai,Female,54,MD/MS,Full-Time,On-Site,Rotational,4,9,4,132012,1584144,212435,1,2,5,50,Yes,10,29,238,8,0,4,8.1,Medium,0.9124,Yes
+HOSP10978,Manipal Hospital,Nursing,L1,Data Analyst,Hubballi,Female,45,MD/MS,Full-Time,On-Site,Night,17,2,19,114085,1369020,74967,4,4,1,8,No,1,23,272,7,2,3,10.3,Medium,0.275,No
+HOSP10979,Manipal Hospital,IT,L3,Lab Technician,Mangaluru,Female,36,Master's,Full-Time,On-Site,Night,9,2,0,49566,594792,102454,1,4,1,29,Yes,8,86,190,9,0,3,16.0,Medium,0.7568,No
+HOSP10980,Mangalore Medical Centre,Physiotherapy,L3,Ward Assistant,Kochi,Male,54,PhD,Full-Time,On-Site,Rotational,14,7,28,41798,501576,240665,2,1,3,55,Yes,9,72,276,1,0,5,41.7,Medium,0.9727,Yes
+HOSP10981,District General Hospital,Pharmacy,L1,Staff Nurse,Chennai,Male,49,Master's,Full-Time,On-Site,Night,8,3,17,162637,1951644,9496,3,3,5,80,Yes,2,2,76,5,3,5,22.9,Low,0.9459,Yes
+HOSP10982,Apollo Hospital,General Medicine,L2,Lab Technician,Kochi,Female,39,Bachelor's,Part-Time,On-Site,Night,10,3,14,41027,492324,219939,1,2,1,43,Yes,3,99,28,2,3,5,29.3,High,0.8677,No
+HOSP10983,CityCare Hospital,Pharmacy,L3,Pharmacist,Chennai,Male,43,MBBS,Contract,On-Site,Day,20,2,22,23631,283572,170310,3,1,5,58,Yes,14,47,24,2,0,4,17.7,High,0.9627,Yes
+HOSP10984,District General Hospital,ICU,L4,Radiology Technician,Kochi,Female,39,PhD,Full-Time,On-Site,Night,16,10,9,74878,898536,46025,1,5,1,14,No,4,70,354,4,1,5,8.9,Low,0.5079,No
+HOSP10985,CityCare Hospital,IT,L2,Data Analyst,Hubballi,Female,45,MBBS,Full-Time,On-Site,Night,20,0,2,63206,758472,59886,2,5,2,67,Yes,13,21,133,6,0,2,10.4,Low,0.9758,Yes
+HOSP10986,CityCare Hospital,Administration,L4,Medical Officer,Udupi,Male,36,Bachelor's,Full-Time,On-Site,Rotational,8,7,4,121473,1457676,154635,2,2,3,69,Yes,3,13,284,6,0,4,36.2,Low,0.9792,Yes
+HOSP10987,CityCare Hospital,Pharmacy,L5,Resident Doctor,Chennai,Female,29,MBBS,Part-Time,On-Site,Day,15,0,23,76334,916008,3712,4,2,1,60,Yes,3,47,192,10,2,4,40.3,High,0.9469,Yes
+HOSP10988,District General Hospital,Laboratory,L4,Billing Executive,Chennai,Female,21,Diploma,Full-Time,Hybrid,Rotational,5,6,28,90323,1083876,94067,2,2,4,79,Yes,4,28,239,9,0,5,22.4,High,0.9736,Yes
+HOSP10989,Mangalore Medical Centre,Pharmacy,L1,Senior Nurse,Kochi,Male,39,MBBS,Full-Time,Hybrid,Day,10,4,12,71619,859428,45489,3,4,1,22,Yes,9,49,224,0,0,5,16.4,Low,0.7219,Yes
+HOSP10990,Manipal Hospital,Pediatrics,L3,Receptionist,Mangaluru,Female,53,Bachelor's,Full-Time,On-Site,Day,16,3,7,121536,1458432,32664,2,2,2,76,Yes,15,79,43,10,3,4,36.4,High,0.9909,Yes
+HOSP10991,Manipal Hospital,Nursing,L2,Resident Doctor,Chennai,Female,54,MBBS,Full-Time,On-Site,Night,3,3,21,175947,2111364,241871,1,5,4,46,Yes,14,111,189,6,3,3,30.5,Low,0.9441,Yes
+HOSP10992,Mangalore Medical Centre,Nursing,L5,Data Analyst,Kochi,Female,36,MD/MS,Contract,On-Site,Rotational,14,7,20,173586,2083032,143492,2,2,4,16,No,8,97,122,6,3,3,2.3,Low,0.606,Yes
+HOSP10993,CityCare Hospital,ICU,L2,Medical Officer,Bengaluru,Male,60,Master's,Full-Time,On-Site,Night,0,10,28,171652,2059824,185682,3,3,1,56,Yes,11,9,79,5,3,5,16.1,High,0.9083,Yes
+HOSP10994,Apollo Hospital,Laboratory,L1,Data Analyst,Kochi,Female,38,Diploma,Full-Time,Hybrid,Rotational,19,10,1,153360,1840320,5315,1,5,2,53,Yes,8,70,105,5,0,3,30.9,High,0.9391,Yes
+HOSP10995,AIIMS Mangaluru,IT,L3,Radiology Technician,Hubballi,Male,54,MD/MS,Contract,On-Site,Day,0,5,8,24734,296808,201989,4,3,4,51,Yes,13,88,274,1,1,2,26.0,High,0.9466,Yes
+HOSP10996,District General Hospital,Cardiology,L2,Medical Officer,Udupi,Female,45,MD/MS,Full-Time,On-Site,Day,8,0,16,57008,684096,75033,4,5,3,21,Yes,13,26,184,2,2,2,44.0,Medium,0.8904,Yes
+HOSP10997,AIIMS Mangaluru,Laboratory,L5,IT Support Engineer,Bengaluru,Female,26,Bachelor's,Full-Time,On-Site,Day,11,9,26,67349,808188,225648,4,1,3,38,Yes,5,78,391,2,2,2,39.0,Medium,0.8854,Yes
+HOSP10998,Mangalore Medical Centre,Nursing,L5,Senior Nurse,Hubballi,Female,41,Master's,Full-Time,On-Site,Night,3,7,17,156886,1882632,117862,1,5,5,12,No,10,95,186,2,1,4,3.2,High,0.4955,Yes
+HOSP10999,Apollo Hospital,Pediatrics,L3,Lab Technician,Hubballi,Female,26,Master's,Full-Time,On-Site,Day,12,1,12,156923,1883076,228983,4,5,5,77,Yes,11,27,103,1,1,4,32.8,Medium,0.9798,Yes
+HOSP11000,District General Hospital,Administration,L1,IT Support Engineer,Hubballi,Male,52,PhD,Full-Time,On-Site,Day,6,5,0,142478,1709736,79030,2,3,2,65,Yes,13,8,221,8,2,4,15.5,Low,0.9673,Yes
